@@ -14,8 +14,9 @@ Notes
 - TextMeshPro Folder is for the screen texts
 - Turret prefabs are for visual changes for upgrades (Not immplemented yet)
 
-Credits to:
-Brackeys
+Credits to: Brackeys
 I follow his tutorials
+
+
 **https://github.com/Brackeys**
 https://www.youtube.com/c/Brackeys
