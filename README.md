@@ -15,8 +15,7 @@ Notes
 - Turret prefabs are for visual changes for upgrades (Not immplemented yet)
 
 Credits to: Brackeys
-I follow his tutorials
 
 
 **https://github.com/Brackeys**
-https://www.youtube.com/c/Brackeys
+**https://www.youtube.com/c/Brackeys**
