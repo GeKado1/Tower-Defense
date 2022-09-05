@@ -6,8 +6,9 @@ public class Bullet : MonoBehaviour {
     private Transform target;
 
     [SerializeField] private float speed = 0;
+    [SerializeField] private float explosionRadius = 0;
     [SerializeField] private GameObject impactEffect;
-    [SerializeField] private GameObject bulletType;
+    //[SerializeField] private GameObject bulletType;
 
     // Start is called before the first frame update
     void Start() {
@@ -30,6 +31,7 @@ public class Bullet : MonoBehaviour {
         }
 
         transform.Translate(direction.normalized * distance, Space.World);
+        transform.LookAt(target);
     }
 
     public void Seek(Transform targetSeek){
@@ -38,9 +40,33 @@ public class Bullet : MonoBehaviour {
 
     void HitTarget() {
         GameObject effect = (GameObject) Instantiate(impactEffect, transform.position, transform.rotation);
-        Destroy(effect, 2f);
+        Destroy(effect, 5f);
 
-        Destroy(target.gameObject);
+        if (explosionRadius > 0) {
+            Explode();
+        }
+        else {
+            Damage(target);
+        }
+
         Destroy(gameObject);
+    }
+
+    void Damage(Transform enemy) {
+        Destroy(enemy.gameObject);
+    }
+
+    void Explode() {
+        Collider[] colliders = Physics.OverlapSphere(transform.position, explosionRadius);
+        foreach (Collider collider in colliders) {
+            if (collider.tag == "Enemy") {
+                Damage(collider.transform);
+            }
+        }
+    }
+
+    void OnDrawGizmosSelected() {
+        Gizmos.color = Color.red;
+        Gizmos.DrawSphere(transform.position, explosionRadius);
     }
 }
