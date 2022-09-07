@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BuildManager : MonoBehaviour {
-    private GameObject turretToBuild;
+    //Type of turret
+    private TurretBlueprint turretToBuild;
 
     public static BuildManager instance;
 
     public GameObject standardTurretPrefab;
     public GameObject missileLaunchePrefab;
+    public bool CanBuild { get { return turretToBuild != null; } }
 
     // Start is called before the first frame update
     void Start() {
@@ -20,10 +22,6 @@ public class BuildManager : MonoBehaviour {
         
     }
 
-    public GameObject GetTurretToBuild() {
-        return turretToBuild;
-    }
-
     void Awake() {
         if (instance != null) {
             Debug.Log("More than one Build Manager in scene");
@@ -32,7 +30,12 @@ public class BuildManager : MonoBehaviour {
         instance = this;
     }
 
-    public void SetTurretToBuild(GameObject turret) {
+    public void SelectTurretToBuild(TurretBlueprint turret) {
         turretToBuild = turret;
+    }
+
+    public void BuildTurretOn(Node node) {
+        GameObject turret = (GameObject) Instantiate(turretToBuild.prefab, node.GetBuildPosition(), Quaternion.identity);
+        node.turret = turret;
     }
 }
