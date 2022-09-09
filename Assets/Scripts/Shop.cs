@@ -5,8 +5,8 @@ using UnityEngine;
 public class Shop : MonoBehaviour {
     BuildManager buildManager;
 
-    [SerializeField] TurretBlueprint standardTurret;
-    [SerializeField] TurretBlueprint missileLauncher;
+    [SerializeField] private TurretBlueprint standardTurret;
+    [SerializeField] private TurretBlueprint missileLauncher;
 
     // Start is called before the first frame update
     void Start() {

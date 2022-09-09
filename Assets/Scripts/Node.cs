@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 
 public class Node : MonoBehaviour {
     [SerializeField] private Color hoverColor;
+    [SerializeField] private Color notEnoughtMoneyColor;
     [SerializeField] private Vector3 positionOffset;
 
     private Renderer rend;
@@ -35,7 +36,13 @@ public class Node : MonoBehaviour {
         if (!buildManager.CanBuild) {
             return;
         }
-        rend.material.color = hoverColor;
+
+        if (!buildManager.HasMoney) {
+            rend.material.color = notEnoughtMoneyColor;
+        }
+        else {
+            rend.material.color = hoverColor;
+        }
     }
 
     private void OnMouseExit() {
