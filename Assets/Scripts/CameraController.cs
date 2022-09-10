@@ -22,7 +22,8 @@ public class CameraController : MonoBehaviour {
         Vector3 positionX = transform.position;
 
         if (Input.GetKeyDown(KeyCode.Escape)) {
-            //El clicar la tecla esc, el boolean de doMovement tindrà el seu valor contrari, és a dir, si es true pasarà a ser false i a l'inversa
+            //If you clic esc keyboard, the boolean doMovement will have its opposite value, in other words, if is true it will become false and if is false it will become true 
+            //El clicar la tecla esc, el boolean de doMovement tindrà el seu valor contrari, és a dir, si es true passarà a ser false i a l'inversa
             doMovement = !doMovement;
         }
         if (!doMovement) {
