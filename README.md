@@ -13,6 +13,7 @@ Notes
 - WayPoints prefab is for enemies can make a route
 - TextMeshPro Folder is for the screen texts
 - Turret prefabs are for visual changes for upgrades (Not immplemented yet)
+- The prefab of Shop Turret Item is the same that the Shop Item With Cost, but is required for the last one.
 
 Credits to: Brackeys
 
