@@ -26,18 +26,22 @@ public class Enemy : MonoBehaviour {
 
     void GetNextWayPoint() {
         if (wavePointIndex >= WayPoints.wayPoints.Length - 1) {
-            if (PlayerStats.lives > 0) {
-                PlayerStats.lives = PlayerStats.lives - damage;
-            }
-            else {
-                Debug.Log("You die");
-            }
-
-            Destroy(gameObject);
+            EndPath();
             return;
         }
 
         wavePointIndex++;
         target = WayPoints.wayPoints[wavePointIndex];
+    }
+
+    void EndPath() {
+        if (PlayerStats.lives > 0) {
+            PlayerStats.lives = PlayerStats.lives - damage;
+        }
+        else {
+            Debug.Log("You die");
+        }
+
+        Destroy(gameObject);
     }
 }
