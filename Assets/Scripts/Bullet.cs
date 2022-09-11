@@ -8,7 +8,6 @@ public class Bullet : MonoBehaviour {
     [SerializeField] private float speed = 0;
     [SerializeField] private float explosionRadius = 0;
     [SerializeField] private GameObject impactEffect;
-    //[SerializeField] private GameObject bulletType;
 
     // Start is called before the first frame update
     void Start() {

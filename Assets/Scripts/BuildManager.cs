@@ -8,8 +8,10 @@ public class BuildManager : MonoBehaviour {
 
     public static BuildManager instance;
 
-    public GameObject standardTurretPrefab;
-    public GameObject missileLaunchePrefab;
+    [SerializeField] private GameObject standardTurretPrefab;
+    [SerializeField] private GameObject missileLaunchePrefab;
+    [SerializeField] private GameObject buildEffect;
+
     public bool CanBuild { get { return turretToBuild != null; } }
     public bool HasMoney { get { return PlayerStats.money >= turretToBuild.cost; } }
 
@@ -45,6 +47,9 @@ public class BuildManager : MonoBehaviour {
 
         GameObject turret = (GameObject) Instantiate(turretToBuild.prefab, node.GetBuildPosition(), Quaternion.identity);
         node.turret = turret;
+
+        GameObject effect = (GameObject) Instantiate(buildEffect, node.GetBuildPosition(), Quaternion.identity);
+        Destroy(effect, 5f);
 
         Debug.Log("Turret build! Money left: " + PlayerStats.money);
     }

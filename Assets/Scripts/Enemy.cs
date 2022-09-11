@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour {
-    [SerializeField] float speed = 0;
+    [SerializeField] private float speed = 0;
+    [SerializeField] private int damage = 0;
 
     private Transform target;
     private int wavePointIndex = 0;
@@ -25,6 +26,13 @@ public class Enemy : MonoBehaviour {
 
     void GetNextWayPoint() {
         if (wavePointIndex >= WayPoints.wayPoints.Length - 1) {
+            if (PlayerStats.lives > 0) {
+                PlayerStats.lives = PlayerStats.lives - damage;
+            }
+            else {
+                Debug.Log("You die");
+            }
+
             Destroy(gameObject);
             return;
         }
