@@ -5,6 +5,10 @@ using UnityEngine;
 public class Enemy : MonoBehaviour {
     [SerializeField] private float speed = 0;
     [SerializeField] private int damage = 0;
+    [SerializeField] private int health = 0;
+    [SerializeField] private int money = 0;
+
+    [SerializeField] private GameObject dieEffect;
 
     private Transform target;
     private int wavePointIndex = 0;
@@ -38,9 +42,23 @@ public class Enemy : MonoBehaviour {
         if (PlayerStats.lives > 0) {
             PlayerStats.lives = PlayerStats.lives - damage;
         }
-        else {
-            Debug.Log("You die");
+
+        Destroy(gameObject);
+    }
+
+    public void TakeDamage(int dmgTaken) {
+        health = health - dmgTaken;
+
+        if (health <= 0) {
+            Die();
         }
+    }
+
+    void Die() {
+        PlayerStats.money = PlayerStats.money + money;
+
+        GameObject effect = (GameObject) Instantiate(dieEffect, transform.position, Quaternion.identity);
+        Destroy(effect, 5f);
 
         Destroy(gameObject);
     }

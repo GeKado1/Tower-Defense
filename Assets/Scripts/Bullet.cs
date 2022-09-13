@@ -6,7 +6,10 @@ public class Bullet : MonoBehaviour {
     private Transform target;
 
     [SerializeField] private float speed = 0;
+    [SerializeField] private int damage = 0;
     [SerializeField] private float explosionRadius = 0;
+
+    [Header("Impact effect")]
     [SerializeField] private GameObject impactEffect;
 
     // Start is called before the first frame update
@@ -52,7 +55,11 @@ public class Bullet : MonoBehaviour {
     }
 
     void Damage(Transform enemy) {
-        Destroy(enemy.gameObject);
+        Enemy e = enemy.GetComponent<Enemy>();
+
+        if (e != null) {
+            e.TakeDamage(damage);
+        }
     }
 
     void Explode() {

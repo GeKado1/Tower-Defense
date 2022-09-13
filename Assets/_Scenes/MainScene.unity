@@ -2386,6 +2386,7 @@ GameObject:
   - component: {fileID: 307126315}
   - component: {fileID: 307126316}
   - component: {fileID: 307126317}
+  - component: {fileID: 307126318}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -2454,6 +2455,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startMoney: 400
   startLives: 20
+--- !u!114 &307126318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307126312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd01eead5d404f84a922c1d06d6f6206, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &334646199
 PrefabInstance:
   m_ObjectHideFlags: 0
