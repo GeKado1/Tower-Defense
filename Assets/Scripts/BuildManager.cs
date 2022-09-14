@@ -8,8 +8,6 @@ public class BuildManager : MonoBehaviour {
 
     public static BuildManager instance;
 
-    [SerializeField] private GameObject standardTurretPrefab;
-    [SerializeField] private GameObject missileLaunchePrefab;
     [SerializeField] private GameObject buildEffect;
 
     public bool CanBuild { get { return turretToBuild != null; } }

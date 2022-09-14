@@ -7,6 +7,7 @@ public class Shop : MonoBehaviour {
 
     [SerializeField] private TurretBlueprint standardTurret;
     [SerializeField] private TurretBlueprint missileLauncher;
+    [SerializeField] private TurretBlueprint laserBeamer;
 
     // Start is called before the first frame update
     void Start() {
@@ -26,5 +27,10 @@ public class Shop : MonoBehaviour {
     public void SelectMissileLauncher() {
         Debug.Log("Missile Launcher Selected");
         buildManager.SelectTurretToBuild(missileLauncher);
+    }
+
+    public void SelectLaserBeamer() {
+        Debug.Log("Laser Beamer Selected");
+        buildManager.SelectTurretToBuild(laserBeamer);
     }
 }
