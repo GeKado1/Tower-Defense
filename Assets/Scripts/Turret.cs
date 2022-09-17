@@ -8,14 +8,16 @@ public class Turret : MonoBehaviour {
     [Header("General")]
     [SerializeField] private float range = 0;
 
-    [Header("Use Bullets (default)")]
+    [Header("Use Bullets (Only required if the bool useLaser is false, default option)")]
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private float fireRate = 0;
     private float fireCountdown = 0;
 
-    [Header("Use Laser")]
+    [Header("Use Laser (Only required if the bool useLaser is true)")]
     [SerializeField] private bool useLaser;
+    [SerializeField] private float laserDamage;
     [SerializeField] private LineRenderer lineRenderer;
+    [SerializeField] private ParticleSystem impactEffect;
 
     [Header("Unity Setup Fields")]
     [SerializeField] private Transform rotator;
@@ -37,6 +39,7 @@ public class Turret : MonoBehaviour {
             if (useLaser) {
                 if (lineRenderer.enabled) {
                     lineRenderer.enabled = false;
+                    impactEffect.Stop();
                 }
             }
 
@@ -103,9 +106,25 @@ public class Turret : MonoBehaviour {
     void Laser() {
         if (!lineRenderer.enabled) {
             lineRenderer.enabled = true;
+            impactEffect.Play();
         }
+
+        Damage(target);
 
         lineRenderer.SetPosition(0, firePoint.position);
         lineRenderer.SetPosition(1, target.position);
+
+        Vector3 direction = firePoint.position - target.position;
+
+        impactEffect.transform.position = target.position + direction.normalized * 0.5f;
+        impactEffect.transform.rotation = Quaternion.LookRotation(direction);
+    }
+
+    void Damage(Transform enemy) {
+        Enemy e = enemy.GetComponent<Enemy>();
+
+        if (e != null) {
+            e.TakeDamage(laserDamage);
+        }
     }
 }
