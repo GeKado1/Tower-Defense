@@ -16,8 +16,11 @@ public class Turret : MonoBehaviour {
     [Header("Use Laser (Only required if the bool useLaser is true)")]
     [SerializeField] private bool useLaser;
     [SerializeField] private float laserDamage;
+
     [SerializeField] private LineRenderer lineRenderer;
+    [SerializeField] private ParticleSystem laserEffect;
     [SerializeField] private ParticleSystem impactEffect;
+    [SerializeField] private Light impactLight;
 
     [Header("Unity Setup Fields")]
     [SerializeField] private Transform rotator;
@@ -40,6 +43,8 @@ public class Turret : MonoBehaviour {
                 if (lineRenderer.enabled) {
                     lineRenderer.enabled = false;
                     impactEffect.Stop();
+                    laserEffect.Stop();
+                    impactLight.enabled = false;
                 }
             }
 
@@ -107,6 +112,8 @@ public class Turret : MonoBehaviour {
         if (!lineRenderer.enabled) {
             lineRenderer.enabled = true;
             impactEffect.Play();
+            laserEffect.Play();
+            impactLight.enabled = true;
         }
 
         Damage(target);
@@ -116,7 +123,11 @@ public class Turret : MonoBehaviour {
 
         Vector3 direction = firePoint.position - target.position;
 
-        impactEffect.transform.position = target.position + direction.normalized * 0.5f;
+        //Effect when laser is active
+        laserEffect.transform.position = firePoint.position;
+        
+        //Impact on enemy effect
+        impactEffect.transform.position = target.position + direction.normalized;
         impactEffect.transform.rotation = Quaternion.LookRotation(direction);
     }
 
