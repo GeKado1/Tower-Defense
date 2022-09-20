@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Turret : MonoBehaviour {
     private Transform target;
+    private Enemy enemy;
 
     [Header("General")]
     [SerializeField] private float range = 0;
@@ -15,7 +16,8 @@ public class Turret : MonoBehaviour {
 
     [Header("Use Laser (Only required if the bool useLaser is true)")]
     [SerializeField] private bool useLaser;
-    [SerializeField] private float laserDamage;
+    [SerializeField] private int dmgOverTime;
+    [SerializeField] private float laserSpeedReduction;
 
     [SerializeField] private LineRenderer lineRenderer;
     [SerializeField] private ParticleSystem laserEffect;
@@ -86,6 +88,7 @@ public class Turret : MonoBehaviour {
 
         if (nearestEnemy != null && shortestDistance <= range) {
             target = nearestEnemy.transform;
+            enemy = nearestEnemy.GetComponent<Enemy>();
         }
         else {
             target = null;
@@ -109,14 +112,15 @@ public class Turret : MonoBehaviour {
     }
 
     void Laser() {
+        enemy.TakeDamage(dmgOverTime * Time.deltaTime);
+        enemy.SpeedReduction(laserSpeedReduction);
+
         if (!lineRenderer.enabled) {
             lineRenderer.enabled = true;
             impactEffect.Play();
             laserEffect.Play();
             impactLight.enabled = true;
         }
-
-        Damage(target);
 
         lineRenderer.SetPosition(0, firePoint.position);
         lineRenderer.SetPosition(1, target.position);
@@ -129,13 +133,5 @@ public class Turret : MonoBehaviour {
         //Impact on enemy effect
         impactEffect.transform.position = target.position + direction.normalized;
         impactEffect.transform.rotation = Quaternion.LookRotation(direction);
-    }
-
-    void Damage(Transform enemy) {
-        Enemy e = enemy.GetComponent<Enemy>();
-
-        if (e != null) {
-            e.TakeDamage(laserDamage);
-        }
     }
 }

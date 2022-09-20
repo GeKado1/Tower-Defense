@@ -6,7 +6,7 @@ public class Bullet : MonoBehaviour {
     private Transform target;
 
     [SerializeField] private float speed = 0;
-    [SerializeField] private int damage = 0;
+    [SerializeField] private float damage = 0;
     [SerializeField] private float explosionRadius = 0;
 
     [Header("Impact effect")]
