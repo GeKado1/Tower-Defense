@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour {
+    [SerializeField] private GameObject gameOver;
+
     private bool gameEnd = false;
 
     // Start is called before the first frame update
     void Start() {
-        
+        gameOver.SetActive(false);
     }
 
     // Update is called once per frame
@@ -18,6 +20,7 @@ public class GameManager : MonoBehaviour {
     }
 
     void EndGame() {
+        gameOver.SetActive(true);
         Debug.Log("Game Over!");
         gameEnd = true;
     }
