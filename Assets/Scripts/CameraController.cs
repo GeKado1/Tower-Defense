@@ -19,6 +19,11 @@ public class CameraController : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
+        if (GameManager.gameEnd) {
+            this.enabled = false;
+            return;
+        }
+
         Vector3 positionX = transform.position;
 
         if (Input.GetKeyDown(KeyCode.Escape)) {

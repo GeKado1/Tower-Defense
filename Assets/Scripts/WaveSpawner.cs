@@ -33,6 +33,8 @@ public class WaveSpawner : MonoBehaviour {
 
     IEnumerator SpawnWave() {
         waveNum++;
+        PlayerStats.rounds++;
+
         for (int i = 0; i < waveNum; i++) {
             SpawnEnemy();
             yield return new WaitForSeconds(enemyDistance);
