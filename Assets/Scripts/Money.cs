@@ -13,6 +13,6 @@ public class Money : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        moneyText.text = "Money: " + PlayerStats.money;
+        moneyText.text = "Money: $" + PlayerStats.money;
     }
 }

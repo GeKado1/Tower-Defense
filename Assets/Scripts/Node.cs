@@ -54,20 +54,24 @@ public class Node : MonoBehaviour {
             return;
         }
 
-        if (!buildManager.CanBuild) {
+        if (turret != null) {
+            //TurretSelected();
+            buildManager.SelectNode(this);
             return;
         }
 
-        if (turret != null) {
-            Debug.Log("Can't build here");
+        if (!buildManager.CanBuild) {
             return;
         }
 
         buildManager.BuildTurretOn(this);
     }
 
-    public Vector3 GetBuildPosition()
-    {
+    public Vector3 GetBuildPosition() {
         return transform.position + positionOffset;
+    }
+
+    void TurretSelected() {
+        Debug.Log("Turret Selected");
     }
 }

@@ -5,8 +5,11 @@ using UnityEngine;
 public class BuildManager : MonoBehaviour {
     //Type of turret
     private TurretBlueprint turretToBuild;
+    private Node selectNode;
 
     public static BuildManager instance;
+
+    public NodeUI nodeUI;
 
     [SerializeField] private GameObject buildEffect;
 
@@ -31,8 +34,18 @@ public class BuildManager : MonoBehaviour {
         instance = this;
     }
 
+    public void SelectNode(Node node) {
+        selectNode = node;
+        turretToBuild = null;
+
+        nodeUI.SetTarget(node);
+    }
+
     public void SelectTurretToBuild(TurretBlueprint turret) {
         turretToBuild = turret;
+        selectNode = null;
+
+        nodeUI.Hide();
     }
 
     public void BuildTurretOn(Node node) {
