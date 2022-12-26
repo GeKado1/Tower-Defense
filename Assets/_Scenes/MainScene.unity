@@ -1112,7 +1112,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upgradeCostText: {fileID: 1444557597}
+  sellPriceText: {fileID: 236382121}
   upgradeButton: {fileID: 773195088}
+  sellButton: {fileID: 923367205}
   ui: {fileID: 964107579}
 --- !u!1001 &134277856
 PrefabInstance:
@@ -8313,7 +8315,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 923367206}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 118330086}
+        m_TargetAssemblyTypeName: NodeUI, Assembly-CSharp
+        m_MethodName: Sell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &923367206
 MonoBehaviour:
   m_ObjectHideFlags: 0

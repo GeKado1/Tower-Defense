@@ -4,9 +4,11 @@ using UnityEngine;
 
 [System.Serializable]
 public class TurretBlueprint {
+    [Header("Prefabs")]
     public GameObject prefab;
     public GameObject upgradedPrefab;
 
+    [Header("Cost")]
     public int cost;
     public int upgradeCost;
 
@@ -18,5 +20,9 @@ public class TurretBlueprint {
     // Update is called once per frame
     void Update() {
         
+    }
+
+    public int GetSellPrice(int _cost) {
+        return _cost/2;
     }
 }

@@ -115,4 +115,17 @@ public class Node : MonoBehaviour {
 
         Debug.Log("Turret upgraded!");
     }
+
+    public void SellTurret() {
+        Debug.Log(isUpgraded);
+        if (!isUpgraded) {
+            PlayerStats.money = PlayerStats.money + turretBlueprint.GetSellPrice(turretBlueprint.cost);
+        }
+        else {
+            PlayerStats.money = PlayerStats.money + turretBlueprint.GetSellPrice(turretBlueprint.upgradeCost);
+        }
+
+        Destroy(turret);
+        turretBlueprint = null;
+    }
 }
