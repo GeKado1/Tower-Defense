@@ -87,7 +87,7 @@ public class Node : MonoBehaviour {
 
         turretBlueprint = blueprint;
 
-        GameObject effect = (GameObject)Instantiate(BuildManager.buildEffect, GetBuildPosition(), Quaternion.identity);
+        GameObject effect = (GameObject)Instantiate(BuildManager.build_Effect, GetBuildPosition(), Quaternion.identity);
         Destroy(effect, 5f);
 
         Debug.Log("Turret build!");
@@ -108,7 +108,7 @@ public class Node : MonoBehaviour {
         GameObject _turret = (GameObject)Instantiate(turretBlueprint.upgradedPrefab, GetBuildPosition(), Quaternion.identity);
         turret = _turret;
 
-        GameObject effect = (GameObject)Instantiate(BuildManager.buildEffect, GetBuildPosition(), Quaternion.identity);
+        GameObject effect = (GameObject)Instantiate(BuildManager.build_Effect, GetBuildPosition(), Quaternion.identity);
         Destroy(effect, 5f);
 
         isUpgraded = true;
@@ -117,13 +117,15 @@ public class Node : MonoBehaviour {
     }
 
     public void SellTurret() {
-        Debug.Log(isUpgraded);
         if (!isUpgraded) {
             PlayerStats.money = PlayerStats.money + turretBlueprint.GetSellPrice(turretBlueprint.cost);
         }
         else {
             PlayerStats.money = PlayerStats.money + turretBlueprint.GetSellPrice(turretBlueprint.upgradeCost);
         }
+
+        GameObject effect = (GameObject)Instantiate(BuildManager.sell_Effect, GetBuildPosition(), Quaternion.identity);
+        Destroy(effect, 5f);
 
         Destroy(turret);
         turretBlueprint = null;

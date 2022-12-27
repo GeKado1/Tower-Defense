@@ -8,10 +8,12 @@ public class BuildManager : MonoBehaviour {
     private Node selectNode;
 
     public static BuildManager instance;
-    public static GameObject buildEffect;
+    public static GameObject build_Effect;
+    public static GameObject sell_Effect;
 
     public NodeUI nodeUI;
-    public GameObject effect;
+    public GameObject buildEffect;
+    public GameObject sellEffect;
 
     public bool CanBuild { get { return turretToBuild != null; } }
     public bool HasMoney { get { return PlayerStats.money >= turretToBuild.cost; } }
@@ -32,7 +34,8 @@ public class BuildManager : MonoBehaviour {
             return;
         }
         instance = this;
-        buildEffect = effect;
+        build_Effect = buildEffect;
+        sell_Effect = sellEffect;
     }
 
     public void SelectNode(Node node) {
