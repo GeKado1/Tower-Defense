@@ -3261,7 +3261,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeUI: {fileID: 118330086}
-  effect: {fileID: 2132853643237220623, guid: 565a495ee6dfc394cabfcedd0a1a092a, type: 3}
+  buildEffect: {fileID: 2132853643237220623, guid: 565a495ee6dfc394cabfcedd0a1a092a, type: 3}
+  sellEffect: {fileID: 2132853643237220623, guid: 19cc14014d9a60e459a805e5cf94a3c8, type: 3}
 --- !u!114 &307126317
 MonoBehaviour:
   m_ObjectHideFlags: 0
