@@ -10,6 +10,7 @@ Includes all assets
 
 
 Notes
+- IMPORTANT: Remeber to put all extra scenes on build settings
 - WayPoints prefab is for enemies can make a route
 - TextMeshPro Folder is for the screen texts
 - Turret upgrades, bullet upgrades and the materials of the upgraded turret sprites are included
