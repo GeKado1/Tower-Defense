@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour {
     [SerializeField] GameObject ui;
+    [SerializeField] SceneFader sceneFader;
+
+    private string menuScene = "MainMenu";
 
     // Start is called before the first frame update
     void Start() {
@@ -31,10 +34,11 @@ public class PauseMenu : MonoBehaviour {
 
     public void Retry() {
         Toggle();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        sceneFader.FadeTo(SceneManager.GetActiveScene().name);
     }
 
     public void Menu() {
-        Debug.Log("Go to menu");
+        Toggle();
+        sceneFader.FadeTo(menuScene);
     }
 }

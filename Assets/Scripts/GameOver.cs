@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour {
     [SerializeField] private TextMeshProUGUI roundsText;
+    [SerializeField] private SceneFader sceneFader;
+    //[SerializeField] private GameObject ui;
+
+    private string menuScene = "MainMenu";
 
     // Start is called before the first frame update
     void Start() {
@@ -22,10 +26,18 @@ public class GameOver : MonoBehaviour {
     }
 
     public void Retry() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        sceneFader.FadeTo(SceneManager.GetActiveScene().name);
     }
 
     public void Menu() {
-        Debug.Log("Go to menu");
+        sceneFader.FadeTo(menuScene);
     }
+
+    /*public void Toggle() {
+        ui.SetActive(!ui.activeSelf);
+
+        if(ui.activeSelf) {
+            Time.timeScale = 0f;
+        }
+    }*/
 }
