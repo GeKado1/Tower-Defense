@@ -33,6 +33,7 @@ public class BuildManager : MonoBehaviour {
             Debug.Log("More than one Build Manager in scene");
             return;
         }
+
         instance = this;
         build_Effect = buildEffect;
         sell_Effect = sellEffect;
