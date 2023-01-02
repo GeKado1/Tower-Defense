@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
-    [SerializeField] private string levelToLoad = "MainLevel";
+    [SerializeField] private string levelSelector = "LevelSelector";
     [SerializeField] SceneFader sceneFader;
 
     // Start is called before the first frame update
@@ -18,7 +18,7 @@ public class MainMenu : MonoBehaviour {
     }
 
     public void Play() {
-        sceneFader.FadeTo(levelToLoad);
+        sceneFader.FadeTo(levelSelector);
     }
     
     public void Quit() {
