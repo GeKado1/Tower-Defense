@@ -6,7 +6,9 @@ Includes all assets
 - All Project Materials
 - All Scripts
 - Turret Icons
-- A Main Scene (later a level scene)
+- Main Menu Scene
+- Level Selector Scene
+- Levels Scenes
 
 
 Notes
