@@ -3457,6 +3457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16746fabc1a72d44b9989172834800b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 307126318}
   waves:
   - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
     count: 1
@@ -3518,6 +3519,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOver: {fileID: 1893018195}
+  nextLevel: Level02
+  levelToUnlock: 2
+  sceneFader: {fileID: 6466170328089249601}
 --- !u!114 &307126319
 MonoBehaviour:
   m_ObjectHideFlags: 0

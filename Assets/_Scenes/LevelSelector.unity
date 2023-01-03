@@ -301,7 +301,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2652327721674125441, guid: 7bdcbdaa976a55249a0c4645d2dae4f5, type: 3}
       propertyPath: m_Name
-      value: Level_Button
+      value: Level 2 Button
       objectReference: {fileID: 0}
     - target: {fileID: 2652327721674125442, guid: 7bdcbdaa976a55249a0c4645d2dae4f5, type: 3}
       propertyPath: m_Pivot.x
@@ -687,6 +687,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2652327721674125442, guid: 7bdcbdaa976a55249a0c4645d2dae4f5, type: 3}
   m_PrefabInstance: {fileID: 2652327721963909268}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &836419608 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2652327721674125443, guid: 7bdcbdaa976a55249a0c4645d2dae4f5, type: 3}
+  m_PrefabInstance: {fileID: 2652327721963909268}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &886839567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,6 +1033,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fader: {fileID: 1133008056}
+  levelButtons:
+  - {fileID: 836419608}
+  - {fileID: 1902168339}
 --- !u!4 &1268080439
 Transform:
   m_ObjectHideFlags: 0
@@ -1425,6 +1439,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1894763614}
   m_CullTransparentMesh: 1
+--- !u!114 &1902168339 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2652327721674125443, guid: 7bdcbdaa976a55249a0c4645d2dae4f5, type: 3}
+  m_PrefabInstance: {fileID: 277934415}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2652327721963909268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1434,7 +1459,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2652327721674125441, guid: 7bdcbdaa976a55249a0c4645d2dae4f5, type: 3}
       propertyPath: m_Name
-      value: Level Button
+      value: Level 1 Button
       objectReference: {fileID: 0}
     - target: {fileID: 2652327721674125442, guid: 7bdcbdaa976a55249a0c4645d2dae4f5, type: 3}
       propertyPath: m_Pivot.x
@@ -1519,6 +1544,10 @@ PrefabInstance:
     - target: {fileID: 2652327721674125442, guid: 7bdcbdaa976a55249a0c4645d2dae4f5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2652327721674125443, guid: 7bdcbdaa976a55249a0c4645d2dae4f5, type: 3}
+      propertyPath: m_Transition
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2652327721674125443, guid: 7bdcbdaa976a55249a0c4645d2dae4f5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode

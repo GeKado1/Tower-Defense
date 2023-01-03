@@ -6,6 +6,8 @@ using TMPro;
 public class WaveSpawner : MonoBehaviour {
     public static int enemiesAlive = 0;
 
+    [SerializeField] private GameManager gameManager;
+
     [SerializeField] private Wave[] waves;
     [SerializeField] private Transform spawnPoint;
     [SerializeField] private float timeBetweenWaves = 0;
@@ -16,7 +18,7 @@ public class WaveSpawner : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        
+
     }
 
     // Update is called once per frame
@@ -41,6 +43,7 @@ public class WaveSpawner : MonoBehaviour {
         PlayerStats.rounds++;
 
         Wave wave = waves[waveNum];
+        enemiesAlive = wave.count;
 
         for (int i = 0; i < wave.count; i++) {
             SpawnEnemy(wave.enemy);
@@ -48,15 +51,15 @@ public class WaveSpawner : MonoBehaviour {
         }
         
         waveNum++;
-
+        
         if (waveNum == waves.Length) {
-            Debug.Log("LEVEL WON!!");
+            enemiesAlive = 0;
+            gameManager.WinLevel();
             this.enabled = false;
         }
     }
 
     void SpawnEnemy(GameObject enemy) {
         Instantiate(enemy, spawnPoint.position, spawnPoint.rotation);
-        enemiesAlive++;
     }
 }
