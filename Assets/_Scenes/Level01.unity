@@ -3474,6 +3474,21 @@ MonoBehaviour:
   - enemy: {fileID: 7201806381261781204, guid: 2504ff9ea6f49d4439351af365b0b887, type: 3}
     count: 10
     rate: 3
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 15
+    rate: 1.5
+  - enemy: {fileID: 7201806381261781204, guid: 2504ff9ea6f49d4439351af365b0b887, type: 3}
+    count: 15
+    rate: 2.5
+  - enemy: {fileID: 7201806381261781204, guid: 8d1341c873a47c1429aa7f56de488c74, type: 3}
+    count: 5
+    rate: 2
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 25
+    rate: 1.5
+  - enemy: {fileID: 7201806381261781204, guid: 69082e6093ca0cf47bad6216db90d50d, type: 3}
+    count: 1
+    rate: 1
   spawnPoint: {fileID: 1485957679}
   timeBetweenWaves: 2
   waveTimerText: {fileID: 1215741504}
