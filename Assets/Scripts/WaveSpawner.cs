@@ -9,6 +9,7 @@ public class WaveSpawner : MonoBehaviour {
     [SerializeField] private GameManager gameManager;
 
     [SerializeField] private Wave[] waves;
+
     [SerializeField] private Transform spawnPoint;
     [SerializeField] private float timeBetweenWaves = 0;
     [SerializeField] private TextMeshProUGUI waveTimerText;
@@ -51,9 +52,12 @@ public class WaveSpawner : MonoBehaviour {
         }
         
         waveNum++;
-        
+
         if (waveNum == waves.Length) {
-            enemiesAlive = 0;
+            while (enemiesAlive > 0) {
+                yield return new WaitForSeconds(0.5f);
+            }
+
             gameManager.WinLevel();
             this.enabled = false;
         }
