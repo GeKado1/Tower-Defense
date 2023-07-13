@@ -19,7 +19,10 @@ public class WaveSpawner : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
+        StartCoroutine(SpawnWave());
+        countdown = timeBetweenWaves;
 
+        waveTimerText.text = "Next wave: " + string.Format("{0:00.00}", countdown);
     }
 
     // Update is called once per frame
