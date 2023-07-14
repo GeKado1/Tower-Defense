@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
-using UnityEngine.SceneManagement;
 
-public class GameOver : MonoBehaviour {
-    [SerializeField] private SceneFader sceneFader;
+public class CompleteLevel : MonoBehaviour {
+    [SerializeField] SceneFader sceneFader;
 
     private string menuScene = "MainMenu";
+
+    [SerializeField] private string nextLevel = "Level02";
+    [SerializeField] private int levelToUnlock = 2;
 
     // Start is called before the first frame update
     void Start() {
@@ -19,8 +20,9 @@ public class GameOver : MonoBehaviour {
         
     }
 
-    public void Retry() {
-        sceneFader.FadeTo(SceneManager.GetActiveScene().name);
+    public void Continue() {
+        PlayerPrefs.SetInt("levelReached", levelToUnlock);
+        sceneFader.FadeTo(nextLevel);
     }
 
     public void Menu() {

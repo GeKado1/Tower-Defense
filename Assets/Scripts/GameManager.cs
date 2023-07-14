@@ -6,10 +6,7 @@ public class GameManager : MonoBehaviour {
     public static bool gameEnd;
 
     [SerializeField] private GameObject gameOver;
-    [SerializeField] private string nextLevel = "Level02";
-    [SerializeField] private int levelToUnlock = 2;
-
-    [SerializeField] private SceneFader sceneFader;
+    [SerializeField] private GameObject completeLevel;
 
     // Start is called before the first frame update
     void Start() {
@@ -30,8 +27,7 @@ public class GameManager : MonoBehaviour {
     }
 
     public void WinLevel() {
-        Debug.Log("LEVEL WON!!");
-        PlayerPrefs.SetInt("levelReached", levelToUnlock);
-        sceneFader.FadeTo(nextLevel);
+        completeLevel.SetActive(true);
+        gameEnd = true;
     }
 }
