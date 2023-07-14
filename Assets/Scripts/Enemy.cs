@@ -21,6 +21,8 @@ public class Enemy : MonoBehaviour {
     [Header("Unity Stuff")]
     [SerializeField] private Image healthBar;
 
+    private bool isDead = false;
+
     // Start is called before the first frame update
     void Start() {
         speed = startSpeed;
@@ -37,12 +39,14 @@ public class Enemy : MonoBehaviour {
 
         healthBar.fillAmount = health/startHealth;
 
-        if (health <= 0) {
+        if (health <= 0 && !isDead) {
             Die();
         }
     }
 
     void Die() {
+        isDead = true;
+
         PlayerStats.money = PlayerStats.money + moneyGiven;
 
         GameObject effect = (GameObject) Instantiate(dieEffect, transform.position, Quaternion.identity);
