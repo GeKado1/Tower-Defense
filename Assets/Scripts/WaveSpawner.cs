@@ -10,7 +10,7 @@ public class WaveSpawner : MonoBehaviour {
 
     [SerializeField] private Wave[] waves;
 
-    [SerializeField] private Transform spawnPoint;
+    [SerializeField] private Transform[] spawnPoints;
     [SerializeField] private float timeBetweenWaves = 0;
     [SerializeField] private TextMeshProUGUI waveTimerText;
 
@@ -60,18 +60,11 @@ public class WaveSpawner : MonoBehaviour {
         }
         
         waveNum++;
-
-        /*if (waveNum == waves.Length) {
-            while (enemiesAlive > 0) {
-                yield return new WaitForSeconds(0.5f);
-            }
-
-            gameManager.WinLevel();
-            this.enabled = false;
-        }*/
     }
 
     void SpawnEnemy(GameObject enemy) {
-        Instantiate(enemy, spawnPoint.position, spawnPoint.rotation);
+        for (int i = 0; i < spawnPoints.Length; i++) {
+            Instantiate(enemy, spawnPoints[i].position, spawnPoints[i].rotation);
+        }
     }
 }
