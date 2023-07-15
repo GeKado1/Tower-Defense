@@ -1,5 +1,7 @@
 # Tower-Defense
 
+Made with Unity (Editor Version: 2021.3.1f1)
+
 Includes all assets
 - 3 Turrets Base models with blend or fbx
 - Enemy, Enemy Path, Turret Places, Turrets and Bullet prefabs
@@ -11,7 +13,7 @@ Includes all assets
 - Levels Scenes
 
 
-Notes
+Notes (If you want to modify this project when you download it)
 - IMPORTANT: Remeber to put all extra scenes on build settings
 - WayPoints prefab is for enemies can make a route
 - TextMeshPro Folder is for the screen texts
