@@ -358,6 +358,7 @@
 "Assets/Scripts/RoundsSurvived.cs"
 "Assets/Scripts/SceneFader.cs"
 "Assets/Scripts/Shop.cs"
+"Assets/Scripts/StartPoints.cs"
 "Assets/Scripts/Turret.cs"
 "Assets/Scripts/TurretBlueprint.cs"
 "Assets/Scripts/Wave.cs"
