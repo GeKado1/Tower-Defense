@@ -1,0 +1,1 @@
+Intentar que l'enemic tingui una variable de startpoint per aixi poder fer que segueixi la ruta que te aquest
