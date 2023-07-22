@@ -2846,7 +2846,7 @@ MonoBehaviour:
     count: 5
     rate: 2
   spawnPoints:
-  - {fileID: 1296446071}
+  - {fileID: 1296446070}
   timeBetweenWaves: 2
   waveTimerText: {fileID: 1104179395}
 --- !u!114 &307126316
@@ -9543,7 +9543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad0a3f198529fae4d9bcac757643c468, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wayPoints: []
+  ID_WAYPOINTS_LIST: 0
 --- !u!1001 &1120335556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10846,18 +10846,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4948063658097306968, guid: b127ba7ee089011409f4bec89de3d25f, type: 3}
-      propertyPath: transform
-      value: 
-      objectReference: {fileID: 1296446070}
-    - target: {fileID: 4948063658097306968, guid: b127ba7ee089011409f4bec89de3d25f, type: 3}
-      propertyPath: wayPoints
-      value: 
-      objectReference: {fileID: 1114116402}
-    - target: {fileID: 4948063658097306968, guid: b127ba7ee089011409f4bec89de3d25f, type: 3}
-      propertyPath: SP_Transform
-      value: 
-      objectReference: {fileID: 1296446070}
     - target: {fileID: 6696021004361794114, guid: b127ba7ee089011409f4bec89de3d25f, type: 3}
       propertyPath: m_Name
       value: Start Point
@@ -10913,17 +10901,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6696021004361794118, guid: b127ba7ee089011409f4bec89de3d25f, type: 3}
   m_PrefabInstance: {fileID: 1296446069}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1296446071 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4948063658097306968, guid: b127ba7ee089011409f4bec89de3d25f, type: 3}
-  m_PrefabInstance: {fileID: 1296446069}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52997a13ce63ca74886c6ecb986d66a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1317885689
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -2640,7 +2640,7 @@ MonoBehaviour:
     count: 1
     rate: 1
   spawnPoints:
-  - {fileID: 1485957680}
+  - {fileID: 1485957679}
   timeBetweenWaves: 2
   waveTimerText: {fileID: 1215741504}
 --- !u!114 &307126316
@@ -9069,7 +9069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad0a3f198529fae4d9bcac757643c468, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wayPoints: []
+  ID_WAYPOINTS_LIST: 0
 --- !u!1001 &1120335556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12327,7 +12327,6 @@ GameObject:
   - component: {fileID: 1485957679}
   - component: {fileID: 1485957678}
   - component: {fileID: 1485957677}
-  - component: {fileID: 1485957680}
   m_Layer: 0
   m_Name: Start Point
   m_TagString: Untagged
@@ -12400,20 +12399,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1485957680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1485957675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52997a13ce63ca74886c6ecb986d66a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SP_Transform: {fileID: 1485957679}
-  wayPoints: {fileID: 1114116402}
 --- !u!1001 &1487846725
 PrefabInstance:
   m_ObjectHideFlags: 0

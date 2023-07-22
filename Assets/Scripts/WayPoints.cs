@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class WayPoints : MonoBehaviour {
-    public Transform[] wayPoints;
+    public static Transform[] wayPoints;
+    [SerializeField] private int ID_WAYPOINTS_LIST;
 
     // Start is called before the first frame update
     void Start() {
