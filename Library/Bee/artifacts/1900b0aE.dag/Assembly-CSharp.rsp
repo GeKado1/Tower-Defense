@@ -344,6 +344,7 @@
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CompleteLevel.cs"
 "Assets/Scripts/Enemy.cs"
+"Assets/Scripts/EnemyMovement.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GameOver.cs"
 "Assets/Scripts/LevelSelector.cs"
@@ -361,6 +362,8 @@
 "Assets/Scripts/Turret.cs"
 "Assets/Scripts/TurretBlueprint.cs"
 "Assets/Scripts/Wave.cs"
+"Assets/Scripts/WaveSpawner.cs"
+"Assets/Scripts/WayPoints.cs"
 -langversion:9.0
 
 /deterministic

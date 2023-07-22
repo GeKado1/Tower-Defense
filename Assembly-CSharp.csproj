@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\WaveSpawner.cs" />
     <Compile Include="Assets\Scripts\BuildManager.cs" />
     <Compile Include="Assets\Scripts\TurretBlueprint.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
@@ -65,7 +66,6 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Money.cs" />
-    <Compile Include="Assets\Scripts\StartPoints.cs" />
     <Compile Include="Assets\Scripts\NodeUI.cs" />
     <Compile Include="Assets\Scripts\CompleteLevel.cs" />
     <Compile Include="Assets\Scripts\SceneFader.cs" />
@@ -77,7 +77,10 @@
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Turret.cs" />
     <Compile Include="Assets\Scripts\Lives.cs" />
+    <Compile Include="Assets\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\Scripts\WayPoints.cs" />
+    <Compile Include="Assets\Scripts\StartPoints.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
