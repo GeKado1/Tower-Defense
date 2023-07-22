@@ -6,13 +6,11 @@ using TMPro;
 public class WaveSpawner : MonoBehaviour {
     public static int enemiesAlive = 0;
 
-    private List<int> ID_SPAWNPOINT;
-
     [SerializeField] private GameManager gameManager;
 
     [SerializeField] private Wave[] waves;
 
-    [SerializeField] private Transform[] spawnPoints;
+    [SerializeField] private StartPoints[] spawnPoints;
     [SerializeField] private float timeBetweenWaves = 0;
     [SerializeField] private TextMeshProUGUI waveTimerText;
 
@@ -21,12 +19,6 @@ public class WaveSpawner : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        ID_SPAWNPOINT = new List<int>();
-
-        for (int i = 0; i < spawnPoints.Length; i++) {
-            ID_SPAWNPOINT.Add(i);
-        }
-
         StartCoroutine(SpawnWave());
         countdown = timeBetweenWaves;
 
@@ -72,7 +64,7 @@ public class WaveSpawner : MonoBehaviour {
 
     void SpawnEnemy(GameObject enemy) {
         for (int i = 0; i < spawnPoints.Length; i++) {
-            Instantiate(enemy, spawnPoints[i].position, spawnPoints[i].rotation);
+            Instantiate(enemy, spawnPoints[i].getStartPointTransform().position, spawnPoints[i].getStartPointTransform().rotation);
         }
     }
 }
