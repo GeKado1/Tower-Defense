@@ -10,7 +10,7 @@ public class WaveSpawner : MonoBehaviour {
 
     [SerializeField] private Wave[] waves;
 
-    [SerializeField] private StartPoints[] spawnPoints;
+    [SerializeField] private Transform[] spawnPoints;
     [SerializeField] private float timeBetweenWaves = 0;
     [SerializeField] private TextMeshProUGUI waveTimerText;
 
@@ -64,7 +64,7 @@ public class WaveSpawner : MonoBehaviour {
 
     void SpawnEnemy(GameObject enemy) {
         for (int i = 0; i < spawnPoints.Length; i++) {
-            Instantiate(enemy, spawnPoints[i].getStartPointTransform().position, spawnPoints[i].getStartPointTransform().rotation);
+            Instantiate(enemy, spawnPoints[i].position, spawnPoints[i].rotation);
         }
     }
 }

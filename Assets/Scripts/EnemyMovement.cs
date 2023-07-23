@@ -6,7 +6,6 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour {
     private Transform target;
     private int wavePointIndex = 0;
-    private WayPoints wayPoint;
 
     private Enemy enemy;
 
@@ -14,8 +13,7 @@ public class EnemyMovement : MonoBehaviour {
     void Start() {
         enemy = GetComponent<Enemy>();
 
-        wayPoint = StartPoints.getRoute();
-        target = wayPoint.wayPoints[0];
+        target = WayPoints.wayPoints[0];
     }
 
     // Update is called once per frame
@@ -31,13 +29,13 @@ public class EnemyMovement : MonoBehaviour {
     }
 
     void GetNextWayPoint() {
-        if (wavePointIndex >= wayPoint.wayPoints.Length - 1) {
+        if (wavePointIndex >= WayPoints.wayPoints.Length - 1) {
             EndPath();
             return;
         }
 
         wavePointIndex++;
-        target = wayPoint.wayPoints[wavePointIndex];
+        target = WayPoints.wayPoints[wavePointIndex];
     }
 
     void EndPath() {
