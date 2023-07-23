@@ -2640,7 +2640,7 @@ MonoBehaviour:
     count: 1
     rate: 1
   spawnPoints:
-  - {fileID: 1485957680}
+  - {fileID: 1485957679}
   timeBetweenWaves: 2
   waveTimerText: {fileID: 1215741504}
 --- !u!114 &307126316
@@ -9069,7 +9069,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad0a3f198529fae4d9bcac757643c468, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wayPoints: []
 --- !u!1001 &1120335556
 PrefabInstance:
   m_ObjectHideFlags: 0
