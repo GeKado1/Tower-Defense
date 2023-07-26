@@ -207,6 +207,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1081148377663158929, guid: 32866e0403e98434b92db0d9ea3a3e9a, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1081148377663158929, guid: 32866e0403e98434b92db0d9ea3a3e9a, type: 3}
+      propertyPath: isRockNode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1426989893892138453, guid: 32866e0403e98434b92db0d9ea3a3e9a, type: 3}

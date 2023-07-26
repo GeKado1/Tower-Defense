@@ -8,6 +8,8 @@ public class Node : MonoBehaviour {
     [SerializeField] private Color notEnoughtMoneyColor;
     [SerializeField] private Vector3 positionOffset;
 
+    [SerializeField] private bool isRockNode;
+
     private Renderer rend;
     private Color startColor;
 
@@ -22,9 +24,11 @@ public class Node : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        rend = GetComponent<Renderer>();
-        startColor = rend.material.color;
-        buildManager = BuildManager.instance;
+        if (isRockNode) {
+            rend = GetComponent<Renderer>();
+            startColor = rend.material.color;
+            buildManager = BuildManager.instance;
+        }
     }
 
     // Update is called once per frame
@@ -33,41 +37,47 @@ public class Node : MonoBehaviour {
     }
 
     private void OnMouseEnter() {
-        if (EventSystem.current.IsPointerOverGameObject()) {
-            return;
-        }
+        if (isRockNode) {
+            if (EventSystem.current.IsPointerOverGameObject()) {
+                return;
+            }
 
-        if (!buildManager.CanBuild) {
-            return;
-        }
+            if (!buildManager.CanBuild) {
+                return;
+            }
 
-        if (!buildManager.HasMoney) {
-            rend.material.color = notEnoughtMoneyColor;
-        }
-        else {
-            rend.material.color = hoverColor;
+            if (!buildManager.HasMoney) {
+                rend.material.color = notEnoughtMoneyColor;
+            }
+            else {
+                rend.material.color = hoverColor;
+            }
         }
     }
 
     private void OnMouseExit() {
-        rend.material.color = startColor;
+        if (isRockNode) {
+            rend.material.color = startColor;
+        }
     }
 
     private void OnMouseDown() {
-        if (EventSystem.current.IsPointerOverGameObject()) {
-            return;
-        }
+        if (isRockNode) {
+            if (EventSystem.current.IsPointerOverGameObject()) {
+                return;
+            }
 
-        if (turret != null) {
-            buildManager.SelectNode(this);
-            return;
-        }
+            if (turret != null) {
+                buildManager.SelectNode(this);
+                return;
+            }
 
-        if (!buildManager.CanBuild) {
-            return;
-        }
+            if (!buildManager.CanBuild) {
+                return;
+            }
 
-        BuildTurret(buildManager.GetTurretToBuild());
+            BuildTurret(buildManager.GetTurretToBuild());
+        }
     }
 
     public Vector3 GetBuildPosition() {

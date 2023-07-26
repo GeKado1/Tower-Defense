@@ -2332,7 +2332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 307126318}
   waves:
-  - enemy: {fileID: 3459962042806317976, guid: c6da448bb07bdd74dbcb7fe7eb7a8907, type: 3}
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
     count: 1
     rate: 2
   - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
