@@ -53,7 +53,7 @@ public class Enemy : MonoBehaviour {
 
         if (isDieEnemy) {
             GetComponent<EnemySpawnDie>().SpawnChild();
-            WaveSpawner.enemiesAlive += 2;
+            WaveSpawner.enemiesAlive += GetComponent<EnemySpawnDie>().GetChild();
         }
 
         GameObject effect = (GameObject) Instantiate(dieEffect, transform.position, Quaternion.identity);

@@ -23,8 +23,7 @@ public class EnemySpawnDie : MonoBehaviour {
         }
     }
 
-    public int GetChild()
-    {
+    public int GetChild() {
         return numberOfChild;
     }
 }
