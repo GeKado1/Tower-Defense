@@ -46,4 +46,12 @@ public class EnemyMovement : MonoBehaviour {
         WaveSpawner.enemiesAlive--;
         Destroy(gameObject);
     }
+
+    /*public void SetTarget (Transform _target) {
+        target = _target;
+    }
+
+    public Transform GetTarget() {
+        return target;
+    }*/
 }

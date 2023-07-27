@@ -120,6 +120,8 @@ MonoBehaviour:
   damage: 1
   moneyGiven: 25
   healthBar: {fileID: 1083408596535261947}
+  isDieEnemy: 0
+  isSpawnedEnemy: 1
 --- !u!114 &582998033379043719
 MonoBehaviour:
   m_ObjectHideFlags: 0

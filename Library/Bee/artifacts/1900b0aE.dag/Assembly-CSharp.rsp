@@ -345,6 +345,7 @@
 "Assets/Scripts/CompleteLevel.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/EnemyMovement.cs"
+"Assets/Scripts/EnemySpawnDie.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GameOver.cs"
 "Assets/Scripts/LevelSelector.cs"

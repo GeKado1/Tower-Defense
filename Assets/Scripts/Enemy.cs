@@ -23,6 +23,8 @@ public class Enemy : MonoBehaviour {
 
     private bool isDead = false;
 
+    [SerializeField] private bool isDieEnemy;
+
     // Start is called before the first frame update
     void Start() {
         speed = startSpeed;
@@ -48,6 +50,11 @@ public class Enemy : MonoBehaviour {
         isDead = true;
 
         PlayerStats.money = PlayerStats.money + moneyGiven;
+
+        if (isDieEnemy) {
+            GetComponent<EnemySpawnDie>().SpawnChild();
+            WaveSpawner.enemiesAlive += 2;
+        }
 
         GameObject effect = (GameObject) Instantiate(dieEffect, transform.position, Quaternion.identity);
         Destroy(effect, 5f);
