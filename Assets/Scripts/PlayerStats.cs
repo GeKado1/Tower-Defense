@@ -14,7 +14,7 @@ public class PlayerStats : MonoBehaviour {
     void Start() {
         money = startMoney;
         lives = startLives;
-        rounds = -1;
+        rounds = 0;
     }
 
     // Update is called once per frame
