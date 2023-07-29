@@ -6,9 +6,12 @@ public class EnemySpawnDie : MonoBehaviour {
     [SerializeField] private GameObject childEnemy;
     [SerializeField] private int numberOfChild;
 
+    [HideInInspector] 
+    public bool immortal;
+
     // Start is called before the first frame update
     void Start() {
-        
+        immortal = true;
     }
 
     // Update is called once per frame

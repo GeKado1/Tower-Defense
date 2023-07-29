@@ -36,6 +36,10 @@ public class EnemyMovement : MonoBehaviour {
 
         wavePointIndex++;
         target = WayPoints.wayPoints[wavePointIndex];
+        
+        if (GetComponent<EnemySpawnDie>()) {
+            GetComponent<EnemySpawnDie>().immortal = false;
+        }
     }
 
     void EndPath() {
