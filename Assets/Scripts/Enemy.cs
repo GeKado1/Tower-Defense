@@ -24,6 +24,7 @@ public class Enemy : MonoBehaviour {
     private bool isDead = false;
 
     [SerializeField] private bool isDieEnemy;
+    public bool isSpawnedEnemy;
 
     // Start is called before the first frame update
     void Start() {
@@ -52,7 +53,7 @@ public class Enemy : MonoBehaviour {
         PlayerStats.money = PlayerStats.money + moneyGiven;
 
         if (isDieEnemy) {
-            GetComponent<EnemySpawnDie>().SpawnChild();
+            GetComponent<EnemySpawnDie>().SpawnChild(GetComponent<EnemyMovement>().GetTarget());
             WaveSpawner.enemiesAlive += GetComponent<EnemySpawnDie>().GetChild();
         }
 

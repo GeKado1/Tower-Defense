@@ -19,10 +19,10 @@ public class EnemySpawnDie : MonoBehaviour {
         
     }
 
-    public void SpawnChild() {
+    public void SpawnChild(Transform _target) {
         for (int i = 0; i < numberOfChild; i++) {
             GameObject spawnedEnemy = (GameObject) Instantiate(childEnemy, transform.position, Quaternion.identity);
-            //spawnedEnemy.GetComponent<EnemyMovement>().SetTarget(GetComponent<EnemyMovement>().GetTarget());
+            spawnedEnemy.GetComponent<EnemyMovement>().SetTarget(_target);
         }
     }
 

@@ -5,6 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Enemy))]
 public class EnemyMovement : MonoBehaviour {
     private Transform target;
+    private Transform spawnedTarget;
     private int wavePointIndex = 0;
 
     private Enemy enemy;
@@ -13,7 +14,12 @@ public class EnemyMovement : MonoBehaviour {
     void Start() {
         enemy = GetComponent<Enemy>();
 
-        target = WayPoints.wayPoints[0];
+        if (enemy.isSpawnedEnemy) {
+            target = spawnedTarget;
+        }
+        else {
+            target = WayPoints.wayPoints[0];
+        }
     }
 
     // Update is called once per frame
@@ -51,11 +57,11 @@ public class EnemyMovement : MonoBehaviour {
         Destroy(gameObject);
     }
 
-    /*public void SetTarget (Transform _target) {
-        target = _target;
+    public void SetTarget (Transform _target) {
+        spawnedTarget = _target;
     }
 
     public Transform GetTarget() {
         return target;
-    }*/
+    }
 }
