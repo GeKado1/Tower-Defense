@@ -53,7 +53,8 @@ public class Enemy : MonoBehaviour {
         PlayerStats.money = PlayerStats.money + moneyGiven;
 
         if (isDieEnemy) {
-            GetComponent<EnemySpawnDie>().SpawnChild(GetComponent<EnemyMovement>().GetTarget());
+            EnemyMovement enemyMovement = GetComponent<EnemyMovement>();
+            GetComponent<EnemySpawnDie>().SpawnChild(enemyMovement.GetTarget(), enemyMovement.GetWavePointIndex());
             WaveSpawner.enemiesAlive += GetComponent<EnemySpawnDie>().GetChild();
         }
 

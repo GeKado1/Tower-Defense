@@ -19,10 +19,13 @@ public class EnemySpawnDie : MonoBehaviour {
         
     }
 
-    public void SpawnChild(Transform _target) {
+    public void SpawnChild(Transform _target, int currentWavePointIndex) {
         for (int i = 0; i < numberOfChild; i++) {
             GameObject spawnedEnemy = (GameObject) Instantiate(childEnemy, transform.position, Quaternion.identity);
-            spawnedEnemy.GetComponent<EnemyMovement>().SetTarget(_target);
+            EnemyMovement enemyMovement = spawnedEnemy.GetComponent<EnemyMovement>();
+
+            enemyMovement.SetTarget(_target);
+            enemyMovement.SetWavePointIndex(currentWavePointIndex);
         }
     }
 

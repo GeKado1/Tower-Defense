@@ -6,16 +6,20 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour {
     private Transform target;
     private Transform spawnedTarget;
-    private int wavePointIndex = 0;
+
+    private int wavePointIndex;
+    private int parentWavePointIndex;
 
     private Enemy enemy;
 
     // Start is called before the first frame update
     void Start() {
         enemy = GetComponent<Enemy>();
+        wavePointIndex = 0;
 
         if (enemy.isSpawnedEnemy) {
             target = spawnedTarget;
+            wavePointIndex = parentWavePointIndex;
         }
         else {
             target = WayPoints.wayPoints[0];
@@ -63,5 +67,13 @@ public class EnemyMovement : MonoBehaviour {
 
     public Transform GetTarget() {
         return target;
+    }
+
+    public void SetWavePointIndex(int index) {
+        parentWavePointIndex = index;
+    }
+
+    public int GetWavePointIndex() {
+        return wavePointIndex;
     }
 }
