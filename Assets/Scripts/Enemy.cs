@@ -28,8 +28,13 @@ public class Enemy : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        speed = startSpeed;
-        health = startHealth;
+        if (GameManager.hardMode) {
+            HardMode();
+        }
+        else {
+            speed = startSpeed;
+            health = startHealth;
+        }
     }
 
     // Update is called once per frame
@@ -68,5 +73,10 @@ public class Enemy : MonoBehaviour {
 
     public void SpeedReduction(float speedReduction) {
         speed = startSpeed * (1f - speedReduction);
+    }
+
+    private void HardMode() {
+        health = startHealth * 2;
+        damage *= 2;
     }
 }

@@ -399,7 +399,7 @@ PrefabInstance:
       objectReference: {fileID: 1268080438}
     - target: {fileID: 2652327721674125443, guid: 7bdcbdaa976a55249a0c4645d2dae4f5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Select
+      value: SelectDifficulty
       objectReference: {fileID: 0}
     - target: {fileID: 2652327721674125443, guid: 7bdcbdaa976a55249a0c4645d2dae4f5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2068,7 +2068,7 @@ PrefabInstance:
       objectReference: {fileID: 1268080438}
     - target: {fileID: 2652327721674125443, guid: 7bdcbdaa976a55249a0c4645d2dae4f5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Select
+      value: SelectDifficulty
       objectReference: {fileID: 0}
     - target: {fileID: 2652327721674125443, guid: 7bdcbdaa976a55249a0c4645d2dae4f5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2251,7 +2251,7 @@ PrefabInstance:
       objectReference: {fileID: 1268080438}
     - target: {fileID: 2652327721674125443, guid: 7bdcbdaa976a55249a0c4645d2dae4f5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Select
+      value: SelectDifficulty
       objectReference: {fileID: 0}
     - target: {fileID: 2652327721674125443, guid: 7bdcbdaa976a55249a0c4645d2dae4f5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName

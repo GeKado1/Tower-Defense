@@ -14,7 +14,6 @@ public class GameManager : MonoBehaviour {
     void Start() {
         gameOver.SetActive(false);
         gameEnd = false;
-        Debug.Log(hardMode);
     }
 
     // Update is called once per frame
