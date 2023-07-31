@@ -5,6 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour {
     public static bool gameEnd;
 
+    public static bool hardMode = false;
+
     [SerializeField] private GameObject gameOver;
     [SerializeField] private GameObject completeLevel;
 
@@ -12,6 +14,7 @@ public class GameManager : MonoBehaviour {
     void Start() {
         gameOver.SetActive(false);
         gameEnd = false;
+        Debug.Log(hardMode);
     }
 
     // Update is called once per frame

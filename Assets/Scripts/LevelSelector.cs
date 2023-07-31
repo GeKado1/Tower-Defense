@@ -6,6 +6,9 @@ using UnityEngine.UI;
 public class LevelSelector : MonoBehaviour {
     [SerializeField] private SceneFader fader;
     [SerializeField] Button[] levelButtons;
+    [SerializeField] private GameObject difficultyButtons;
+
+    private string levelName;
 
     // Start is called before the first frame update
     void Start() {
@@ -27,7 +30,23 @@ public class LevelSelector : MonoBehaviour {
         fader.FadeTo(levelName);
     }
 
-    public void toMainMenu() {
+    public void ToMainMenu() {
         fader.FadeTo("MainMenu");
+    }
+
+    public void SelectDifficulty(string _levelName) {
+        difficultyButtons.SetActive(true);
+        levelName = _levelName;
+    }
+
+    public void SetDifficulty(bool isHard) {
+        if (isHard) {
+            GameManager.hardMode = true;
+        }
+        else {
+            GameManager.hardMode = false;
+        }
+
+        Select(levelName);
     }
 }
