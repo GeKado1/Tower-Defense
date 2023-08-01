@@ -9047,7 +9047,7 @@ Transform:
   - {fileID: 685334307}
   - {fileID: 2031684315}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1114116402
 MonoBehaviour:
@@ -17398,7 +17398,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2695304059307587464, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2695304059307587464, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: m_AnchorMax.x
