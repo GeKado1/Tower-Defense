@@ -8,6 +8,7 @@ public class Shop : MonoBehaviour {
     [SerializeField] private TurretBlueprint standardTurret;
     [SerializeField] private TurretBlueprint missileLauncher;
     [SerializeField] private TurretBlueprint laserBeamer;
+    [SerializeField] private TurretBlueprint gatlingTurret;
 
     // Start is called before the first frame update
     void Start() {
@@ -32,5 +33,10 @@ public class Shop : MonoBehaviour {
     public void SelectLaserBeamer() {
         Debug.Log("Laser Beamer Selected");
         buildManager.SelectTurretToBuild(laserBeamer);
+    }
+
+    public void SelectGatlingTurret() {
+        Debug.Log("Gatling Turret Selected");
+        buildManager.SelectTurretToBuild(gatlingTurret);
     }
 }
