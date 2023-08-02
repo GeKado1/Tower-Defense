@@ -14,3 +14,4 @@ Fire Rate 2 -> 2.5
 
 Level 2:
 Fire Rate 3 -> 3.5
+Rotation Speed 10 -> 15
