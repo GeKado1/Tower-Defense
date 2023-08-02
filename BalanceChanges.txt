@@ -1,0 +1,16 @@
+Laser Beamer:
+Level 1:
+DOT 30 -> 15 
+Speed Reduction: 0.25 -> 0.2
+
+Level 2:
+DOT 30 -> 20
+Speed Reduction: 0.3 -> 0.25
+Range: 25 -> 20
+
+Gatling Turret:
+Level 1:
+Fire Rate 2 -> 2.5
+
+Level 2:
+Fire Rate 3 -> 3.5
