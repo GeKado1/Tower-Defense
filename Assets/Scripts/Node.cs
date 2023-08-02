@@ -92,7 +92,7 @@ public class Node : MonoBehaviour {
 
         PlayerStats.money = PlayerStats.money - blueprint.cost;
 
-        GameObject _turret = (GameObject)Instantiate(blueprint.prefab, GetBuildPosition(), Quaternion.identity);
+        GameObject _turret = (GameObject)Instantiate(blueprint.lvl_1_prefab, GetBuildPosition(), Quaternion.identity);
         turret = _turret;
 
         turretBlueprint = blueprint;
@@ -104,18 +104,18 @@ public class Node : MonoBehaviour {
     }
 
     public void UpgradeTurret() {
-        if (PlayerStats.money < turretBlueprint.upgradeCost) {
+        if (PlayerStats.money < turretBlueprint.upgradeToLvl_2_Cost) {
             Debug.Log("Not enought money to upgrade that!");
             return;
         }
 
-        PlayerStats.money = PlayerStats.money - turretBlueprint.upgradeCost;
+        PlayerStats.money = PlayerStats.money - turretBlueprint.upgradeToLvl_2_Cost;
 
         //Destroy old turret sprite
         Destroy(turret);
 
         //Build new turret sprite
-        GameObject _turret = (GameObject)Instantiate(turretBlueprint.upgradedPrefab, GetBuildPosition(), Quaternion.identity);
+        GameObject _turret = (GameObject)Instantiate(turretBlueprint.lvl_2_prefab, GetBuildPosition(), Quaternion.identity);
         turret = _turret;
 
         GameObject effect = (GameObject)Instantiate(BuildManager.build_Effect, GetBuildPosition(), Quaternion.identity);
@@ -131,7 +131,7 @@ public class Node : MonoBehaviour {
             PlayerStats.money = PlayerStats.money + turretBlueprint.GetSellPrice(turretBlueprint.cost);
         }
         else {
-            PlayerStats.money = PlayerStats.money + turretBlueprint.GetSellPrice(turretBlueprint.upgradeCost);
+            PlayerStats.money = PlayerStats.money + turretBlueprint.GetSellPrice(turretBlueprint.upgradeToLvl_2_Cost);
         }
 
         GameObject effect = (GameObject)Instantiate(BuildManager.sell_Effect, GetBuildPosition(), Quaternion.identity);

@@ -5,12 +5,14 @@ using UnityEngine;
 [System.Serializable]
 public class TurretBlueprint {
     [Header("Prefabs")]
-    public GameObject prefab;
-    public GameObject upgradedPrefab;
+    public GameObject lvl_1_prefab;
+    public GameObject lvl_2_prefab;
+    public GameObject lvl_3_prefab;
 
     [Header("Cost")]
     public int cost;
-    public int upgradeCost;
+    public int upgradeToLvl_2_Cost;
+    public int upgradeToLvl_3_Cost;
 
     // Start is called before the first frame update
     void Start() {

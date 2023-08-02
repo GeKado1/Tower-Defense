@@ -142,7 +142,7 @@ MonoBehaviour:
   impactEffect: {fileID: 0}
   impactLight: {fileID: 0}
   rotator: {fileID: 8376750128562161397}
-  rotationSpeed: 15
+  rotationSpeed: 20
   enemyTag: Enemy
   firePoint: {fileID: 8376750128625672721}
 --- !u!1 &3400320258489950302

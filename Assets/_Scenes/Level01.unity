@@ -17384,6 +17384,86 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 307126319}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: laserBeamer.lvl_1_prefab
+      value: 
+      objectReference: {fileID: 9050846226654869650, guid: 6c0428aa63a0aca40a7c1ae7efb42533, type: 3}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: laserBeamer.lvl_2_prefab
+      value: 
+      objectReference: {fileID: 9050846226654869650, guid: 57e31da70bc85a84f89087dafc575cdb, type: 3}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: laserBeamer.lvl_3_prefab
+      value: 
+      objectReference: {fileID: 7525348008323236630, guid: 489307a9e0255114bbca25b760de2290, type: 3}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: gatlingTurret.lvl_1_prefab
+      value: 
+      objectReference: {fileID: 1981732433040641019, guid: 63caf494bd449a94582a947005c01a3e, type: 3}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: gatlingTurret.lvl_2_prefab
+      value: 
+      objectReference: {fileID: 1593507960508696830, guid: 857933818c4e8de4195172e53b991ba5, type: 3}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: gatlingTurret.lvl_3_prefab
+      value: 
+      objectReference: {fileID: 106947247633736306, guid: e572a1b0d1328b34c883cbf11855554d, type: 3}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: standardTurret.lvl_1_prefab
+      value: 
+      objectReference: {fileID: 4321573127737090838, guid: 384d1c0246286cf43948cecb94f13183, type: 3}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: standardTurret.lvl_2_prefab
+      value: 
+      objectReference: {fileID: 4321573127737090838, guid: 39aa49c353aa6054894e8bd2b7ffaf45, type: 3}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: standardTurret.lvl_3_prefab
+      value: 
+      objectReference: {fileID: 6334983142541917024, guid: 64eafa7c822e9184a876311944dd7fc8, type: 3}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: missileLauncher.lvl_1_prefab
+      value: 
+      objectReference: {fileID: 2797574147888264494, guid: 33731ecfa2295c84da5dc819de89eb32, type: 3}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: missileLauncher.lvl_2_prefab
+      value: 
+      objectReference: {fileID: 2797574147888264494, guid: 6ba1e8ba55a09064ca6df8a5234e060e, type: 3}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: missileLauncher.lvl_3_prefab
+      value: 
+      objectReference: {fileID: 2315312556330348607, guid: 65455446f03d138448591f526bc63796, type: 3}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: laserBeamer.upgradeToLvl_2_Cost
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: laserBeamer.upgradeToLvl_3_Cost
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: gatlingTurret.upgradeToLvl_2_Cost
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: gatlingTurret.upgradeToLvl_3_Cost
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: standardTurret.upgradeToLvl_2_Cost
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: standardTurret.upgradeToLvl_3_Cost
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: missileLauncher.upgradeToLvl_2_Cost
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: missileLauncher.upgradeToLvl_3_Cost
+      value: 700
+      objectReference: {fileID: 0}
     - target: {fileID: 2695304059307587460, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: m_Name
       value: PlayerCanvas
