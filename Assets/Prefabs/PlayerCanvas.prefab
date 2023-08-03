@@ -3627,25 +3627,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   standardTurret:
-    prefab: {fileID: 4321573127737090838, guid: 384d1c0246286cf43948cecb94f13183, type: 3}
-    upgradedPrefab: {fileID: 4321573127737090838, guid: 39aa49c353aa6054894e8bd2b7ffaf45, type: 3}
+    lvl_1_prefab: {fileID: 4321573127737090838, guid: 384d1c0246286cf43948cecb94f13183, type: 3}
+    lvl_2_prefab: {fileID: 4321573127737090838, guid: 39aa49c353aa6054894e8bd2b7ffaf45, type: 3}
+    lvl_3_prefab: {fileID: 6334983142541917024, guid: 64eafa7c822e9184a876311944dd7fc8, type: 3}
     cost: 100
-    upgradeCost: 200
+    upgradeToLvl_2_Cost: 200
+    upgradeToLvl_3_Cost: 400
   missileLauncher:
-    prefab: {fileID: 2797574147888264494, guid: 33731ecfa2295c84da5dc819de89eb32, type: 3}
-    upgradedPrefab: {fileID: 2797574147888264494, guid: 6ba1e8ba55a09064ca6df8a5234e060e, type: 3}
+    lvl_1_prefab: {fileID: 2797574147888264494, guid: 33731ecfa2295c84da5dc819de89eb32, type: 3}
+    lvl_2_prefab: {fileID: 2797574147888264494, guid: 6ba1e8ba55a09064ca6df8a5234e060e, type: 3}
+    lvl_3_prefab: {fileID: 2315312556330348607, guid: 65455446f03d138448591f526bc63796, type: 3}
     cost: 250
-    upgradeCost: 400
+    upgradeToLvl_2_Cost: 400
+    upgradeToLvl_3_Cost: 700
   laserBeamer:
-    prefab: {fileID: 9050846226654869650, guid: 6c0428aa63a0aca40a7c1ae7efb42533, type: 3}
-    upgradedPrefab: {fileID: 9050846226654869650, guid: 57e31da70bc85a84f89087dafc575cdb, type: 3}
+    lvl_1_prefab: {fileID: 9050846226654869650, guid: 6c0428aa63a0aca40a7c1ae7efb42533, type: 3}
+    lvl_2_prefab: {fileID: 9050846226654869650, guid: 57e31da70bc85a84f89087dafc575cdb, type: 3}
+    lvl_3_prefab: {fileID: 7525348008323236630, guid: 489307a9e0255114bbca25b760de2290, type: 3}
     cost: 350
-    upgradeCost: 500
+    upgradeToLvl_2_Cost: 500
+    upgradeToLvl_3_Cost: 1000
   gatlingTurret:
-    prefab: {fileID: 1981732433040641019, guid: 63caf494bd449a94582a947005c01a3e, type: 3}
-    upgradedPrefab: {fileID: 1593507960508696830, guid: 857933818c4e8de4195172e53b991ba5, type: 3}
+    lvl_1_prefab: {fileID: 1981732433040641019, guid: 63caf494bd449a94582a947005c01a3e, type: 3}
+    lvl_2_prefab: {fileID: 1593507960508696830, guid: 857933818c4e8de4195172e53b991ba5, type: 3}
+    lvl_3_prefab: {fileID: 106947247633736306, guid: e572a1b0d1328b34c883cbf11855554d, type: 3}
     cost: 300
-    upgradeCost: 400
+    upgradeToLvl_2_Cost: 500
+    upgradeToLvl_3_Cost: 750
 --- !u!1 &2695304059280013036
 GameObject:
   m_ObjectHideFlags: 0
