@@ -23,7 +23,9 @@ public class LevelSelector : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        
+        if (Input.GetKeyDown(KeyCode.L)) {
+            unlockDevLevel();
+        }
     }
 
     public void Select(string levelName) {
@@ -48,5 +50,11 @@ public class LevelSelector : MonoBehaviour {
         }
 
         Select(levelName);
+    }
+
+    private void unlockDevLevel() {
+        for (int i = 0; i < levelButtons.Length; i++) {
+                levelButtons[i].interactable = true;
+        }
     }
 }
