@@ -114,14 +114,17 @@ MonoBehaviour:
   hoverColor: {r: 0.6392157, g: 0.6392157, b: 0.6392157, a: 1}
   notEnoughtMoneyColor: {r: 1, g: 0.24905658, b: 0.24905658, a: 0}
   positionOffset: {x: 0, y: 0.5, z: 0}
-  isRockNode: 0
+  isBlockedNode: 1
   turret: {fileID: 0}
   turretBlueprint:
-    prefab: {fileID: 0}
-    upgradedPrefab: {fileID: 0}
+    lvl_1_prefab: {fileID: 0}
+    lvl_2_prefab: {fileID: 0}
+    lvl_3_prefab: {fileID: 0}
     cost: 0
-    upgradeCost: 0
-  isUpgraded: 0
+    upgradeToLvl_2_Cost: 0
+    upgradeToLvl_3_Cost: 0
+  isUpgradedToLvl2: 0
+  isUpgradedToLvl3: 0
 --- !u!1 &1977153574232436212
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,7 +8,7 @@ public class Node : MonoBehaviour {
     [SerializeField] private Color notEnoughtMoneyColor;
     [SerializeField] private Vector3 positionOffset;
 
-    [SerializeField] private bool isRockNode;
+    [SerializeField] private bool isBlockedNode;
 
     private Renderer rend;
     private Color startColor;
@@ -26,7 +26,7 @@ public class Node : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        if (isRockNode) {
+        if (!isBlockedNode) {
             rend = GetComponent<Renderer>();
             startColor = rend.material.color;
             buildManager = BuildManager.instance;
@@ -39,7 +39,7 @@ public class Node : MonoBehaviour {
     }
 
     private void OnMouseEnter() {
-        if (isRockNode) {
+        if (!isBlockedNode) {
             if (EventSystem.current.IsPointerOverGameObject()) {
                 return;
             }
@@ -58,13 +58,13 @@ public class Node : MonoBehaviour {
     }
 
     private void OnMouseExit() {
-        if (isRockNode) {
+        if (!isBlockedNode) {
             rend.material.color = startColor;
         }
     }
 
     private void OnMouseDown() {
-        if (isRockNode) {
+        if (!isBlockedNode) {
             if (EventSystem.current.IsPointerOverGameObject()) {
                 return;
             }
