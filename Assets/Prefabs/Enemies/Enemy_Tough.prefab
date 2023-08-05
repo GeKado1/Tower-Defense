@@ -368,9 +368,11 @@ MonoBehaviour:
   startHealth: 350
   speed: 0
   health: 100
-  damage: 1
+  damage: 5
   moneyGiven: 150
   healthBar: {fileID: 8361976204901906757}
+  isDieEnemy: 0
+  isSpawnedEnemy: 0
 --- !u!114 &8292682660701792825
 MonoBehaviour:
   m_ObjectHideFlags: 0

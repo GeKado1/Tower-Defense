@@ -118,10 +118,11 @@ MonoBehaviour:
   startHealth: 200
   speed: 0
   health: 100
-  damage: 1
+  damage: 3
   moneyGiven: 100
   healthBar: {fileID: 1718416989530533320}
   isDieEnemy: 1
+  isSpawnedEnemy: 0
 --- !u!114 &1208997534994742964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,6 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   childEnemy: {fileID: 1797864041135946602, guid: c8503641a8394f947ae63ee39b429b4b, type: 3}
   numberOfChild: 2
+  immortal: 0
 --- !u!1 &4843783716182499363
 GameObject:
   m_ObjectHideFlags: 0
