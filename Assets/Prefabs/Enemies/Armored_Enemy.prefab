@@ -462,7 +462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8320db6d132caa840bcf0c8055fd3016, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dieEffect: {fileID: 3459962042806317976, guid: c6da448bb07bdd74dbcb7fe7eb7a8907, type: 3}
+  dieEffect: {fileID: 3459962042806317976, guid: f725c792805373745a0cedc3989dfc02, type: 3}
   startSpeed: 5
   startHealth: 500
   speed: 0
@@ -472,6 +472,8 @@ MonoBehaviour:
   healthBar: {fileID: 8361976204901906757}
   isDieEnemy: 0
   isSpawnedEnemy: 0
+  isArmouredEnemy: 1
+  dmgReduction: 0.15
 --- !u!114 &8292682660701792825
 MonoBehaviour:
   m_ObjectHideFlags: 0

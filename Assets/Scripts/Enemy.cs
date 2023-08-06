@@ -23,8 +23,13 @@ public class Enemy : MonoBehaviour {
 
     private bool isDead = false;
 
+    [Header("Differents Types of Enemies")]
     [SerializeField] private bool isDieEnemy;
     public bool isSpawnedEnemy;
+
+    [SerializeField] private bool isArmouredEnemy;
+    [Header("If isArmouredEnemy is true")]
+    [SerializeField] private float dmgReduction;
 
     // Start is called before the first frame update
     void Start() {
@@ -43,7 +48,12 @@ public class Enemy : MonoBehaviour {
     }
 
     public void TakeDamage(float dmgTaken) {
-        health = health - dmgTaken;
+        if (isArmouredEnemy) {
+            health -= dmgTaken * (1f - dmgReduction);
+        }
+        else {
+            health -= dmgTaken;
+        }
 
         healthBar.fillAmount = health/startHealth;
 
