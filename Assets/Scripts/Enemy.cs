@@ -73,7 +73,7 @@ public class Enemy : MonoBehaviour {
             WaveSpawner.enemiesAlive += GetComponent<EnemySpawnDie>().GetChild();
         }
 
-        GameObject effect = (GameObject) Instantiate(dieEffect, transform.position, Quaternion.identity);
+        GameObject effect = Instantiate(dieEffect, transform.position, Quaternion.identity);
         Destroy(effect, 5f);
 
         WaveSpawner.enemiesAlive--;
@@ -88,5 +88,6 @@ public class Enemy : MonoBehaviour {
     private void HardMode() {
         health = startHealth * 2;
         damage *= 2;
+        dmgReduction *= 2;
     }
 }

@@ -8,7 +8,9 @@ public class EnemySpawnDie : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        
+        if (GameManager.hardMode){
+            numberOfChild++;
+        }
     }
 
     // Update is called once per frame
@@ -18,7 +20,7 @@ public class EnemySpawnDie : MonoBehaviour {
 
     public void SpawnChild(Transform _target, int currentWavePointIndex) {
         for (int i = 0; i < numberOfChild; i++) {
-            GameObject spawnedEnemy = (GameObject) Instantiate(childEnemy, transform.position, Quaternion.identity);
+            GameObject spawnedEnemy = Instantiate(childEnemy, transform.position, Quaternion.identity);
             EnemyMovement enemyMovement = spawnedEnemy.GetComponent<EnemyMovement>();
 
             enemyMovement.SetTarget(_target);
