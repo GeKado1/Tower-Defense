@@ -1,3 +1,2 @@
-- Functionality of Spawn on Die Enemy
-- Add Hard Difficulty
 - Add new levels
+- Add start level button
