@@ -26,7 +26,7 @@ public class RoundsSurvived : MonoBehaviour {
 
         yield return new WaitForSeconds(0.7f);
 
-        while (round <= PlayerStats.rounds) {
+        while (round < PlayerStats.rounds) {
             round++;
             roundsText.SetText(round.ToString());
 

@@ -19,7 +19,7 @@ public class WaveSpawner : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        StartCoroutine(SpawnWave());
+        StartCoroutine(InitialWave());
         countdown = timeBetweenWaves;
 
         waveTimerText.text = "Next wave: " + string.Format("{0:00.00}", countdown);
@@ -70,5 +70,10 @@ public class WaveSpawner : MonoBehaviour {
         for (int i = 0; i < spawnPoints.Length; i++) {
             Instantiate(enemy, spawnPoints[i].position, spawnPoints[i].rotation);
         }
+    }
+
+    IEnumerator InitialWave() {
+        yield return new WaitForSeconds(timeBetweenWaves);
+        StartCoroutine(SpawnWave());
     }
 }

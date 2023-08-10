@@ -5985,6 +5985,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2695304057371249894, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 815326650}
+    - target: {fileID: 2695304057371249894, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Menu
+      objectReference: {fileID: 0}
     - target: {fileID: 2695304057873325939, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -6021,10 +6029,26 @@ PrefabInstance:
       propertyPath: levelToUnlock
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 2695304058171254439, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 815326650}
+    - target: {fileID: 2695304058171254439, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Retry
+      objectReference: {fileID: 0}
     - target: {fileID: 2695304058619437703, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: sceneFader
       value: 
       objectReference: {fileID: 124861281}
+    - target: {fileID: 2695304058709006771, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 815326650}
+    - target: {fileID: 2695304058709006771, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Toggle
+      objectReference: {fileID: 0}
     - target: {fileID: 2695304059307587460, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: m_Name
       value: PlayerCanvas
