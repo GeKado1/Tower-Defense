@@ -1,3 +1,7 @@
+10/08/2023
+
+Armored Enemy Money Given: 50 -> 200
+
 05/08/2023
 
 Enemy Spawn In Dead DMG: 1 -> 3

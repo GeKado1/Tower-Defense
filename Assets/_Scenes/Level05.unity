@@ -6347,7 +6347,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2695304057981728533, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: nextLevel
-      value: LevelSelector
+      value: Level06
       objectReference: {fileID: 0}
     - target: {fileID: 2695304057981728533, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: sceneFader
@@ -6355,7 +6355,7 @@ PrefabInstance:
       objectReference: {fileID: 124861281}
     - target: {fileID: 2695304057981728533, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: levelToUnlock
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2695304058619437703, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: sceneFader
