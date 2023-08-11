@@ -1,3 +1,8 @@
+11/08/2023
+
+Mini Enemy Money Given: 25 -> 50
+Money Given By Enemies in hard mode x1 -> x2
+
 10/08/2023
 
 Armored Enemy Money Given: 50 -> 200

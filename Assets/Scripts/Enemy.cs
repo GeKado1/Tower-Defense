@@ -87,7 +87,9 @@ public class Enemy : MonoBehaviour {
 
     private void HardMode() {
         health = startHealth * 2;
+        startHealth *= 2;
         damage *= 2;
         dmgReduction *= 2;
+        moneyGiven *= 2;
     }
 }
