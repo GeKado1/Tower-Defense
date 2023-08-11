@@ -7787,6 +7787,7 @@ MonoBehaviour:
   spawnPoints:
   - {fileID: 151726920}
   timeBetweenWaves: 2
+  initialTime: 2
   waveTimerText: {fileID: 688234697}
 --- !u!4 &815326655
 Transform:

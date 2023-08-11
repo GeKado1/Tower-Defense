@@ -2253,6 +2253,7 @@ MonoBehaviour:
   - {fileID: 1165615885}
   - {fileID: 1566089140}
   timeBetweenWaves: 3
+  initialTime: 2
   waveTimerText: {fileID: 1104179395}
 --- !u!114 &307126316
 MonoBehaviour:

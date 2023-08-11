@@ -12,15 +12,18 @@ public class WaveSpawner : MonoBehaviour {
 
     [SerializeField] private Transform[] spawnPoints;
     [SerializeField] private float timeBetweenWaves = 0;
+    [SerializeField] private float initialTime = 0;
     [SerializeField] private TextMeshProUGUI waveTimerText;
 
-    private float countdown = 2;
+    private float countdown = 0;
     private int waveNum = 0;
+
+    private bool initialWave = true;
 
     // Start is called before the first frame update
     void Start() {
         StartCoroutine(InitialWave());
-        countdown = timeBetweenWaves;
+        countdown = initialTime;
 
         waveTimerText.text = "Next wave: " + string.Format("{0:00.00}", countdown);
     }
@@ -40,7 +43,7 @@ public class WaveSpawner : MonoBehaviour {
             this.enabled = false;
         }
 
-        if (countdown <= 0f) {
+        if (countdown <= 0f && initialWave != true) {
             StartCoroutine(SpawnWave());
             countdown = timeBetweenWaves;
             return;
@@ -73,7 +76,8 @@ public class WaveSpawner : MonoBehaviour {
     }
 
     IEnumerator InitialWave() {
-        yield return new WaitForSeconds(timeBetweenWaves);
+        yield return new WaitForSeconds(initialTime);
+        initialWave = false;
         StartCoroutine(SpawnWave());
     }
 }

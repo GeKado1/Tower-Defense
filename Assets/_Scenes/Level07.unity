@@ -4432,7 +4432,6 @@ Transform:
   - {fileID: 344433919}
   - {fileID: 2055778593}
   - {fileID: 1125260}
-  - {fileID: 1020077503}
   - {fileID: 1703550188}
   - {fileID: 228330203}
   - {fileID: 183335651}
@@ -4459,11 +4458,11 @@ Transform:
   - {fileID: 668748885}
   - {fileID: 1357457880}
   - {fileID: 2034550046}
-  - {fileID: 1767741021}
+  - {fileID: 1020077503}
+  - {fileID: 76769006}
   - {fileID: 799315782}
   - {fileID: 1728530626}
   - {fileID: 1875812404}
-  - {fileID: 76769006}
   - {fileID: 260081533}
   - {fileID: 847520624}
   - {fileID: 36145316}
@@ -4486,9 +4485,9 @@ Transform:
   - {fileID: 1619491649}
   - {fileID: 1363373505}
   - {fileID: 247241749}
-  - {fileID: 1696569351}
-  - {fileID: 1606494551}
   - {fileID: 1862005202}
+  - {fileID: 1606494551}
+  - {fileID: 1767741021}
   - {fileID: 3822232}
   - {fileID: 1298290756}
   - {fileID: 353356018}
@@ -4520,6 +4519,7 @@ Transform:
   - {fileID: 1145406994}
   - {fileID: 317685187}
   - {fileID: 719155705}
+  - {fileID: 1696569351}
   - {fileID: 1667007418}
   - {fileID: 338415912}
   - {fileID: 925742164}
@@ -4545,7 +4545,7 @@ Transform:
   - {fileID: 321901115}
   - {fileID: 396898436}
   - {fileID: 1969273226}
-  - {fileID: 1523613113}
+  - {fileID: 797088276}
   - {fileID: 662159868}
   - {fileID: 686915892}
   - {fileID: 1739452323}
@@ -4554,11 +4554,11 @@ Transform:
   - {fileID: 2136606908}
   - {fileID: 1023937120}
   - {fileID: 2009957725}
+  - {fileID: 1523613113}
   - {fileID: 18366787}
   - {fileID: 921772781}
   - {fileID: 1544512026}
   - {fileID: 192429797}
-  - {fileID: 797088276}
   - {fileID: 91685275}
   - {fileID: 665620759}
   - {fileID: 392539775}
@@ -7365,6 +7365,7 @@ MonoBehaviour:
   - {fileID: 1973409096}
   - {fileID: 120715382}
   timeBetweenWaves: 2
+  initialTime: 2
   waveTimerText: {fileID: 688234697}
 --- !u!4 &815326655
 Transform:
