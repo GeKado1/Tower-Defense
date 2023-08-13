@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   childEnemy: {fileID: 1797864041135946602, guid: 063e1ae4e0aba70498129646e25b3ed3, type: 3}
-  timeToSpawn: 5
+  timeToSpawn: 3
 --- !u!1 &2121208947873799498
 GameObject:
   m_ObjectHideFlags: 0

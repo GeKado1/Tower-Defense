@@ -8,6 +8,8 @@ public class SpawnerEnemy : MonoBehaviour {
     [SerializeField] private float timeToSpawn;
     private float countdown;
 
+    private EnemyMovement em;
+
     // Start is called before the first frame update
     void Start() {
         if (GameManager.hardMode) {
@@ -20,18 +22,23 @@ public class SpawnerEnemy : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         if (countdown <= 0f) {
-            SpawnChild();
+            em = GetComponent<EnemyMovement>();
+            SpawnChild(em.GetTarget(), em.GetWavePointIndex()); ;
             countdown = timeToSpawn;
         }
 
         countdown -= Time.deltaTime;
     }
 
-    private void SpawnChild() {
+    private void SpawnChild(Transform _target, int currentWavePointIndex) {
         GameObject spawnedEnemy = Instantiate(childEnemy, transform.position, Quaternion.identity);
         EnemyMovement enemyMovement = spawnedEnemy.GetComponent<EnemyMovement>();
 
-        enemyMovement.SetTarget(enemyMovement.GetTarget());
-        enemyMovement.SetWavePointIndex(enemyMovement.GetWavePointIndex());
+        Debug.Log(enemyMovement);
+
+        enemyMovement.SetTarget(_target);
+        enemyMovement.SetWavePointIndex(currentWavePointIndex);
+
+        WaveSpawner.enemiesAlive++;
     }
 }

@@ -7300,8 +7300,13 @@ MonoBehaviour:
   - enemy: {fileID: 9933625944124505, guid: a2a239d2202e9a1458d2d637b3f833e2, type: 3}
     count: 1
     rate: 0.8
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 1
+    rate: 0.8
   spawnPoints:
   - {fileID: 1462723015}
+  - {fileID: 1973409096}
+  - {fileID: 120715382}
   timeBetweenWaves: 2
   initialTime: 2
   waveTimerText: {fileID: 688234697}
