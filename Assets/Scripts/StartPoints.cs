@@ -17,11 +17,11 @@ public class StartPoints : MonoBehaviour {
         
     }
 
-    public Transform getStartPointTransform() {
+    public Transform GetStartPointTransform() {
         return transform;
     }
 
-    public static WayPoints getRoute() {
+    public static WayPoints GetRoute() {
         return routeToFollow;
     }
 }
