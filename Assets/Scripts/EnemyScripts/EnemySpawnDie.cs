@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Enemy))]
 public class EnemySpawnDie : MonoBehaviour {
     [SerializeField] private GameObject childEnemy;
     [SerializeField] private int numberOfChild;

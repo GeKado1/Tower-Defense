@@ -49,7 +49,7 @@ public class WaveSpawner : MonoBehaviour {
             return;
         }
 
-        countdown = countdown - Time.deltaTime;
+        countdown -= Time.deltaTime;
         countdown = Mathf.Clamp(countdown, 0f, Mathf.Infinity);
 
         waveTimerText.text = "Next wave: " + string.Format("{0:00.00}", countdown);
