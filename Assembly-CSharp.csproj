@@ -57,34 +57,35 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\WaveSpawner.cs" />
-    <Compile Include="Assets\Scripts\BuildManager.cs" />
-    <Compile Include="Assets\Scripts\TurretBlueprint.cs" />
+    <Compile Include="Assets\Scripts\WaveScripts\WaveSpawner.cs" />
+    <Compile Include="Assets\Scripts\TurretScripts\BuildManager.cs" />
+    <Compile Include="Assets\Scripts\TurretScripts\TurretBlueprint.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
-    <Compile Include="Assets\Scripts\Node.cs" />
+    <Compile Include="Assets\Scripts\NodeScripts\Node.cs" />
     <Compile Include="Assets\Scripts\LevelSelector.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Money.cs" />
-    <Compile Include="Assets\Scripts\StartPoints.cs" />
-    <Compile Include="Assets\Scripts\NodeUI.cs" />
+    <Compile Include="Assets\Scripts\WaveScripts\StartPoints.cs" />
+    <Compile Include="Assets\Scripts\NodeScripts\NodeUI.cs" />
     <Compile Include="Assets\Scripts\CompleteLevel.cs" />
     <Compile Include="Assets\Scripts\SceneFader.cs" />
-    <Compile Include="Assets\Scripts\EnemySpawnDie.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\EnemySpawnDie.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
     <Compile Include="Assets\Scripts\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\RoundsSurvived.cs" />
-    <Compile Include="Assets\Scripts\Wave.cs" />
+    <Compile Include="Assets\Scripts\WaveScripts\Wave.cs" />
     <Compile Include="Assets\Scripts\Shop.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
-    <Compile Include="Assets\Scripts\Turret.cs" />
+    <Compile Include="Assets\Scripts\TurretScripts\Turret.cs" />
     <Compile Include="Assets\Scripts\Lives.cs" />
-    <Compile Include="Assets\Scripts\EnemyMovement.cs" />
-    <Compile Include="Assets\Scripts\Bullet.cs" />
-    <Compile Include="Assets\Scripts\WayPoints.cs" />
-    <Compile Include="Assets\Scripts\Test\EnemyV2.cs" />
-    <Compile Include="Assets\Scripts\Test\StartPointsV2.cs" />
-    <Compile Include="Assets\Scripts\Test\WaveSpawnerV2.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\EnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\TurretScripts\Bullet.cs" />
+    <Compile Include="Assets\Scripts\WaveScripts\WayPoints.cs" />
+    <Compile Include="Assets\Scripts\_Test\EnemyV2.cs" />
+    <Compile Include="Assets\Scripts\_Test\StartPointsV2.cs" />
+    <Compile Include="Assets\Scripts\_Test\WaveSpawnerV2.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\SpawnerEnemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
