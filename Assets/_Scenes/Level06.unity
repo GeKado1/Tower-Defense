@@ -6023,7 +6023,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2695304057981728533, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: nextLevel
-      value: LevelSelector
+      value: Level07
       objectReference: {fileID: 0}
     - target: {fileID: 2695304057981728533, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: sceneFader
@@ -6031,7 +6031,7 @@ PrefabInstance:
       objectReference: {fileID: 124861281}
     - target: {fileID: 2695304057981728533, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: levelToUnlock
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2695304058171254439, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -7333,6 +7333,7 @@ MonoBehaviour:
   - {fileID: 1078357137}
   - {fileID: 2136944488}
   timeBetweenWaves: 2
+  initialTime: 0
   waveTimerText: {fileID: 688234697}
 --- !u!4 &815326655
 Transform:

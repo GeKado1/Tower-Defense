@@ -71,7 +71,10 @@
     <Compile Include="Assets\Scripts\CompleteLevel.cs" />
     <Compile Include="Assets\Scripts\SceneFader.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\EnemySpawnDie.cs" />
+    <Compile Include="Assets\Scripts\_Test\EnemyV2.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\SpawnerEnemy.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
+    <Compile Include="Assets\Scripts\_Test\WaveSpawnerV2.cs" />
     <Compile Include="Assets\Scripts\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\RoundsSurvived.cs" />
     <Compile Include="Assets\Scripts\WaveScripts\Wave.cs" />
@@ -82,10 +85,7 @@
     <Compile Include="Assets\Scripts\EnemyScripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\TurretScripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\WaveScripts\WayPoints.cs" />
-    <Compile Include="Assets\Scripts\_Test\EnemyV2.cs" />
     <Compile Include="Assets\Scripts\_Test\StartPointsV2.cs" />
-    <Compile Include="Assets\Scripts\_Test\WaveSpawnerV2.cs" />
-    <Compile Include="Assets\Scripts\EnemyScripts\SpawnerEnemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
