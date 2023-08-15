@@ -7305,6 +7305,8 @@ MonoBehaviour:
     rate: 0.8
   spawnPoints:
   - {fileID: 1462723015}
+  - {fileID: 1973409096}
+  - {fileID: 120715382}
   timeBetweenWaves: 2
   initialTime: 2
   waveTimerText: {fileID: 688234697}

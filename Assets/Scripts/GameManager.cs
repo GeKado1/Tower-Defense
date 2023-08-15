@@ -22,6 +22,11 @@ public class GameManager : MonoBehaviour {
         if (PlayerStats.lives <= 0 && gameEnd == false) {
             EndGame();
         }
+
+        if (Input.GetKeyDown(KeyCode.H)) {
+            ChangeDifficulty();
+            Debug.Log(hardMode);
+        }
     }
 
     void EndGame() {
@@ -32,5 +37,9 @@ public class GameManager : MonoBehaviour {
     public void WinLevel() {
         completeLevel.SetActive(true);
         gameEnd = true;
+    }
+
+    private void ChangeDifficulty() {
+        hardMode = !hardMode;
     }
 }

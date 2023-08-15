@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Enemy))]
 public class HealEnemy : MonoBehaviour {
     [SerializeField] private float heal;
     [SerializeField] private float healCountdown;
@@ -29,7 +30,6 @@ public class HealEnemy : MonoBehaviour {
         }
 
         countdown -= Time.deltaTime;
-        Debug.Log(enemy.health);
     }
 
     private void HealItself() {
