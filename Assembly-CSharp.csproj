@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\LevelSelector.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\HealEnemy.cs" />
     <Compile Include="Assets\Scripts\Money.cs" />
     <Compile Include="Assets\Scripts\WaveScripts\StartPoints.cs" />
     <Compile Include="Assets\Scripts\NodeScripts\NodeUI.cs" />

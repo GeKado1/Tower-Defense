@@ -344,6 +344,7 @@
 "Assets/Scripts/EnemyScripts/Enemy.cs"
 "Assets/Scripts/EnemyScripts/EnemyMovement.cs"
 "Assets/Scripts/EnemyScripts/EnemySpawnDie.cs"
+"Assets/Scripts/EnemyScripts/HealEnemy.cs"
 "Assets/Scripts/EnemyScripts/SpawnerEnemy.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GameOver.cs"

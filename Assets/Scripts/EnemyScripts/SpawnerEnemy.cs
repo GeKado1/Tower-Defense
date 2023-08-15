@@ -34,8 +34,6 @@ public class SpawnerEnemy : MonoBehaviour {
         GameObject spawnedEnemy = Instantiate(childEnemy, transform.position, Quaternion.identity);
         EnemyMovement enemyMovement = spawnedEnemy.GetComponent<EnemyMovement>();
 
-        Debug.Log(enemyMovement);
-
         enemyMovement.SetTarget(_target);
         enemyMovement.SetWavePointIndex(currentWavePointIndex);
 
