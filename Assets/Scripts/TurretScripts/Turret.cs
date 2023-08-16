@@ -134,4 +134,12 @@ public class Turret : MonoBehaviour {
         impactEffect.transform.position = target.position + direction.normalized;
         impactEffect.transform.rotation = Quaternion.LookRotation(direction);
     }
+
+    public float GetRange() {
+        return range;
+    }
+
+    public void SetRange(float _range) {
+        range = _range;
+    }
 }

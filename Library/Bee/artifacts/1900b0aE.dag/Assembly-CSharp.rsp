@@ -352,6 +352,7 @@
 "Assets/Scripts/Lives.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/Money.cs"
+"Assets/Scripts/NodeScripts/BuffNode.cs"
 "Assets/Scripts/NodeScripts/Node.cs"
 "Assets/Scripts/NodeScripts/NodeUI.cs"
 "Assets/Scripts/PauseMenu.cs"

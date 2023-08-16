@@ -87,30 +87,45 @@ public class Node : MonoBehaviour {
     }
 
     void BuildTurret(TurretBlueprint blueprint) {
+        float range = blueprint.lvl_1_prefab.GetComponent<Turret>().GetRange();
+
         if (PlayerStats.money < blueprint.cost) {
             Debug.Log("Not enought money to build that!");
             return;
         }
 
+        BuffNode bn = GetComponent<BuffNode>();
+        if (bn) {
+            bn.BuffTurret(blueprint, isUpgradedToLvl2, isUpgradedToLvl3);
+        }
+
         PlayerStats.money = PlayerStats.money - blueprint.cost;
 
-        GameObject _turret = (GameObject)Instantiate(blueprint.lvl_1_prefab, GetBuildPosition(), Quaternion.identity);
+        GameObject _turret = (GameObject) Instantiate(blueprint.lvl_1_prefab, GetBuildPosition(), Quaternion.identity);
         turret = _turret;
 
         turretBlueprint = blueprint;
 
-        GameObject effect = (GameObject)Instantiate(BuildManager.build_Effect, GetBuildPosition(), Quaternion.identity);
+        GameObject effect = (GameObject) Instantiate(BuildManager.build_Effect, GetBuildPosition(), Quaternion.identity);
         Destroy(effect, 5f);
 
         Debug.Log("Turret build!");
+
+        if (bn) {
+            bn.ReturnTurretNormalRange(turretBlueprint, isUpgradedToLvl2, isUpgradedToLvl3, range);
+        }
     }
 
     public void UpgradeTurret() {
+        float range;
+
         if (!isUpgradedToLvl2) {
             if (PlayerStats.money < turretBlueprint.upgradeToLvl_2_Cost) {
                 Debug.Log("Not enought money to upgrade that!");
                 return;
             }
+
+            range = turretBlueprint.lvl_2_prefab.GetComponent<Turret>().GetRange();
 
             PlayerStats.money = PlayerStats.money - turretBlueprint.upgradeToLvl_2_Cost;
         }
@@ -120,28 +135,49 @@ public class Node : MonoBehaviour {
                 return;
             }
 
+            range = turretBlueprint.lvl_3_prefab.GetComponent<Turret>().GetRange();
+
             PlayerStats.money = PlayerStats.money - turretBlueprint.upgradeToLvl_3_Cost;
         }
 
         //Destroy old turret sprite
         Destroy(turret);
 
+        //Checking if the turret is in a buff node
+        BuffNode bn = GetComponent<BuffNode>();
+
         //Build new turret sprite
         if (!isUpgradedToLvl2) {
+            if (bn) {
+                bn.BuffTurret(turretBlueprint, isUpgradedToLvl2, isUpgradedToLvl3);
+            }
+
             GameObject _turret = Instantiate(turretBlueprint.lvl_2_prefab, GetBuildPosition(), Quaternion.identity);
             turret = _turret;
 
             GameObject effect = Instantiate(BuildManager.build_Effect, GetBuildPosition(), Quaternion.identity);
             Destroy(effect, 5f);
 
+            if (bn) {
+                bn.ReturnTurretNormalRange(turretBlueprint, isUpgradedToLvl2, isUpgradedToLvl3, range);
+            }
+
             isUpgradedToLvl2 = true;
         }
         else {
+            if (bn) {
+                bn.BuffTurret(turretBlueprint, isUpgradedToLvl2, isUpgradedToLvl3);
+            }
+
             GameObject _turret = Instantiate(turretBlueprint.lvl_3_prefab, GetBuildPosition(), Quaternion.identity);
             turret = _turret;
 
             GameObject effect = Instantiate(BuildManager.build_Effect, GetBuildPosition(), Quaternion.identity);
             Destroy(effect, 5f);
+
+            if (bn) {
+                bn.ReturnTurretNormalRange(turretBlueprint, isUpgradedToLvl2, isUpgradedToLvl3, range);
+            }
 
             isUpgradedToLvl3 = true;
         }
