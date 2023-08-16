@@ -1,3 +1,12 @@
+16/08/2023
+
+Self-Healing Enemy Money Given: $50 -> $200
+
+Level 7:
+Initial Countdown: 2s -> 5s
+Countdown Between Waves: 2s -> 2.5s
+Start Money: $800 -> $1000
+
 11/08/2023
 
 Mini Enemy Money Given: 25 -> 50
@@ -5,7 +14,7 @@ Money Given By Enemies in hard mode x1 -> x2
 
 10/08/2023
 
-Armored Enemy Money Given: 50 -> 200
+Armored Enemy Money Given: $50 -> $200
 
 05/08/2023
 
