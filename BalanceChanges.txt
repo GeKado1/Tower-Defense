@@ -1,3 +1,14 @@
+17/08/2023
+
+Bug Fixes:
+
+Standard Turret Lvl 3:
+The range was the one that should not
+Now shoot the bullet that corresponds to it
+
+Gatling Turret Lvl 3:
+Now shoot the bullet that corresponds to it
+
 16/08/2023
 
 Self-Healing Enemy Money Given: $50 -> $200

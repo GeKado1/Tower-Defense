@@ -88,21 +88,29 @@ public class Node : MonoBehaviour {
 
     void BuildTurret(TurretBlueprint blueprint) {
         float range = blueprint.lvl_1_prefab.GetComponent<Turret>().GetRange();
+        BuffNode bn = GetComponent<BuffNode>();
 
         if (PlayerStats.money < blueprint.cost) {
             Debug.Log("Not enought money to build that!");
             return;
         }
 
-        BuffNode bn = GetComponent<BuffNode>();
-        if (bn) {
+        
+        /*if (bn) {
             bn.BuffTurret(blueprint, isUpgradedToLvl2, isUpgradedToLvl3);
-        }
+            Debug.Log("Node.cs Function GetBuildPosition if bn = true:  " + blueprint.lvl_1_prefab.GetComponent<Turret>().GetRange());
+        }*/
 
         PlayerStats.money = PlayerStats.money - blueprint.cost;
 
         GameObject _turret = (GameObject) Instantiate(blueprint.lvl_1_prefab, GetBuildPosition(), Quaternion.identity);
-        turret = _turret;
+        if (bn) {
+            turret = bn.BuffTurret(_turret, isUpgradedToLvl2, isUpgradedToLvl3);
+            //Debug.Log("");
+        }
+        else {
+            turret = _turret;
+        }
 
         turretBlueprint = blueprint;
 
@@ -111,9 +119,9 @@ public class Node : MonoBehaviour {
 
         Debug.Log("Turret build!");
 
-        if (bn) {
+        /*if (bn) {
             bn.ReturnTurretNormalRange(turretBlueprint, isUpgradedToLvl2, isUpgradedToLvl3, range);
-        }
+        }*/
     }
 
     public void UpgradeTurret() {
@@ -125,7 +133,7 @@ public class Node : MonoBehaviour {
                 return;
             }
 
-            range = turretBlueprint.lvl_2_prefab.GetComponent<Turret>().GetRange();
+            //range = turretBlueprint.lvl_2_prefab.GetComponent<Turret>().GetRange();
 
             PlayerStats.money = PlayerStats.money - turretBlueprint.upgradeToLvl_2_Cost;
         }
@@ -135,7 +143,7 @@ public class Node : MonoBehaviour {
                 return;
             }
 
-            range = turretBlueprint.lvl_3_prefab.GetComponent<Turret>().GetRange();
+            //range = turretBlueprint.lvl_3_prefab.GetComponent<Turret>().GetRange();
 
             PlayerStats.money = PlayerStats.money - turretBlueprint.upgradeToLvl_3_Cost;
         }
@@ -148,36 +156,52 @@ public class Node : MonoBehaviour {
 
         //Build new turret sprite
         if (!isUpgradedToLvl2) {
-            if (bn) {
+            /*if (bn) {
                 bn.BuffTurret(turretBlueprint, isUpgradedToLvl2, isUpgradedToLvl3);
-            }
+            }*/
 
             GameObject _turret = Instantiate(turretBlueprint.lvl_2_prefab, GetBuildPosition(), Quaternion.identity);
+            if (bn) {
+                turret = bn.BuffTurret(_turret, isUpgradedToLvl2, isUpgradedToLvl3);
+                //Debug.Log("");
+            }
+            else {
+                turret = _turret;
+            }
+
             turret = _turret;
 
             GameObject effect = Instantiate(BuildManager.build_Effect, GetBuildPosition(), Quaternion.identity);
             Destroy(effect, 5f);
 
-            if (bn) {
+            /*if (bn) {
                 bn.ReturnTurretNormalRange(turretBlueprint, isUpgradedToLvl2, isUpgradedToLvl3, range);
-            }
+            }*/
 
             isUpgradedToLvl2 = true;
         }
         else {
-            if (bn) {
+            /*if (bn) {
                 bn.BuffTurret(turretBlueprint, isUpgradedToLvl2, isUpgradedToLvl3);
-            }
+            }*/
 
             GameObject _turret = Instantiate(turretBlueprint.lvl_3_prefab, GetBuildPosition(), Quaternion.identity);
+            if (bn) {
+                turret = bn.BuffTurret(_turret, isUpgradedToLvl2, isUpgradedToLvl3);
+                //Debug.Log("");
+            }
+            else {
+                turret = _turret;
+            }
+
             turret = _turret;
 
             GameObject effect = Instantiate(BuildManager.build_Effect, GetBuildPosition(), Quaternion.identity);
             Destroy(effect, 5f);
 
-            if (bn) {
+            /*if (bn) {
                 bn.ReturnTurretNormalRange(turretBlueprint, isUpgradedToLvl2, isUpgradedToLvl3, range);
-            }
+            }*/
 
             isUpgradedToLvl3 = true;
         }

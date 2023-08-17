@@ -136,10 +136,12 @@ public class Turret : MonoBehaviour {
     }
 
     public float GetRange() {
+        Debug.Log("Turret.cs Function GetRange: " + range);
         return range;
     }
 
     public void SetRange(float _range) {
         range = _range;
+        Debug.Log("Turret.cs Function SetRange: " + _range);
     }
 }
