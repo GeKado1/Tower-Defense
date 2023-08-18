@@ -119,7 +119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dieEffect: {fileID: 7468707438551946778, guid: 25c7c67c79dd2b6429d42d267205e1d5, type: 3}
   startSpeed: 7.5
-  startHealth: 200
+  startHealth: 250
   speed: 0
   health: 100
   damage: 5
