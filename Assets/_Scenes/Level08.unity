@@ -7168,7 +7168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75143ad8dbe00f54a8ca7dad234df67f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startMoney: 1000
+  startMoney: 2000
   startLives: 20
 --- !u!114 &815326653
 MonoBehaviour:
@@ -7208,7 +7208,7 @@ MonoBehaviour:
   - {fileID: 1134828360}
   - {fileID: 865843415}
   timeBetweenWaves: 2.5
-  initialTime: 5
+  initialTime: 8
   waveTimerText: {fileID: 688234697}
 --- !u!4 &815326655
 Transform:
