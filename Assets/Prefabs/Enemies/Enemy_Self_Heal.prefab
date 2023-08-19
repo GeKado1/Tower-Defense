@@ -5183,7 +5183,7 @@ MonoBehaviour:
   speed: 0
   health: 100
   damage: 2
-  moneyGiven: 200
+  moneyGiven: 175
   healthBar: {fileID: 8361976204901906757}
   isDieEnemy: 0
   isSpawnedEnemy: 0
@@ -5214,4 +5214,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   heal: 25
-  healCountdown: 4
+  healCountdown: 3.5

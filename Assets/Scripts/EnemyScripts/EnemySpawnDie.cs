@@ -22,6 +22,8 @@ public class EnemySpawnDie : MonoBehaviour {
     public void SpawnChild(Transform _target, int currentWavePointIndex) {
         for (int i = 0; i < numberOfChild; i++) {
             GameObject spawnedEnemy = Instantiate(childEnemy, transform.position, Quaternion.identity);
+            spawnedEnemy.GetComponent<Enemy>().startSpeed -= i + 1;
+
             EnemyMovement enemyMovement = spawnedEnemy.GetComponent<EnemyMovement>();
 
             enemyMovement.SetTarget(_target);

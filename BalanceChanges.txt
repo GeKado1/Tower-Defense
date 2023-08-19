@@ -1,6 +1,17 @@
+19/08/2023
+
+Balance Changes:
+
+Self-Healing Enemy:
+Money Given: $200 -> $175
+Heal Countdown: 4s -> 3.5s
+
+Now each Mini Enemy spawned from Spawn on Dead Enemy, will have different speeds.
+
 18/08/2023
 
 Balance Changes:
+
 Level 7:
 Start Money: $1000 -> $1100
 Waves 2, 3, 4 & 5 changed for make level more easier
