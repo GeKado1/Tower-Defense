@@ -7168,8 +7168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75143ad8dbe00f54a8ca7dad234df67f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startMoney: 2000
-  startLives: 20
+  startMoney: 3500
+  startLives: 40
 --- !u!114 &815326653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7200,11 +7200,11 @@ MonoBehaviour:
   gameManager: {fileID: 815326651}
   waves:
   - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 1
+    rate: 1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
     count: 2
     rate: 0.75
-  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
-    count: 4
-    rate: 0.9
   - enemy: {fileID: 7201806381261781204, guid: 8d1341c873a47c1429aa7f56de488c74, type: 3}
     count: 1
     rate: 1
@@ -7212,26 +7212,26 @@ MonoBehaviour:
     count: 3
     rate: 1
   - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
-    count: 5
-    rate: 1
-  - enemy: {fileID: 7201806381261781204, guid: 69082e6093ca0cf47bad6216db90d50d, type: 3}
+    count: 3
+    rate: 0.9
+  - enemy: {fileID: 7201806381261781204, guid: b18b8fe402f80054bb330e154df31597, type: 3}
     count: 1
     rate: 1
   - enemy: {fileID: 9933625944124505, guid: a2a239d2202e9a1458d2d637b3f833e2, type: 3}
     count: 2
-    rate: 0.8
-  - enemy: {fileID: 7201806381261781204, guid: b18b8fe402f80054bb330e154df31597, type: 3}
-    count: 2
+    rate: 0.6
+  - enemy: {fileID: 7201806381261781204, guid: 69082e6093ca0cf47bad6216db90d50d, type: 3}
+    count: 1
     rate: 1
   - enemy: {fileID: 7201806381261781204, guid: 4f527242f18dd3146b54819f2f907324, type: 3}
     count: 2
     rate: 0.75
   - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
     count: 5
-    rate: 1.1
+    rate: 0.9
   - enemy: {fileID: 7201806381261781204, guid: 8d1341c873a47c1429aa7f56de488c74, type: 3}
-    count: 5
-    rate: 1
+    count: 4
+    rate: 0.8
   - enemy: {fileID: 9933625944124505, guid: 80e98972c647ef7469073eee3a4c731c, type: 3}
     count: 3
     rate: 0.9
@@ -7240,22 +7240,22 @@ MonoBehaviour:
     rate: 1.1
   - enemy: {fileID: 7201806381261781204, guid: 69082e6093ca0cf47bad6216db90d50d, type: 3}
     count: 2
-    rate: 1
+    rate: 0.75
   - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
     count: 10
-    rate: 1.25
+    rate: 1.05
   - enemy: {fileID: 7201806381261781204, guid: 8d1341c873a47c1429aa7f56de488c74, type: 3}
     count: 7
-    rate: 1.1
+    rate: 0.95
   - enemy: {fileID: 9933625944124505, guid: a2a239d2202e9a1458d2d637b3f833e2, type: 3}
     count: 5
     rate: 0.75
   - enemy: {fileID: 9933625944124505, guid: 80e98972c647ef7469073eee3a4c731c, type: 3}
     count: 5
-    rate: 1
+    rate: 0.75
   - enemy: {fileID: 7201806381261781204, guid: 69082e6093ca0cf47bad6216db90d50d, type: 3}
     count: 5
-    rate: 1.1
+    rate: 0.75
   - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
     count: 15
     rate: 1.3
@@ -7294,8 +7294,8 @@ MonoBehaviour:
   - {fileID: 2106688322}
   - {fileID: 1134828360}
   - {fileID: 865843415}
-  timeBetweenWaves: 2.5
-  initialTime: 8
+  timeBetweenWaves: 5
+  initialTime: 20
   waveTimerText: {fileID: 688234697}
 --- !u!4 &815326655
 Transform:

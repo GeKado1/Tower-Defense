@@ -2,6 +2,13 @@
 
 Balance Changes:
 
+Level 8:
+Initial Countdown: 8s -> 20s
+Countdown Between Waves: 2.5s -> 5s
+Start Money: $2000 -> $3500
+Start Lives: 20 -> 40
+Waves changes
+
 Self-Healing Enemy:
 Money Given: $200 -> $175
 Heal Countdown: 4s -> 3.5s
