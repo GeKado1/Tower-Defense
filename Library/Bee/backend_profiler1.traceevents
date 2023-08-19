@@ -1,449 +1,458 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1692264920266060, "dur":1525, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920267591, "dur":68, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1692264920267667, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1692264920267686, "dur":456, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1692264920268191, "dur":467, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920268658, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403158, "dur":143, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403301, "dur":254, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403555, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403560, "dur":29, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403589, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403592, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403623, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403627, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403639, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403640, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403660, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403661, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403671, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403673, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403678, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403680, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403685, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403687, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403692, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403693, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403698, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403699, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403704, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403705, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403710, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403711, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403716, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403718, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403723, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403724, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403729, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403730, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403736, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403751, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920403765, "dur":1357, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1692264920268319, "dur":355, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1692264920268675, "dur":3989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1692264920272671, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1692264920272885, "dur":660, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1692264920273546, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1692264920273650, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1692264920273865, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1692264920273926, "dur":244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1692264920274171, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1692264920274224, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1692264920274411, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1692264920274463, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1692264920274536, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1692264920274677, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1692264920274887, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1692264920274936, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1692264920274995, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":1, "ts":1692264920275039, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1692264920275253, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1692264920275317, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1692264920275506, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1692264920275544, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1692264920301137, "dur":2575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1692264920303740, "dur":99442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1692264920268383, "dur":303, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1692264920268686, "dur":3981, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1692264920272671, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1692264920272869, "dur":555, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1692264920273426, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1692264920273542, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1692264920273666, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1692264920273721, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1692264920273964, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1692264920274026, "dur":283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1692264920274310, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1692264920274372, "dur":308, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1692264920274681, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1692264920274761, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1692264920274864, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1692264920274916, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1692264920275252, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":2, "ts":1692264920275324, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1692264920275508, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":2, "ts":1692264920275551, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1692264920301518, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":2, "ts":1692264920302823, "dur":100333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920268313, "dur":353, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920268669, "dur":3989, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920272671, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1692264920272673, "dur":766, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920273442, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1692264920273444, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920273605, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1692264920273676, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920273923, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1692264920274011, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920274232, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1692264920274297, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920274530, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1692264920274668, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920274793, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1692264920274852, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920275083, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1692264920275139, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920275338, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":3, "ts":1692264920275387, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920276060, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":3, "ts":1692264920278106, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1692264920278171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920278175, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1692264920279205, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":3, "ts":1692264920279240, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920279242, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":3, "ts":1692264920280582, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":3, "ts":1692264920280716, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920280808, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1692264920280855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920280863, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1692264920281933, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/resources.assets" }}
-,{ "pid":12345, "tid":3, "ts":1692264920281970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920281974, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/resources.assets" }}
-,{ "pid":12345, "tid":3, "ts":1692264920282850, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level8.resS" }}
-,{ "pid":12345, "tid":3, "ts":1692264920282879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920282883, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level8.resS" }}
-,{ "pid":12345, "tid":3, "ts":1692264920283851, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level8" }}
-,{ "pid":12345, "tid":3, "ts":1692264920283891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920283916, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level8" }}
-,{ "pid":12345, "tid":3, "ts":1692264920284943, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level7.resS" }}
-,{ "pid":12345, "tid":3, "ts":1692264920284988, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920284991, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level7.resS" }}
-,{ "pid":12345, "tid":3, "ts":1692264920285965, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level7" }}
-,{ "pid":12345, "tid":3, "ts":1692264920286012, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920286016, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level7" }}
-,{ "pid":12345, "tid":3, "ts":1692264920287039, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level6.resS" }}
-,{ "pid":12345, "tid":3, "ts":1692264920287069, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920287072, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level6.resS" }}
-,{ "pid":12345, "tid":3, "ts":1692264920288351, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level5.resS" }}
-,{ "pid":12345, "tid":3, "ts":1692264920288396, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920288400, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level5.resS" }}
-,{ "pid":12345, "tid":3, "ts":1692264920289798, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level4.resS" }}
-,{ "pid":12345, "tid":3, "ts":1692264920289861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920289864, "dur":2845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level4.resS" }}
-,{ "pid":12345, "tid":3, "ts":1692264920292753, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level2.resS" }}
-,{ "pid":12345, "tid":3, "ts":1692264920292796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920292799, "dur":2339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level2.resS" }}
-,{ "pid":12345, "tid":3, "ts":1692264920295193, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":3, "ts":1692264920295266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1692264920295270, "dur":1929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":3, "ts":1692264920297243, "dur":105929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1692264920268353, "dur":327, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1692264920268680, "dur":3990, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1692264920272670, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1692264920273104, "dur":337, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1692264920273442, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1692264920273551, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1692264920273663, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1692264920273731, "dur":287, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1692264920274019, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1692264920274069, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1692264920274332, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1692264920274410, "dur":269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1692264920274680, "dur":66210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1692264920340891, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1692264920341114, "dur":62065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1692264920268438, "dur":268, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1692264920268706, "dur":3971, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1692264920272678, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1692264920272880, "dur":471, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1692264920273352, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1692264920273483, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1692264920273750, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1692264920273834, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1692264920274044, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1692264920274112, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1692264920274315, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1692264920274420, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1692264920274668, "dur":39413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":5, "ts":1692264920314082, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1692264920314358, "dur":88828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1692264920268412, "dur":288, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1692264920268700, "dur":3963, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1692264920272670, "dur":552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1692264920273222, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1692264920273305, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":6, "ts":1692264920273451, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1692264920273580, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1692264920273647, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1692264920273781, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1692264920273843, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1692264920274066, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1692264920274126, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1692264920274398, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1692264920274455, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1692264920274534, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1692264920274679, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1692264920274876, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":6, "ts":1692264920274943, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1692264920275100, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1692264920275138, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1692264920275326, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":6, "ts":1692264920275386, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1692264920275818, "dur":2253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":6, "ts":1692264920278106, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":6, "ts":1692264920278139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1692264920278172, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":6, "ts":1692264920279139, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1692264920279198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1692264920279203, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1692264920280754, "dur":6879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":6, "ts":1692264920287634, "dur":338, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1692264920287974, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level6" }}
-,{ "pid":12345, "tid":6, "ts":1692264920288027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1692264920288032, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level6" }}
-,{ "pid":12345, "tid":6, "ts":1692264920289068, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level5" }}
-,{ "pid":12345, "tid":6, "ts":1692264920289115, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1692264920289118, "dur":3121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level5" }}
-,{ "pid":12345, "tid":6, "ts":1692264920292325, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level3" }}
-,{ "pid":12345, "tid":6, "ts":1692264920292377, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1692264920292381, "dur":3811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level3" }}
-,{ "pid":12345, "tid":6, "ts":1692264920296235, "dur":106926, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1692264920268464, "dur":251, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1692264920268716, "dur":3965, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1692264920272681, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1692264920273106, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1692264920273218, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":7, "ts":1692264920273299, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1692264920273500, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1692264920273565, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1692264920273820, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1692264920273882, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1692264920273961, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1692264920274026, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1692264920274253, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1692264920274295, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1692264920274431, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1692264920274486, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1692264920274656, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1692264920274715, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1692264920274799, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":7, "ts":1692264920274856, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1692264920275066, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":7, "ts":1692264920275103, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1692264920275315, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":7, "ts":1692264920275403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1692264920289571, "dur":3539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":7, "ts":1692264920293155, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level1" }}
-,{ "pid":12345, "tid":7, "ts":1692264920293235, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1692264920293238, "dur":2635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level1" }}
-,{ "pid":12345, "tid":7, "ts":1692264920295918, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1692264920296048, "dur":381, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1692264920296430, "dur":106724, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1692264920268489, "dur":232, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1692264920268721, "dur":3962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1692264920272683, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1692264920273144, "dur":297, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1692264920273443, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1692264920273563, "dur":270, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1692264920273834, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1692264920273925, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1692264920274190, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1692264920274250, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1692264920274438, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1692264920274492, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1692264920274690, "dur":128118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":8, "ts":1692264920402809, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1692264920403112, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":8, "ts":1692264920403113, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1692264920268518, "dur":210, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1692264920268728, "dur":3957, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1692264920272685, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1692264920273079, "dur":419, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1692264920273499, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1692264920273637, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1692264920273814, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1692264920273888, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1692264920274121, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1692264920274193, "dur":228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1692264920274422, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1692264920274468, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1692264920274538, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1692264920274675, "dur":265, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1692264920274941, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":9, "ts":1692264920274996, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1692264920275149, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":9, "ts":1692264920275208, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1692264920275388, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":9, "ts":1692264920275439, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1692264920290009, "dur":2749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":9, "ts":1692264920292799, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level2" }}
-,{ "pid":12345, "tid":9, "ts":1692264920292844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1692264920292847, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level2" }}
-,{ "pid":12345, "tid":9, "ts":1692264920294963, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":9, "ts":1692264920295030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1692264920295035, "dur":2434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":9, "ts":1692264920297508, "dur":105669, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1692264920268539, "dur":195, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1692264920268734, "dur":3953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1692264920272687, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1692264920273042, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1692264920273135, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":10, "ts":1692264920273252, "dur":292, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1692264920273545, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1692264920273640, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1692264920273745, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1692264920273812, "dur":231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1692264920274044, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1692264920274119, "dur":221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1692264920274342, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1692264920274408, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1692264920274516, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1692264920274670, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1692264920274910, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":10, "ts":1692264920274960, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1692264920275048, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":10, "ts":1692264920275092, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1692264920275304, "dur":50652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":10, "ts":1692264920325964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1692264920326049, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":10, "ts":1692264920327161, "dur":76038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1692264920268581, "dur":160, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1692264920268741, "dur":3948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1692264920272690, "dur":505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1692264920273195, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1692264920273443, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1692264920273555, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1692264920273789, "dur":90726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":11, "ts":1692264920364516, "dur":303, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1692264920364822, "dur":38345, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1692264920268602, "dur":143, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1692264920268745, "dur":3931, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1692264920272677, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":12, "ts":1692264920273074, "dur":319, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1692264920273394, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense.exe" }}
-,{ "pid":12345, "tid":12, "ts":1692264920273473, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1692264920273545, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1692264920273625, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1692264920273849, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1692264920273928, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1692264920274190, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1692264920274278, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1692264920274501, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1692264920274544, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1692264920274700, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":12, "ts":1692264920274784, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1692264920274997, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":12, "ts":1692264920275057, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1692264920275311, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets8.assets" }}
-,{ "pid":12345, "tid":12, "ts":1692264920275399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1692264920289116, "dur":1608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets8.assets" }}
-,{ "pid":12345, "tid":12, "ts":1692264920290763, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level3.resS" }}
-,{ "pid":12345, "tid":12, "ts":1692264920290812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1692264920290816, "dur":3320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level3.resS" }}
-,{ "pid":12345, "tid":12, "ts":1692264920294191, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level0" }}
-,{ "pid":12345, "tid":12, "ts":1692264920294236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1692264920294240, "dur":2604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level0" }}
-,{ "pid":12345, "tid":12, "ts":1692264920296881, "dur":106287, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1692264920268628, "dur":123, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1692264920268751, "dur":3939, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1692264920272691, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1692264920273027, "dur":367, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1692264920273395, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":13, "ts":1692264920273546, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1692264920273701, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1692264920273764, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1692264920273923, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1692264920274008, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1692264920274315, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1692264920274402, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1692264920274507, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1692264920274559, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1692264920274685, "dur":60963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":13, "ts":1692264920335649, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1692264920335988, "dur":67188, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1692264920268649, "dur":108, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1692264920268757, "dur":3911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1692264920272686, "dur":542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":14, "ts":1692264920273229, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1692264920273309, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":14, "ts":1692264920273441, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1692264920273597, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1692264920273658, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1692264920273777, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1692264920273843, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1692264920274089, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1692264920274134, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1692264920274277, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1692264920274342, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1692264920274538, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1692264920274678, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1692264920274937, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":14, "ts":1692264920274988, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1692264920275202, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":14, "ts":1692264920275246, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1692264920275444, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":14, "ts":1692264920275494, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1692264920290494, "dur":2597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":14, "ts":1692264920293146, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level1.resS" }}
-,{ "pid":12345, "tid":14, "ts":1692264920293231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1692264920293235, "dur":2725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level1.resS" }}
-,{ "pid":12345, "tid":14, "ts":1692264920296000, "dur":107162, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1692264920268673, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1692264920268673, "dur":3999, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1692264920272673, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":15, "ts":1692264920272868, "dur":377, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1692264920273246, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":15, "ts":1692264920273360, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1692264920273448, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1692264920273560, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1692264920273811, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1692264920273869, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1692264920274066, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1692264920274122, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1692264920274237, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1692264920274302, "dur":376, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1692264920274680, "dur":66077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":15, "ts":1692264920340758, "dur":296, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1692264920341056, "dur":62140, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1692264920268703, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1692264920268703, "dur":3963, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1692264920272671, "dur":565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":16, "ts":1692264920273236, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1692264920273338, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":16, "ts":1692264920273464, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1692264920273607, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1692264920273689, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1692264920273940, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1692264920274007, "dur":270, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1692264920274277, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1692264920274349, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1692264920274517, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1692264920274662, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1692264920274772, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":16, "ts":1692264920274827, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1692264920274997, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":16, "ts":1692264920275060, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1692264920275306, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":16, "ts":1692264920275386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1692264920288672, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":16, "ts":1692264920290070, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level4" }}
-,{ "pid":12345, "tid":16, "ts":1692264920290171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1692264920290175, "dur":3163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level4" }}
-,{ "pid":12345, "tid":16, "ts":1692264920293376, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level0.resS" }}
-,{ "pid":12345, "tid":16, "ts":1692264920293418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1692264920293422, "dur":3264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level0.resS" }}
-,{ "pid":12345, "tid":16, "ts":1692264920296725, "dur":106433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1692264920406649, "dur":1330, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1692437814344681, "dur":1398, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814346085, "dur":79, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1692437814346201, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1692437814346215, "dur":458, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1692437814346690, "dur":522, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814347212, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814497614, "dur":288, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814497902, "dur":117, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498019, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498023, "dur":66, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498090, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498095, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498114, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498115, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498127, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498128, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498139, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498140, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498146, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498147, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498153, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498154, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498159, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498160, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498166, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498167, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498172, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498173, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498178, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498179, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498183, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498184, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498189, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498190, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498195, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498196, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498201, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498202, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498209, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498224, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814498241, "dur":1251, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1692437814347387, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814347388, "dur":3761, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814351150, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1692437814351500, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814351755, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692437814351869, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814352131, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692437814352210, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814352288, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692437814352339, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814352547, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692437814352622, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814352752, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692437814352806, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814352939, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692437814353016, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814353089, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692437814353135, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814353352, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692437814353407, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814353544, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1692437814353595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814354093, "dur":2232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1692437814356354, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1692437814356387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814356390, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1692437814357249, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1692437814357293, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814357296, "dur":736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1692437814358073, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1692437814358122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814358126, "dur":999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1692437814359149, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1692437814359177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814359180, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1692437814360242, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level9.resS" }}
+,{ "pid":12345, "tid":1, "ts":1692437814360396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814360400, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level9.resS" }}
+,{ "pid":12345, "tid":1, "ts":1692437814361340, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level8.resS" }}
+,{ "pid":12345, "tid":1, "ts":1692437814361391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814361395, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level8.resS" }}
+,{ "pid":12345, "tid":1, "ts":1692437814362860, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level7.resS" }}
+,{ "pid":12345, "tid":1, "ts":1692437814362890, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814362893, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level7.resS" }}
+,{ "pid":12345, "tid":1, "ts":1692437814363695, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level7" }}
+,{ "pid":12345, "tid":1, "ts":1692437814363743, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814363746, "dur":748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level7" }}
+,{ "pid":12345, "tid":1, "ts":1692437814364522, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level6" }}
+,{ "pid":12345, "tid":1, "ts":1692437814364551, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814364553, "dur":881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level6" }}
+,{ "pid":12345, "tid":1, "ts":1692437814365462, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1692437814365491, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814365493, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1692437814366477, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1692437814366526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814366530, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1692437814368371, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1692437814368417, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814368420, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1692437814369842, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1692437814369884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814369887, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1692437814371548, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1692437814371680, "dur":296, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692437814371977, "dur":125638, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692437814347198, "dur":26, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692437814347224, "dur":3905, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692437814351140, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1692437814351141, "dur":570, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692437814351713, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1692437814351715, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692437814351863, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692437814351959, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692437814352053, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692437814352109, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692437814352359, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692437814352406, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692437814352654, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692437814352705, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692437814352856, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692437814352942, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692437814353119, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692437814353215, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692437814353380, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692437814353420, "dur":334, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692437814353755, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":2, "ts":1692437814353792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692437814376640, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":2, "ts":1692437814377838, "dur":119786, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692437814347262, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692437814347262, "dur":3874, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692437814351140, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1692437814351315, "dur":469, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692437814351785, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692437814351866, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692437814352126, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692437814352192, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692437814352417, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692437814352479, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692437814352712, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692437814352785, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692437814352857, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692437814352940, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692437814353199, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692437814353259, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692437814353523, "dur":49579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692437814403110, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692437814403192, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692437814404106, "dur":93526, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692437814347496, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692437814347497, "dur":3672, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692437814351169, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1692437814351473, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692437814351725, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692437814351862, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692437814352117, "dur":84625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692437814436743, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692437814436974, "dur":60649, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692437814347526, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692437814347526, "dur":3634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692437814351161, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1692437814351433, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692437814351543, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1692437814351630, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692437814351850, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692437814351924, "dur":305, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692437814352230, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692437814352277, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692437814352512, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692437814352568, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692437814352713, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692437814352776, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692437814352941, "dur":42189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692437814395131, "dur":291, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692437814395424, "dur":102202, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692437814347382, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692437814347383, "dur":3762, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692437814351150, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1692437814351386, "dur":330, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692437814351717, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1692437814351883, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692437814351999, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692437814352063, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692437814352240, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692437814352303, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692437814352526, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692437814352580, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692437814352813, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692437814352862, "dur":315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692437814353179, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692437814353224, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692437814353282, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692437814353335, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692437814353505, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692437814353559, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692437814353772, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1692437814353825, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692437814384118, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1692437814385061, "dur":112568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692437814347231, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692437814347231, "dur":3906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692437814351140, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1692437814351441, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692437814351563, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1692437814351695, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692437814351810, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692437814351874, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692437814352025, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692437814352109, "dur":289, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692437814352400, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692437814352450, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692437814352531, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692437814352571, "dur":372, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692437814352943, "dur":59388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692437814412332, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692437814412524, "dur":85090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692437814347343, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692437814347343, "dur":3804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692437814351148, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1692437814351460, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692437814351559, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1692437814351661, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692437814351879, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692437814351969, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692437814352071, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692437814352133, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692437814352368, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692437814352442, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692437814352623, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692437814352686, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692437814352958, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692437814353026, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692437814353127, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692437814353184, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692437814353259, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692437814353306, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692437814353472, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692437814353519, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692437814353790, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1692437814353825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692437814384661, "dur":764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1692437814385448, "dur":112186, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692437814347291, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692437814347292, "dur":3843, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692437814351140, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1692437814351492, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692437814351566, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692437814351693, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692437814351789, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692437814351850, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692437814352110, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692437814352178, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692437814352378, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692437814352430, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692437814352570, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692437814352627, "dur":309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692437814352937, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692437814353001, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692437814353222, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692437814353276, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692437814353503, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692437814353560, "dur":237, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692437814353797, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1692437814353846, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692437814392116, "dur":2313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1692437814394460, "dur":103151, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692437814347370, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692437814347370, "dur":3786, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692437814351157, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1692437814351453, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692437814351567, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692437814351743, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692437814351852, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692437814351937, "dur":293, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692437814352231, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692437814352285, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692437814352467, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692437814352545, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692437814352719, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692437814352773, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692437814352854, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692437814352944, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692437814353192, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692437814353250, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692437814353341, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692437814353391, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692437814353615, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":10, "ts":1692437814353664, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692437814366473, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":10, "ts":1692437814368422, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level2.resS" }}
+,{ "pid":12345, "tid":10, "ts":1692437814368498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692437814368502, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level2.resS" }}
+,{ "pid":12345, "tid":10, "ts":1692437814369935, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1692437814369979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692437814369983, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1692437814371646, "dur":125970, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814347428, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814347428, "dur":3726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814351155, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1692437814351313, "dur":403, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814351718, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692437814351860, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814352108, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692437814352172, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814352399, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692437814352471, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814352623, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692437814352698, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814352842, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692437814352935, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814353054, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692437814353112, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814353351, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692437814353422, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814353580, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":11, "ts":1692437814353625, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814354429, "dur":1822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":11, "ts":1692437814356284, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1692437814356317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814356321, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1692437814357298, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1692437814357348, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814357351, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1692437814358690, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1692437814358790, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814358856, "dur":897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1692437814359753, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814359966, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1692437814360023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814360026, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1692437814361157, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level9" }}
+,{ "pid":12345, "tid":11, "ts":1692437814361205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814361209, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level9" }}
+,{ "pid":12345, "tid":11, "ts":1692437814362806, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level8" }}
+,{ "pid":12345, "tid":11, "ts":1692437814362846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814362850, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level8" }}
+,{ "pid":12345, "tid":11, "ts":1692437814363974, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level6.resS" }}
+,{ "pid":12345, "tid":11, "ts":1692437814364020, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814364023, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level6.resS" }}
+,{ "pid":12345, "tid":11, "ts":1692437814365294, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level5.resS" }}
+,{ "pid":12345, "tid":11, "ts":1692437814365336, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814365339, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level5.resS" }}
+,{ "pid":12345, "tid":11, "ts":1692437814366380, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level4.resS" }}
+,{ "pid":12345, "tid":11, "ts":1692437814366427, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814366431, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level4.resS" }}
+,{ "pid":12345, "tid":11, "ts":1692437814368185, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level3.resS" }}
+,{ "pid":12345, "tid":11, "ts":1692437814368240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814368245, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level3.resS" }}
+,{ "pid":12345, "tid":11, "ts":1692437814369617, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level1.resS" }}
+,{ "pid":12345, "tid":11, "ts":1692437814369672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814369676, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level1.resS" }}
+,{ "pid":12345, "tid":11, "ts":1692437814371229, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1692437814371301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692437814371306, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1692437814372819, "dur":124812, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692437814347422, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692437814347422, "dur":3735, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692437814351161, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1692437814351472, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692437814351731, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692437814351864, "dur":263, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692437814352128, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692437814352202, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692437814352398, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692437814352469, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692437814352581, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692437814352642, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692437814352747, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692437814352791, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692437814353040, "dur":144267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692437814497308, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692437814497569, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1692437814497570, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692437814347485, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692437814347486, "dur":3665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692437814351152, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1692437814351356, "dur":363, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692437814351720, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1692437814351816, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692437814351959, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1692437814352009, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692437814352259, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1692437814352316, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692437814352601, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1692437814352675, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692437814352943, "dur":82152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":13, "ts":1692437814435096, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1692437814435373, "dur":62265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692437814347466, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692437814347466, "dur":3684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692437814351152, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1692437814351462, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692437814351704, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1692437814351893, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692437814352006, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1692437814352067, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692437814352265, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1692437814352338, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692437814352568, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1692437814352636, "dur":391, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692437814353028, "dur":59001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":14, "ts":1692437814412030, "dur":331, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1692437814412363, "dur":85255, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692437814347559, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692437814347559, "dur":3602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692437814351162, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1692437814351362, "dur":353, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692437814351716, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense.exe" }}
+,{ "pid":12345, "tid":15, "ts":1692437814351819, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692437814351940, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1692437814351995, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692437814352258, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1692437814352313, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692437814352553, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1692437814352612, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692437814352823, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1692437814352934, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692437814353058, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1692437814353125, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692437814353355, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1692437814353417, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692437814353648, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":15, "ts":1692437814353697, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692437814366822, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":15, "ts":1692437814368531, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level2" }}
+,{ "pid":12345, "tid":15, "ts":1692437814368577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692437814368579, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level2" }}
+,{ "pid":12345, "tid":15, "ts":1692437814369975, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/level0" }}
+,{ "pid":12345, "tid":15, "ts":1692437814370033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692437814370037, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/level0" }}
+,{ "pid":12345, "tid":15, "ts":1692437814371514, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1692437814371568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1692437814371571, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1692437814372765, "dur":124854, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692437814347550, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692437814347550, "dur":3609, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692437814351160, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1692437814351448, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692437814351716, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1692437814351874, "dur":303, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692437814352178, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1692437814352250, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692437814352498, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1692437814352569, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692437814352723, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1692437814352768, "dur":362, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692437814353131, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1692437814353187, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692437814353375, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1692437814353428, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692437814353700, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Playable Game/Tower-Defense_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":16, "ts":1692437814353745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1692437814376255, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Playable Game/Tower-Defense_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":16, "ts":1692437814377564, "dur":120048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692437814500561, "dur":1141, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
