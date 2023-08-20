@@ -142,4 +142,24 @@ public class Turret : MonoBehaviour {
     public void SetRange(float _range) {
         range = _range;
     }
+
+    public float GetFireRate() {
+        return fireRate;
+    }
+
+    public void SetFireRate(float _fireRate) {
+        fireRate = _fireRate;
+    }
+
+    public bool isLaserTurret() {
+        return useLaser;
+    }
+
+    public int GetDoT() {
+        return dmgOverTime;
+    }
+
+    public void SetDot(int _DoT) {
+        dmgOverTime = _DoT;
+    }
 }

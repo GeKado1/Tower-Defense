@@ -4,8 +4,6 @@ using UnityEngine;
 
 [RequireComponent(typeof(Node))]
 public class BuffNode : MonoBehaviour {
-    private float actualRange;
-
     // Start is called before the first frame update
     void Start() {
         
@@ -17,20 +15,58 @@ public class BuffNode : MonoBehaviour {
     }
 
     public GameObject BuffTurret(GameObject turret, bool isLvl2, bool isLvl3) {
-        float buff;
-        actualRange = turret.GetComponent<Turret>().GetRange();
+        Turret turretScript = turret.GetComponent<Turret>();
+
+        float rangeBuff;
+        float actualRange = turretScript.GetRange();
+
+        float fireRateBuff = 0f;
+        float actualFireRate = turretScript.GetFireRate();
+
+        bool isLaser = turretScript.isLaserTurret();
+        int DoTBuff = 0;
+        int actualDoT = turretScript.GetDoT();
 
         if (!isLvl3) {
-            buff = actualRange * 0.25f;
+            rangeBuff = actualRange * 0.25f;
+
+            if (!isLaser) {
+                fireRateBuff = 0.3f;
+            }
+            else {
+                DoTBuff = 2;
+            }
+            
         }
         else if (!isLvl2){
-            buff = actualRange * 0.2f;
+            rangeBuff = actualRange * 0.2f;
+
+            if (!isLaser) {
+                fireRateBuff = 0.2f;
+            }
+            else {
+                DoTBuff = 2;
+            }
         }
         else {
-            buff = actualRange * 0.1f;
+            rangeBuff = actualRange * 0.1f;
+
+            if (!isLaser) {
+                fireRateBuff = 0.1f;
+            }
+            else {
+                DoTBuff = 2;
+            }
         }
 
-        turret.GetComponent<Turret>().SetRange(actualRange + buff);
+        //Applying node buffs
+        turretScript.SetRange(actualRange + rangeBuff);
+        if (!isLaser) {
+            turretScript.SetFireRate(actualFireRate + fireRateBuff);
+        }
+        else {
+            turretScript.SetDot(actualDoT + DoTBuff);
+        }
 
         return turret;
     }

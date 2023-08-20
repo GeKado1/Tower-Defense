@@ -1,3 +1,16 @@
+20/08/2023
+
+Balance Changes:
+
+Level 8:
+Waves changes
+
+Buff Node:
+Now gives a extra fire rate to all turrets (except Laser Turret)
+Laser Turret gets extra DoT when is builded on the node
+
+Self-Healing Enemy Speed: 8 -> 7.5
+
 19/08/2023
 
 Balance Changes:
