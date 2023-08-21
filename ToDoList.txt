@@ -1,2 +1,5 @@
 - Add New Levels
 - Final Boss
+
+Pel l'editor: pos y bottons dificultat a 22
+A l'hora de buildejar: a 30
