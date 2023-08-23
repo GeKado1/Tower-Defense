@@ -341,6 +341,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CompleteLevel.cs"
+"Assets/Scripts/EnemyScripts/BossEnemy.cs"
 "Assets/Scripts/EnemyScripts/Enemy.cs"
 "Assets/Scripts/EnemyScripts/EnemyMovement.cs"
 "Assets/Scripts/EnemyScripts/EnemySpawnDie.cs"
