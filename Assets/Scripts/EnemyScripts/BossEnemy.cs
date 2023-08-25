@@ -25,12 +25,13 @@ public class BossEnemy : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         if (countdown <= 0f) {
+            em = GetComponent<EnemyMovement>();
+
             if (index >= enemiesTypeList.Length) {
                 index = 0;
                 numOfSpawned++;
             }
 
-            em = GetComponent<EnemyMovement>();
             SpawnChild(em.GetTarget(), em.GetWavePointIndex()); ;
             countdown = timeToSpawn;
 
@@ -43,8 +44,10 @@ public class BossEnemy : MonoBehaviour {
     private void SpawnChild(Transform _target, int currentWavePointIndex) {
         for (int i = 0; i < numOfSpawned; i++) {
             GameObject spawnedEnemy = Instantiate(enemiesTypeList[index], transform.position, Quaternion.identity);
-            EnemyMovement enemyMovement = spawnedEnemy.GetComponent<EnemyMovement>();
+            spawnedEnemy.GetComponent<Enemy>().startSpeed -= i * 0.1f;
+            spawnedEnemy.GetComponent<Enemy>().isSpawnedEnemy = true;
 
+            EnemyMovement enemyMovement = spawnedEnemy.GetComponent<EnemyMovement>();
             enemyMovement.SetTarget(_target);
             enemyMovement.SetWavePointIndex(currentWavePointIndex);
 

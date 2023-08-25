@@ -1417,8 +1417,8 @@ MonoBehaviour:
   healthBar: {fileID: 8361976204901906757}
   isDieEnemy: 0
   isSpawnedEnemy: 0
-  isArmouredEnemy: 0
-  dmgReduction: 0
+  isArmouredEnemy: 1
+  dmgReduction: 10
 --- !u!114 &8292682660701792825
 MonoBehaviour:
   m_ObjectHideFlags: 0
