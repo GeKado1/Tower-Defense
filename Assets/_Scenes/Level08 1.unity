@@ -7432,7 +7432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startMoney: 2000
-  startLives: 999
+  startLives: 20
 --- !u!114 &815326653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7462,11 +7462,99 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 815326651}
   waves:
-  - enemy: {fileID: 7201806381261781204, guid: c53e942902fd9854b84dc11d9d67daf0, type: 3}
-    count: 1
-    rate: 1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
+  - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
+    count: 2
+    rate: 1.1
   spawnPoints:
   - {fileID: 2092263449}
+  - {fileID: 1335221549}
   timeBetweenWaves: 5
   initialTime: 1
   waveTimerText: {fileID: 688234697}
