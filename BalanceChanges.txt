@@ -1,3 +1,18 @@
+27/08/2023
+
+Balance Changes:
+
+Level 10 (Boss Level):
+Lasts waves more harder
+
+Boss Enemy:
+Health: 10k -> 20k
+Spawn Countdown: 3.5s -> 2.5s
+
+Spawner Enemy:
+Health: 250 -> 300
+Spawn Countdown: 3s -> 2.8s
+
 20/08/2023
 
 Balance Changes:

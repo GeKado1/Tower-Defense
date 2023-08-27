@@ -1409,7 +1409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dieEffect: {fileID: 3459962042806317976, guid: c12429d415e254247939b475d6d92024, type: 3}
   startSpeed: 0.25
-  startHealth: 10000
+  startHealth: 20000
   speed: 0
   health: 100
   damage: 999
@@ -1452,7 +1452,7 @@ MonoBehaviour:
   - {fileID: 7201806381261781204, guid: 4f527242f18dd3146b54819f2f907324, type: 3}
   - {fileID: 9933625944124505, guid: 80e98972c647ef7469073eee3a4c731c, type: 3}
   - {fileID: 7201806381261781204, guid: 69082e6093ca0cf47bad6216db90d50d, type: 3}
-  timeToSpawn: 3.5
+  timeToSpawn: 2.5
 --- !u!1 &9207282685624275741
 GameObject:
   m_ObjectHideFlags: 0
