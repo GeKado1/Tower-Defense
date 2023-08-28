@@ -89,7 +89,9 @@ public class Enemy : MonoBehaviour {
         health = startHealth * 2;
         startHealth *= 2;
         damage *= 2;
-        dmgReduction *= 2;
         moneyGiven *= 2;
+        if (dmgReduction < 0.5f) {
+            dmgReduction *= 2;
+        }
     }
 }
