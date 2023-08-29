@@ -117,6 +117,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6371460096006125435, guid: 4f527242f18dd3146b54819f2f907324, type: 3}
+      propertyPath: damage
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6371460096006125435, guid: 4f527242f18dd3146b54819f2f907324, type: 3}
       propertyPath: moneyGiven
       value: 300
       objectReference: {fileID: 0}
