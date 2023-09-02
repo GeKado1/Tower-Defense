@@ -527,7 +527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1691503604057645236}
   m_Layer: 0
-  m_Name: Lvl_1_Ballista
+  m_Name: Beta_Balista
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
