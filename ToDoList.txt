@@ -1,7 +1,21 @@
-- Add New Levels
-- Final Boss
-- New Turret
-- New Enemy (less health -> more speed)
+To Do For Version 1.2:
+- Finish Balista:
+	- Put turret stats
+	- Add their level 2 and level 3 aspect and stats
+	- Arrow function, aspect and stats
+
+- Buff Final Boss
+
+- Implement Turret Unlocking sistem
+
+- Enemies get more HP every time they appear in different rounds (?)
+
+- Implement a New Enemy (less health -> more speed)
+
+
+
+
+
 
 Pel l'editor: pos y bottons dificultat a 22
 A l'hora de buildejar: a 30
