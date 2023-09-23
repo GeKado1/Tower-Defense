@@ -1,3 +1,11 @@
+23/09/2023
+
+Balance Changes:
+
+Boss Enemy:
+Health: 20k -> 30k
+Spawn Coundown: 2.5s -> 2s
+
 27/08/2023
 
 Balance Changes:
