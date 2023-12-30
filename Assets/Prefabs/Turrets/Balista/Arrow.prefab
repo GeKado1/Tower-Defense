@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 938201897316993950}
+  - component: {fileID: 4049005786417798091}
   m_Layer: 0
   m_Name: Arrow
   m_TagString: Untagged
@@ -33,6 +34,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4049005786417798091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454574439051104548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d007fb6ed3c2a4044b9428d4399e648c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 50
+  damage: 50
+  explosionRadius: 0
+  isPiercingBullet: 1
+  bulletPierce: 3
+  lifeTime: 5
+  impactEffect: {fileID: 0}
 --- !u!1 &4050630814216168053
 GameObject:
   m_ObjectHideFlags: 0

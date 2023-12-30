@@ -9,6 +9,13 @@ public class Bullet : MonoBehaviour {
     [SerializeField] private float damage = 0;
     [SerializeField] private float explosionRadius = 0;
 
+    [SerializeField] public bool isPiercingBullet = false;
+
+    [Header("If Bullet have pierce (Only required if the bool isPiercingBullet is true)")]
+    [SerializeField] private float bulletPierce = 0;
+    [SerializeField] private float lifeTime = 0;
+    private float tActual = 0;
+
     [Header("Impact effect")]
     [SerializeField] private GameObject impactEffect;
 
@@ -19,25 +26,43 @@ public class Bullet : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (target == null) {
+        if (target == null && !isPiercingBullet) {
             Destroy(gameObject);
             return;
         }
 
-        Vector3 direction = target.position - transform.position;
-        float distance = speed * Time.deltaTime;
-
-        if (direction.magnitude <= distance) {
-            HitTarget();
-            return;
+        tActual += Time.deltaTime;
+        if (isPiercingBullet) {
+            if (tActual >= lifeTime) {
+                tActual = 0;
+                Destroy(gameObject);
+            }
+            Travel();
         }
 
-        transform.Translate(direction.normalized * distance, Space.World);
-        transform.LookAt(target);
+        if(!isPiercingBullet) {
+            Vector3 direction = target.position - transform.position;
+            float distance = speed * Time.deltaTime;
+
+            if (direction.magnitude <= distance) {
+                HitTarget();
+                return;
+            }
+
+            transform.Translate(direction.normalized * distance, Space.World);
+            transform.LookAt(target);
+        }
     }
 
     public void Seek(Transform targetSeek){
         target = targetSeek;
+    }
+
+    public void Travel() {
+        float angle = transform.rotation.y * Mathf.Deg2Rad;
+
+        Vector3 direction = new Vector3(Mathf.Cos(angle * Mathf.Deg2Rad), 0, Mathf.Sin(angle * Mathf.Deg2Rad));
+        transform.Translate(direction * speed * Time.deltaTime);
     }
 
     void HitTarget() {
@@ -51,7 +76,15 @@ public class Bullet : MonoBehaviour {
             Damage(target);
         }
 
-        Destroy(gameObject);
+        if(!isPiercingBullet) {
+            Destroy(gameObject);
+        }
+        else {
+            bulletPierce--;
+            if (bulletPierce <= 0) {
+                Destroy(gameObject);
+            }
+        }
     }
 
     void Damage(Transform enemy) {

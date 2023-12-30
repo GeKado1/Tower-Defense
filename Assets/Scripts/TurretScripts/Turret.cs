@@ -100,7 +100,9 @@ public class Turret : MonoBehaviour {
         Bullet bullet = bulletGO.GetComponent<Bullet>();
 
         if (bullet != null) {
-            bullet.Seek(target);
+            if (!bullet.isPiercingBullet) {
+                bullet.Seek(target);
+            }
         }
     }
 
