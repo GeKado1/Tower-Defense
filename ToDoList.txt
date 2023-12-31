@@ -1,8 +1,8 @@
 To Do For Version 1.2:
 - Finish Balista:
-	- Put turret stats
+	- Put turret at level 1 stats (DONE)
 	- Add their level 2 and level 3 aspect and stats
-	- Arrow function, aspect and stats
+	- Arrow function, aspect and stats (DONE)
 
 - Buff Final Boss (DONE)
 
@@ -12,7 +12,7 @@ To Do For Version 1.2:
 
 - Implement a New Enemy (less health -> more speed)
 
-
+- Fix first Shoot of Balista
 
 
 
