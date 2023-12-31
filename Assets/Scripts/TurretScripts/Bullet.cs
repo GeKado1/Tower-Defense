@@ -108,9 +108,7 @@ public class Bullet : MonoBehaviour {
     private void OnCollisionEnter(Collision collision) {
         if (collision.collider.CompareTag("Enemy")) {
             Damage(collision.collider.transform);
-            Debug.Log("sdfaf");
         }
-        Debug.Log("pepe");
     }
 
     void OnDrawGizmosSelected() {
