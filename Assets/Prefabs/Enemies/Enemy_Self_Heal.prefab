@@ -5178,7 +5178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8320db6d132caa840bcf0c8055fd3016, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dieEffect: {fileID: 3459962042806317976, guid: c6da448bb07bdd74dbcb7fe7eb7a8907, type: 3}
+  dieEffect: {fileID: 3459962042806317976, guid: e64859842bc18cd46ada7ba11227601a, type: 3}
   startSpeed: 7.5
   startHealth: 350
   speed: 0
