@@ -75,16 +75,7 @@ public class Bullet : MonoBehaviour {
         else {
             Damage(target);
         }
-
-        if(!isPiercingBullet) {
-            Destroy(gameObject);
-        }
-        else {
-            bulletPierce--;
-            if (bulletPierce <= 0) {
-                Destroy(gameObject);
-            }
-        }
+        Destroy(gameObject);
     }
 
     void Damage(Transform enemy) {
@@ -108,6 +99,11 @@ public class Bullet : MonoBehaviour {
     private void OnCollisionEnter(Collision collision) {
         if (collision.collider.CompareTag("Enemy")) {
             Damage(collision.collider.transform);
+
+            bulletPierce--;
+            if (bulletPierce <= 0) {
+                Destroy(gameObject);
+            }
         }
     }
 
