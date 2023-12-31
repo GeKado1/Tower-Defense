@@ -58,7 +58,7 @@ public class Bullet : MonoBehaviour {
         target = targetSeek;
     }
 
-    public void Travel() {
+    void Travel() {
         float angle = transform.rotation.y * Mathf.Deg2Rad;
 
         Vector3 direction = new Vector3(Mathf.Cos(angle * Mathf.Deg2Rad), 0, Mathf.Sin(angle * Mathf.Deg2Rad));
@@ -103,6 +103,14 @@ public class Bullet : MonoBehaviour {
                 Damage(collider.transform);
             }
         }
+    }
+
+    private void OnCollisionEnter(Collision collision) {
+        if (collision.collider.CompareTag("Enemy")) {
+            Damage(collision.collider.transform);
+            Debug.Log("sdfaf");
+        }
+        Debug.Log("pepe");
     }
 
     void OnDrawGizmosSelected() {
