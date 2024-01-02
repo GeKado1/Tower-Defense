@@ -100,6 +100,9 @@ public class Bullet : MonoBehaviour {
         if (collider.CompareTag("Enemy")) {
             Damage(collider.transform);
 
+            GameObject effect = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
+            Destroy(effect, 2f);
+
             bulletPierce--;
             if (bulletPierce <= 0) {
                 Destroy(gameObject);

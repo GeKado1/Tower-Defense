@@ -54,7 +54,7 @@ MonoBehaviour:
   isPiercingBullet: 1
   bulletPierce: 3
   lifeTime: 5
-  impactEffect: {fileID: 0}
+  impactEffect: {fileID: 2599712656037285969, guid: b313c57142dbbb0478129224a3241000, type: 3}
 --- !u!136 &6671053746127476876
 CapsuleCollider:
   m_ObjectHideFlags: 0
