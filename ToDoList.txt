@@ -4,7 +4,7 @@ To Do For Version 1.2:
 	- Add their level 2 and level 3 aspect and stats
 	- Arrow function, aspect and stats (DONE)
 
-- BUG IN SPAWNER ENEMY AND BOSS
+- BUG IN SPAWNER ENEMY AND BOSS (FIXED)
 
 - Buff Final Boss (DONE)
 

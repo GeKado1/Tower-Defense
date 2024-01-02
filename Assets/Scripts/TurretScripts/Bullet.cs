@@ -96,9 +96,9 @@ public class Bullet : MonoBehaviour {
         }
     }
 
-    private void OnCollisionEnter(Collision collision) {
-        if (collision.collider.CompareTag("Enemy")) {
-            Damage(collision.collider.transform);
+    private void OnTriggerEnter(Collider collider) {
+        if (collider.CompareTag("Enemy")) {
+            Damage(collider.transform);
 
             bulletPierce--;
             if (bulletPierce <= 0) {
