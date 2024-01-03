@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6671053746127476876}
   - component: {fileID: -4630609931804026765}
   m_Layer: 0
-  m_Name: LVL2_Arrow
+  m_Name: LVL3_Arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49,12 +49,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d007fb6ed3c2a4044b9428d4399e648c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 55
-  damage: 50
+  speed: 60
+  damage: 60
   explosionRadius: 0
   isPiercingBullet: 1
-  bulletPierce: 4
-  lifeTime: 5.5
+  bulletPierce: 5
+  lifeTime: 6
   impactEffect: {fileID: 2599712656037285969, guid: b313c57142dbbb0478129224a3241000, type: 3}
 --- !u!136 &6671053746127476876
 CapsuleCollider:
@@ -114,7 +114,7 @@ Transform:
   m_GameObject: {fileID: 2737104458433932716}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
   m_LocalPosition: {x: -0.969, y: 0, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_LocalScale: {x: 0.26, y: 0.26, z: 0.26}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 938201897316993950}
@@ -327,7 +327,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8c26e6f63fdcd08408d84f22128e2065, type: 2}
+  - {fileID: 2100000, guid: be5c0e2abbd8f7e47be06b8f69b4d55b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
