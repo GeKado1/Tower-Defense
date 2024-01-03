@@ -1,7 +1,7 @@
 To Do For Version 1.2:
 - Finish Balista:
 	- Put turret at level 1 stats (DONE)
-	- Add their level 2 and level 3 aspect and stats
+	- Add their level 2 and level 3 aspect and stats (DONE)
 	- Arrow function, aspect and stats (DONE)
 
 - BUG IN SPAWNER ENEMY AND BOSS (FIXED)
