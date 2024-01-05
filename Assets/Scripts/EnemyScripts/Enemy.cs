@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour {
     public float startSpeed = 0;
     public float startHealth = 0;
 
-    [HideInInspector]
+    //[HideInInspector]
     public float speed;
     [HideInInspector]
     public float health;
@@ -26,6 +26,8 @@ public class Enemy : MonoBehaviour {
     [Header("Differents Types of Enemies")]
     [SerializeField] private bool isDieEnemy;
     public bool isSpawnedEnemy;
+
+    [SerializeField] private bool isHasteEnemy;
 
     [SerializeField] private bool isArmouredEnemy;
     [Header("If isArmouredEnemy is true")]
@@ -55,6 +57,13 @@ public class Enemy : MonoBehaviour {
             health -= dmgTaken;
         }
 
+        if (isHasteEnemy) {
+            Debug.Log("haste");
+            if (health%25 == 0) {
+                SpeedUp();
+            } 
+        }
+
         healthBar.fillAmount = health/startHealth;
 
         if (health <= 0 && !isDead) {
@@ -82,7 +91,13 @@ public class Enemy : MonoBehaviour {
     }
 
     public void SpeedReduction(float speedReduction) {
-        speed = startSpeed * (1f - speedReduction);
+        if (!isHasteEnemy) {
+            speed = startSpeed * (1f - speedReduction);
+        }
+    }
+
+    private void SpeedUp() {
+        startSpeed += 3f;
     }
 
     private void HardMode() {
