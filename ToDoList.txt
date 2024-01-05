@@ -13,7 +13,11 @@ To Do For Version 1.2:
 
 - Enemies get more HP every time they appear in different rounds (?)
 
-- Implement a New Enemy (less health -> more speed)
+- Implement a New Enemy (less health -> more speed) (DONE)
+- Improve Haste Enemy (?)
+
+- Buff Heal of Heal Enemy when is Hard Mode (?)
+- Same in Haste Enemy (?)
 
 - Fix first Shoot of Balista
 
