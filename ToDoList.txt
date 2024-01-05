@@ -3,6 +3,7 @@ To Do For Version 1.2:
 	- Put turret at level 1 stats (DONE)
 	- Add their level 2 and level 3 aspect and stats (DONE)
 	- Arrow function, aspect and stats (DONE)
+	- Add in player canvas (DONE)
 
 - BUG IN SPAWNER ENEMY AND BOSS (FIXED)
 
