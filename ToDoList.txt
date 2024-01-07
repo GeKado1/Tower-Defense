@@ -16,8 +16,7 @@ To Do For Version 1.2:
 - Implement a New Enemy (less health -> more speed) (DONE)
 - Improve Haste Enemy (?)
 
-- Buff Heal of Heal Enemy when is Hard Mode (?)
-- Same in Haste Enemy (?)
+- Same in Haste Enemy (DONE)
 
 - Fix first Shoot of Balista
 
