@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4119951857270521003}
   - component: {fileID: 1320537243667882473}
   - component: {fileID: 946275513107974722}
+  - component: {fileID: 4265993183615424445}
   m_Layer: 0
   m_Name: Haste_Enemy
   m_TagString: Enemy
@@ -154,6 +155,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 4
   m_CollisionDetection: 0
+--- !u!114 &4265993183615424445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195642627237573380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97ddc658ad0dad04594fc1cbf1232483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedBoost: 3
 --- !u!1 &4732393540472110974
 GameObject:
   m_ObjectHideFlags: 0

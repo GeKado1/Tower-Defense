@@ -91,6 +91,7 @@
     <Compile Include="Assets\Scripts\TurretScripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\WaveScripts\WayPoints.cs" />
     <Compile Include="Assets\Scripts\_Test\StartPointsV2.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\HasteEnemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

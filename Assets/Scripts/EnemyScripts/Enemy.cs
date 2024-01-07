@@ -58,10 +58,8 @@ public class Enemy : MonoBehaviour {
         }
 
         if (isHasteEnemy) {
-            Debug.Log("haste");
-            if (health%25 == 0) {
-                SpeedUp();
-            } 
+            HasteEnemy he = GetComponent<HasteEnemy>();
+            he.SpeedUp(dmgTaken);
         }
 
         healthBar.fillAmount = health/startHealth;
@@ -94,10 +92,6 @@ public class Enemy : MonoBehaviour {
         if (!isHasteEnemy) {
             speed = startSpeed * (1f - speedReduction);
         }
-    }
-
-    private void SpeedUp() {
-        startSpeed += 3f;
     }
 
     private void HardMode() {
