@@ -99,6 +99,7 @@ public class Enemy : MonoBehaviour {
         startHealth *= 2;
         damage *= 2;
         moneyGiven *= 2;
+
         if (dmgReduction < 0.5f) {
             dmgReduction *= 2;
         }

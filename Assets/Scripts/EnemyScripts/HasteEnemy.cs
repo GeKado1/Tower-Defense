@@ -9,6 +9,10 @@ public class HasteEnemy : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
+        if (GameManager.hardMode) {
+            speedBoost *= 2f;
+        }
+
         enemy = GetComponent<Enemy>();
     }
 
