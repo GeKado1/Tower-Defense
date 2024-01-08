@@ -1301,10 +1301,11 @@ GameObject:
   - component: {fileID: 7201806381261781207}
   - component: {fileID: 7201806381261781206}
   - component: {fileID: 7201806381261781205}
+  - component: {fileID: 198829558407251187}
   - component: {fileID: 6371460096006125435}
   - component: {fileID: 8292682660701792825}
   - component: {fileID: 7943224750253924334}
-  - component: {fileID: 198829558407251187}
+  - component: {fileID: 6292687497769967951}
   m_Layer: 0
   m_Name: Boss_Enemy
   m_TagString: Enemy
@@ -1396,6 +1397,22 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &198829558407251187
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7201806381261781204}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 4
+  m_CollisionDetection: 0
 --- !u!114 &6371460096006125435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1418,8 +1435,8 @@ MonoBehaviour:
   healthBar: {fileID: 8361976204901906757}
   isDieEnemy: 0
   isSpawnedEnemy: 0
+  isHasteEnemy: 0
   isArmouredEnemy: 1
-  dmgReduction: 0.1
 --- !u!114 &8292682660701792825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1454,22 +1471,19 @@ MonoBehaviour:
   - {fileID: 9933625944124505, guid: 80e98972c647ef7469073eee3a4c731c, type: 3}
   - {fileID: 7201806381261781204, guid: 69082e6093ca0cf47bad6216db90d50d, type: 3}
   timeToSpawn: 2
---- !u!54 &198829558407251187
-Rigidbody:
+--- !u!114 &6292687497769967951
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7201806381261781204}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 4
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33f1d46ec6aa574bb9136410e4c4a6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmgReduction: 0.1
 --- !u!1 &9207282685624275741
 GameObject:
   m_ObjectHideFlags: 0

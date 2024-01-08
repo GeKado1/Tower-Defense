@@ -30,8 +30,6 @@ public class Enemy : MonoBehaviour {
     [SerializeField] private bool isHasteEnemy;
 
     [SerializeField] private bool isArmouredEnemy;
-    [Header("If isArmouredEnemy is true")]
-    [SerializeField] private float dmgReduction;
 
     // Start is called before the first frame update
     void Start() {
@@ -51,7 +49,8 @@ public class Enemy : MonoBehaviour {
 
     public void TakeDamage(float dmgTaken) {
         if (isArmouredEnemy) {
-            health -= dmgTaken * (1f - dmgReduction);
+            ArmouredEnemy ae = GetComponent<ArmouredEnemy>();
+            ae.TakeDamage(dmgTaken);
         }
         else {
             health -= dmgTaken;
@@ -99,9 +98,5 @@ public class Enemy : MonoBehaviour {
         startHealth *= 2;
         damage *= 2;
         moneyGiven *= 2;
-
-        if (dmgReduction < 0.5f) {
-            dmgReduction *= 2;
-        }
     }
 }

@@ -364,6 +364,7 @@ GameObject:
   - component: {fileID: 6371460096006125435}
   - component: {fileID: 8292682660701792825}
   - component: {fileID: 3010990795298273342}
+  - component: {fileID: 4462287987213214224}
   m_Layer: 0
   m_Name: Armored_Enemy
   m_TagString: Enemy
@@ -473,6 +474,7 @@ MonoBehaviour:
   healthBar: {fileID: 8361976204901906757}
   isDieEnemy: 0
   isSpawnedEnemy: 0
+  isHasteEnemy: 0
   isArmouredEnemy: 1
   dmgReduction: 0.15
 --- !u!114 &8292682660701792825
@@ -503,3 +505,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 4
   m_CollisionDetection: 0
+--- !u!114 &4462287987213214224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7201806381261781204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33f1d46ec6aa574bb9136410e4c4a6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmgReduction: 0.15

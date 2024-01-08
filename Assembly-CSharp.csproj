@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\RoundsSurvived.cs" />
     <Compile Include="Assets\Scripts\WaveScripts\Wave.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\HasteEnemy.cs" />
     <Compile Include="Assets\Scripts\Shop.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\TurretScripts\Turret.cs" />
@@ -91,7 +92,7 @@
     <Compile Include="Assets\Scripts\TurretScripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\WaveScripts\WayPoints.cs" />
     <Compile Include="Assets\Scripts\_Test\StartPointsV2.cs" />
-    <Compile Include="Assets\Scripts\EnemyScripts\HasteEnemy.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\ArmouredEnemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
