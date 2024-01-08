@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3459962042806317974}
   - component: {fileID: 3459962042806317977}
   m_Layer: 0
-  m_Name: Armored_Enemy_Die_Effect
+  m_Name: Armoured_Enemy_Die_Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

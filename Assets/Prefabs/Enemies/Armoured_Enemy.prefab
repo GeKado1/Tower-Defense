@@ -366,7 +366,7 @@ GameObject:
   - component: {fileID: 3010990795298273342}
   - component: {fileID: 4462287987213214224}
   m_Layer: 0
-  m_Name: Armored_Enemy
+  m_Name: Armoured_Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
