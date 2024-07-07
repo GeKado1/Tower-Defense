@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6862cca3cff88494c98b2e49da2e337d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0.8039216, g: 0.6392157, b: 0.21176471, a: 1}
+  hoverColor: {r: 0.6150943, g: 0.48970446, b: 0.16595937, a: 1}
   notEnoughtMoneyColor: {r: 1, g: 0.24905658, b: 0.24905658, a: 0}
   positionOffset: {x: 0, y: 0.5, z: 0}
   isBlockedNode: 0
