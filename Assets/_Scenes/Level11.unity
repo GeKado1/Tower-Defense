@@ -1953,6 +1953,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Desert_Node (175)
       objectReference: {fileID: 0}
+    - target: {fileID: 766974068699515312, guid: db4ec85af652ed54e8cc599f23dea301, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1426989893892138453, guid: db4ec85af652ed54e8cc599f23dea301, type: 3}
       propertyPath: m_LocalPosition.x
       value: 50
@@ -9340,6 +9344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Desert_Node (141)
       objectReference: {fileID: 0}
+    - target: {fileID: 766974068699515312, guid: db4ec85af652ed54e8cc599f23dea301, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1426989893892138453, guid: db4ec85af652ed54e8cc599f23dea301, type: 3}
       propertyPath: m_LocalPosition.x
       value: 60
@@ -9649,6 +9657,10 @@ PrefabInstance:
     - target: {fileID: 766974068699515312, guid: db4ec85af652ed54e8cc599f23dea301, type: 3}
       propertyPath: m_Name
       value: Desert_Node (137)
+      objectReference: {fileID: 0}
+    - target: {fileID: 766974068699515312, guid: db4ec85af652ed54e8cc599f23dea301, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1426989893892138453, guid: db4ec85af652ed54e8cc599f23dea301, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12860,6 +12872,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Desert_Node (143)
       objectReference: {fileID: 0}
+    - target: {fileID: 766974068699515312, guid: db4ec85af652ed54e8cc599f23dea301, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1426989893892138453, guid: db4ec85af652ed54e8cc599f23dea301, type: 3}
       propertyPath: m_LocalPosition.x
       value: 70
@@ -13157,6 +13173,10 @@ PrefabInstance:
     - target: {fileID: 766974068699515312, guid: db4ec85af652ed54e8cc599f23dea301, type: 3}
       propertyPath: m_Name
       value: Desert_Node (144)
+      objectReference: {fileID: 0}
+    - target: {fileID: 766974068699515312, guid: db4ec85af652ed54e8cc599f23dea301, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1426989893892138453, guid: db4ec85af652ed54e8cc599f23dea301, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16679,6 +16699,10 @@ PrefabInstance:
     - target: {fileID: 766974068699515312, guid: db4ec85af652ed54e8cc599f23dea301, type: 3}
       propertyPath: m_Name
       value: Desert_Node (142)
+      objectReference: {fileID: 0}
+    - target: {fileID: 766974068699515312, guid: db4ec85af652ed54e8cc599f23dea301, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1426989893892138453, guid: db4ec85af652ed54e8cc599f23dea301, type: 3}
       propertyPath: m_LocalPosition.x
