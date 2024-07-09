@@ -36,11 +36,11 @@ public class WaveSpawner : MonoBehaviour {
 
         if (waveNum == waves.Length && GameManager.gameEnd != true) {
             gameManager.WinLevel();
-            this.enabled = false;
+            enabled = false;
         }
 
         if (GameManager.gameEnd == true) {
-            this.enabled = false;
+            enabled = false;
         }
 
         if (countdown <= 0f && initialWave != true) {
