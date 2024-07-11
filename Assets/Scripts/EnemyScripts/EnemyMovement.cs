@@ -7,8 +7,12 @@ public class EnemyMovement : MonoBehaviour {
     private Transform target;
     private Transform spawnedTarget;
 
+    private Transform[] wayPoints;
+
     private int wavePointIndex;
     private int parentWavePointIndex;
+
+    private bool haveRoute;
 
     private Enemy enemy;
 
@@ -17,35 +21,42 @@ public class EnemyMovement : MonoBehaviour {
         enemy = GetComponent<Enemy>();
         wavePointIndex = 0;
 
-        if (enemy.isSpawnedEnemy) {
-            target = spawnedTarget;
-            wavePointIndex = parentWavePointIndex;
-        }
-        else {
-            target = WayPoints.wayPoints[0];
-        }
+        haveRoute = false;
     }
 
     // Update is called once per frame
     void Update() {
-        Vector3 direction = target.position - transform.position;
-        transform.Translate(direction.normalized * enemy.speed * Time.deltaTime, Space.World);
+        if (!haveRoute && wayPoints != null) {
+            if (enemy.isSpawnedEnemy) {
+                target = spawnedTarget;
+                wavePointIndex = parentWavePointIndex;
+            }
+            else {
+                target = wayPoints[0];
+            }
 
-        if (Vector3.Distance(transform.position, target.position) <= 0.2f) {
-            GetNextWayPoint();
+            haveRoute = true;
         }
+        else if (haveRoute && wayPoints != null){
+            Vector3 direction = target.position - transform.position;
+            transform.Translate(direction.normalized * enemy.speed * Time.deltaTime, Space.World);
 
-        enemy.speed = enemy.startSpeed;
+            if (Vector3.Distance(transform.position, target.position) <= 0.2f) {
+                GetNextWayPoint();
+            }
+
+            enemy.speed = enemy.startSpeed;
+        }
     }
 
     void GetNextWayPoint() {
-        if (wavePointIndex >= WayPoints.wayPoints.Length - 1) {
+        if (wavePointIndex >= wayPoints.Length - 1) {
             EndPath();
             return;
         }
 
         wavePointIndex++;
-        target = WayPoints.wayPoints[wavePointIndex];
+        target = wayPoints[wavePointIndex];
     }
 
     void EndPath() {
@@ -71,5 +82,9 @@ public class EnemyMovement : MonoBehaviour {
 
     public int GetWavePointIndex() {
         return wavePointIndex;
+    }
+
+    public void Path(Transform startPoint) {
+        wayPoints = startPoint.GetComponent<StartPoints>().GetRoute();
     }
 }

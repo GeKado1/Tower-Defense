@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class WayPoints : MonoBehaviour {
-    public static Transform[] wayPoints;
+    public Transform[] wayPoints;
 
     // Start is called before the first frame update
     void Start() {
@@ -21,5 +21,9 @@ public class WayPoints : MonoBehaviour {
         for (int i = 0; i < wayPoints.Length; i++) {
             wayPoints[i] = transform.GetChild(i);
         }
+    }
+
+    public Transform[] ReturnWayPoints() {
+        return wayPoints;
     }
 }

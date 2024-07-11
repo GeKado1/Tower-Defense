@@ -69,9 +69,11 @@ public class WaveSpawner : MonoBehaviour {
         waveNum++;
     }
 
+    //lo de enemy spawn die i spawner
     void SpawnEnemy(GameObject enemy) {
         for (int i = 0; i < spawnPoints.Length; i++) {
-            Instantiate(enemy, spawnPoints[i].position, spawnPoints[i].rotation);
+            GameObject e = Instantiate(enemy, spawnPoints[i].position, spawnPoints[i].rotation);
+            e.GetComponent<EnemyMovement>().Path(spawnPoints[i]);
         }
     }
 

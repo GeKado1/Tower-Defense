@@ -5,11 +5,11 @@ using UnityEngine;
 public class StartPoints : MonoBehaviour {
     [SerializeField] private Transform SP_Transform;
     [SerializeField] private WayPoints wayPoints;
-    [SerializeField] private static WayPoints routeToFollow;
+    [SerializeField] public Transform[] routeToFollow;
 
     // Start is called before the first frame update
     void Start() {
-        routeToFollow = wayPoints;
+        routeToFollow = wayPoints.wayPoints;
     }
 
     // Update is called once per frame
@@ -17,11 +17,11 @@ public class StartPoints : MonoBehaviour {
         
     }
 
-    public Transform GetStartPointTransform() {
+    /*public Transform GetStartPointTransform() {
         return transform;
-    }
+    }*/
 
-    public static WayPoints GetRoute() {
+    public Transform[] GetRoute() {
         return routeToFollow;
     }
 }
