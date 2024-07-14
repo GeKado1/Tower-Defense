@@ -1,8 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SceneFader : MonoBehaviour {
     [SerializeField] private RawImage img;
@@ -11,11 +10,6 @@ public class SceneFader : MonoBehaviour {
     // Start is called before the first frame update
     void Start() {
         StartCoroutine(FadeIn());
-    }
-
-    // Update is called once per frame
-    void Update() {
-        
     }
 
     IEnumerator FadeIn() {

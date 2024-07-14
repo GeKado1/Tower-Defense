@@ -1,7 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
 
 public class WaveSpawner : MonoBehaviour {
     public static int enemiesAlive = 0;
@@ -69,7 +68,6 @@ public class WaveSpawner : MonoBehaviour {
         waveNum++;
     }
 
-    //lo de enemy spawn die i spawner
     void SpawnEnemy(GameObject enemy) {
         for (int i = 0; i < spawnPoints.Length; i++) {
             GameObject e = Instantiate(enemy, spawnPoints[i].position, spawnPoints[i].rotation);

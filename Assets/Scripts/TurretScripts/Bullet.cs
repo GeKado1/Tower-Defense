@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour {
@@ -18,11 +16,6 @@ public class Bullet : MonoBehaviour {
 
     [Header("Impact effect")]
     [SerializeField] private GameObject impactEffect;
-
-    // Start is called before the first frame update
-    void Start() {
-        
-    }
 
     // Update is called once per frame
     void Update() {
@@ -66,7 +59,7 @@ public class Bullet : MonoBehaviour {
     }
 
     void HitTarget() {
-        GameObject effect = (GameObject) Instantiate(impactEffect, transform.position, transform.rotation);
+        GameObject effect = Instantiate(impactEffect, transform.position, transform.rotation);
         Destroy(effect, 5f);
 
         if (explosionRadius > 0) {
@@ -100,7 +93,7 @@ public class Bullet : MonoBehaviour {
         if (collider.CompareTag("Enemy")) {
             Damage(collider.transform);
 
-            GameObject effect = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
+            GameObject effect = Instantiate(impactEffect, transform.position, transform.rotation);
             Destroy(effect, 2f);
 
             bulletPierce--;

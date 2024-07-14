@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class StartPoints : MonoBehaviour {
@@ -11,15 +9,6 @@ public class StartPoints : MonoBehaviour {
     void Start() {
         routeToFollow = wayPoints.wayPoints;
     }
-
-    // Update is called once per frame
-    void Update() {
-        
-    }
-
-    /*public Transform GetStartPointTransform() {
-        return transform;
-    }*/
 
     public Transform[] GetRoute() {
         return routeToFollow;

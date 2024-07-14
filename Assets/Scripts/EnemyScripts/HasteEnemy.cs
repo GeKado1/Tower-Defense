@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class HasteEnemy : MonoBehaviour {
@@ -14,11 +12,6 @@ public class HasteEnemy : MonoBehaviour {
         }
 
         enemy = GetComponent<Enemy>();
-    }
-
-    // Update is called once per frame
-    void Update() {
-        
     }
 
     public void SpeedUp(float _dmgTaken) {

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -40,11 +38,6 @@ public class Enemy : MonoBehaviour {
             speed = startSpeed;
             health = startHealth;
         }
-    }
-
-    // Update is called once per frame
-    void Update() {
-
     }
 
     public void TakeDamage(float dmgTaken) {

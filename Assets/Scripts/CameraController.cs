@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour {
@@ -20,11 +18,9 @@ public class CameraController : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         if (GameManager.gameEnd) {
-            this.enabled = false;
+            enabled = false;
             return;
         }
-
-        Vector3 positionX = transform.position;
 
         if (Input.GetKeyDown(KeyCode.E)) {
             //If you clic e keyboard, the boolean doMovement will have its opposite value, in other words, if is true it will become false and if is false it will become true 

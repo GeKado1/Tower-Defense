@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Enemy))]
@@ -14,11 +12,6 @@ public class EnemySpawnDie : MonoBehaviour {
         if (GameManager.hardMode){
             numberOfChild++;
         }
-    }
-
-    // Update is called once per frame
-    void Update() {
-        
     }
 
     public void SpawnChild(Transform _target, int currentWavePointIndex, Transform[] wayPoints) {

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -31,11 +29,6 @@ public class Node : MonoBehaviour {
             startColor = rend.material.color;
             buildManager = BuildManager.instance;
         }
-    }
-
-    // Update is called once per frame
-    void Update() {
-        
     }
 
     private void OnMouseEnter() {

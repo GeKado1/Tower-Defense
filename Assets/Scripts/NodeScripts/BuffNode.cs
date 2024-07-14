@@ -1,19 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Node))]
 public class BuffNode : MonoBehaviour {
-    // Start is called before the first frame update
-    void Start() {
-        
-    }
-
-    // Update is called once per frame
-    void Update() {
-        
-    }
-
     public GameObject BuffTurret(GameObject turret, bool isLvl2, bool isLvl3) {
         Turret turretScript = turret.GetComponent<Turret>();
 

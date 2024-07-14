@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ArmouredEnemy : MonoBehaviour {
@@ -15,11 +13,6 @@ public class ArmouredEnemy : MonoBehaviour {
         }
 
         enemy = GetComponent<Enemy>();
-    }
-
-    // Update is called once per frame
-    void Update() {
-        
     }
 
     public void TakeDamage(float dmgTaken) {
