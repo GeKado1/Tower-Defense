@@ -20,8 +20,6 @@ public class WaveSpawner : MonoBehaviour {
 
     private bool initialWave = true;
 
-    //Hacer variable path aqui para los hijos del spawn on die y spawner
-
     // Start is called before the first frame update
     void Start() {
         StartCoroutine(InitialWave());
@@ -73,8 +71,6 @@ public class WaveSpawner : MonoBehaviour {
 
     //lo de enemy spawn die i spawner
     void SpawnEnemy(GameObject enemy) {
-        //Por aqui
-
         for (int i = 0; i < spawnPoints.Length; i++) {
             GameObject e = Instantiate(enemy, spawnPoints[i].position, spawnPoints[i].rotation);
             e.GetComponent<EnemyMovement>().Path(spawnPoints[i]);

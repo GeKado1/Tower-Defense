@@ -75,7 +75,10 @@ public class Enemy : MonoBehaviour {
 
         if (isDieEnemy) {
             EnemyMovement enemyMovement = GetComponent<EnemyMovement>();
-            GetComponent<EnemySpawnDie>().SpawnChild(enemyMovement.GetTarget(), enemyMovement.GetWavePointIndex());
+
+            EnemySpawnDie enemySpawnDie = GetComponent<EnemySpawnDie>();
+            enemySpawnDie.SpawnChild(enemyMovement.GetTarget(), enemyMovement.GetWavePointIndex(), enemyMovement.GetParentWayPoints());
+
             WaveSpawner.enemiesAlive += GetComponent<EnemySpawnDie>().GetChild();
         }
 

@@ -87,4 +87,12 @@ public class EnemyMovement : MonoBehaviour {
     public void Path(Transform startPoint) {
         wayPoints = startPoint.GetComponent<StartPoints>().GetRoute();
     }
+
+    public Transform[] GetParentWayPoints() {
+        return wayPoints;
+    }
+
+    public void SetChildWaypoints(Transform[] wp) {
+        wayPoints = wp;
+    }
 }
