@@ -32,7 +32,7 @@ public class BossEnemy : MonoBehaviour {
                 numOfSpawned++;
             }
 
-            SpawnChild(em.GetTarget(), em.GetWavePointIndex()); ;
+            SpawnChild(em.GetTarget(), em.GetWavePointIndex(), em.GetParentWayPoints()); ;
             countdown = timeToSpawn;
 
             index++;
@@ -41,7 +41,7 @@ public class BossEnemy : MonoBehaviour {
         countdown -= Time.deltaTime;
     }
 
-    private void SpawnChild(Transform _target, int currentWavePointIndex) {
+    private void SpawnChild(Transform _target, int currentWavePointIndex, Transform[] wayPoints) {
         for (int i = 0; i < numOfSpawned; i++) {
             GameObject spawnedEnemy = Instantiate(enemiesTypeList[index], transform.position, Quaternion.identity);
             spawnedEnemy.GetComponent<Enemy>().startSpeed -= i * 0.1f;
@@ -50,6 +50,7 @@ public class BossEnemy : MonoBehaviour {
             EnemyMovement enemyMovement = spawnedEnemy.GetComponent<EnemyMovement>();
             enemyMovement.SetTarget(_target);
             enemyMovement.SetWavePointIndex(currentWavePointIndex);
+            enemyMovement.SetChildWaypoints(wayPoints);
 
             WaveSpawner.enemiesAlive++;
         }
