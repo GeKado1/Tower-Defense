@@ -1,3 +1,7 @@
+14/07/2024
+
+Multiples enemy paths
+
 20/06/2024
 
 Player Canvas now is made it for screen of 1920x1080

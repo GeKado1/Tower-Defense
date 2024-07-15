@@ -7374,7 +7374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 815326651}
   waves:
-  - enemy: {fileID: 7201806381261781204, guid: c53e942902fd9854b84dc11d9d67daf0, type: 3}
+  - enemy: {fileID: 195642627237573380, guid: 2a7c89b0df5652b43bb6aae21237f5d7, type: 3}
     count: 1
     rate: 1.25
   - enemy: {fileID: 7201806381261781204, guid: 2504ff9ea6f49d4439351af365b0b887, type: 3}
