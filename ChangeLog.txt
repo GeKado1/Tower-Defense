@@ -9,6 +9,7 @@ Health: 200 -> 150
 Speed: 15 -> 12
 DMG: 3 -> 2
 DMG needed for active the Speed Boost: 25 -> 30
+Speed Boost: 3 -> 2
 Money Given: $100 -> $200
 
 14/07/2024
