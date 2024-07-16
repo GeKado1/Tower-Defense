@@ -124,12 +124,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieEffect: {fileID: 3459962042806317976, guid: 67192a1d23c16db4aab411f3c2f04d25, type: 3}
-  startSpeed: 15
-  startHealth: 200
+  startSpeed: 12
+  startHealth: 150
   speed: 0
   health: 100
-  damage: 3
-  moneyGiven: 100
+  damage: 2
+  moneyGiven: 200
   healthBar: {fileID: 1534969221860487829}
   isDieEnemy: 0
   isSpawnedEnemy: 0
@@ -187,7 +187,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedBoost: 3
-  hasteParticleSystem: {fileID: 8950224360117485085}
 --- !u!1 &4287146740995895425
 GameObject:
   m_ObjectHideFlags: 0
