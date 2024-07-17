@@ -1,3 +1,17 @@
+0%17/07/2024
+
+Balance Changes:
+
+Balista:
+Rotation Speed At Lvl 1: 15 -> 20
+Rotation Speed At Lvl 2: 20 -> 25
+Rotation Speed At Lvl 1: 20 -> 30
+
+Reinforce Enemy:
+DMG Reduction: 90% -> 75%
+In Hard Mode still in 90%
+
+
 16/07/2024
 
 Making new Levels

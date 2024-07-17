@@ -10,6 +10,9 @@ public class ArmouredEnemy : MonoBehaviour {
             if (dmgReduction < 0.5f) {
                 dmgReduction *= 2;
             }
+            else {
+                dmgReduction += 0.15f;
+            }
         }
 
         enemy = GetComponent<Enemy>();
