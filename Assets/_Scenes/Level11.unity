@@ -7355,8 +7355,8 @@ MonoBehaviour:
     count: 5
     rate: 1
   - enemy: {fileID: 7201806381261781204, guid: 69082e6093ca0cf47bad6216db90d50d, type: 3}
-    count: 4
-    rate: 0.75
+    count: 3
+    rate: 0.5
   - enemy: {fileID: 7201806381261781204, guid: 2504ff9ea6f49d4439351af365b0b887, type: 3}
     count: 25
     rate: 1.25
