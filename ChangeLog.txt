@@ -1,34 +1,80 @@
+19/07/2024
+
+BALANCE CHANGES:
+
+Level 11:
+- Wave 6:
+  Enemy Count: 4 -> 3
+  Enemy Rate: 0.6 -> 0.5
+
+- Wave 7:
+  Enemy Count: 5 -> 4
+
+- Wave 9:
+  Enemy Count: 3 -> 2
+
+- Wave 13:
+  Enemy Rate: 0.8 -> 0.7
+
+- Wave 19:
+  Enemy Count: 15 -> 12
+  Enemy Rate: 1.45 -> 1.4
+
+- Wave 21:
+  Enemy Count: 8 -> 6
+  Enemy Rate: 1 -> 0.9
+
+- Wave 22:
+  Enemy Count: 15 -> 12
+  Enemy Rate: 1.2 -> 1.1
+
+- Wave 23:
+  Enemy Rate: 1.4 -> 1.2
+
+- Wave 25:
+  Enemy Rate: 1.4 -> 1.1
+
+- Wave 29:
+  Enemy Count: 20 -> 10
+  Enemy Rate: 1.5 -> 1
+
+- Wave 30:
+  Enemy Rate: 2 -> 1.25
+
+
 18/07/2024
+
 Balance Changes:
+
 Changes in some Waves in the Level 11
 
 17/07/2024
 
-Balance Changes:
+BALANCE CHANGES:
 
 Balista:
-Rotation Speed At Lvl 1: 15 -> 20
-Rotation Speed At Lvl 2: 20 -> 25
-Rotation Speed At Lvl 1: 20 -> 30
+- Rotation Speed At Lvl 1: 15 -> 20
+- Rotation Speed At Lvl 2: 20 -> 25
+- Rotation Speed At Lvl 1: 20 -> 30
 
 Reinforce Enemy:
-DMG Reduction: 90% -> 75%
-In Hard Mode still in 90%
+- DMG Reduction: 90% -> 75%
+- In Hard Mode still in 90%
 
 
 16/07/2024
 
 Making new Levels
 
-Balance Changes:
+BALANCE CHANGES:
 
 Haste Enemy:
-Health: 200 -> 150
-Speed: 15 -> 12
-DMG: 3 -> 2
-DMG needed for active the Speed Boost: 25 -> 30
-Speed Boost: 3 -> 2
-Money Given: $100 -> $200
+- Health: 200 -> 150
+- Speed: 15 -> 12
+- DMG: 3 -> 2
+- DMG needed for active the Speed Boost: 25 -> 30
+- Speed Boost: 3 -> 2
+- Money Given: $100 -> $200
 
 14/07/2024
 
@@ -44,126 +90,140 @@ Unty Version changed to 2022.3.17f1
 
 23/09/2023
 
-Balance Changes:
+BALANCE CHANGES:
 
 Boss Enemy:
-Health: 20k -> 30k
-Spawn Coundown: 2.5s -> 2s
+- Health: 20k -> 30k
+- Spawn Coundown: 2.5s -> 2s
 
 27/08/2023
 
-Balance Changes:
+BALANCE CHANGES:
 
 Level 10 (Boss Level):
-Lasts waves more harder
+- Lasts waves more harder
 
 Boss Enemy:
-Health: 10k -> 20k
-Spawn Countdown: 3.5s -> 2.5s
+- Health: 10k -> 20k
+- Spawn Countdown: 3.5s -> 2.5s
 
 Spawner Enemy:
-Health: 250 -> 300
-Spawn Countdown: 3s -> 2.8s
+- Health: 250 -> 300
+- Spawn Countdown: 3s -> 2.8s
 
 20/08/2023
 
-Balance Changes:
+BALANCE CHANGES:
 
 Level 8:
-Waves changes
+- Waves changes
 
 Buff Node:
-Now gives a extra fire rate to all turrets (except Laser Turret)
-Laser Turret gets extra DoT when is builded on the node
+- Now gives a extra fire rate to all turrets (except Laser Turret)
+- Laser Turret gets extra DoT when is builded on the node
 
-Self-Healing Enemy Speed: 8 -> 7.5
+Self-Healing Enemy:
+- Speed: 8 -> 7.5
 
 19/08/2023
 
-Balance Changes:
+BALANCE CHANGES:
 
 Level 8:
-Initial Countdown: 8s -> 20s
-Countdown Between Waves: 2.5s -> 5s
-Start Money: $2000 -> $3500
-Start Lives: 20 -> 40
-Waves changes
+- Initial Countdown: 8s -> 20s
+- Countdown Between Waves: 2.5s -> 5s
+- Start Money: $2000 -> $3500
+- Start Lives: 20 -> 40
+- Waves changes
 
 Self-Healing Enemy:
-Money Given: $200 -> $175
-Heal Countdown: 4s -> 3.5s
+- Money Given: $200 -> $175
+- Heal Countdown: 4s -> 3.5s
 
 Now each Mini Enemy spawned from Spawn on Dead Enemy, will have different speeds.
 
 18/08/2023
 
-Balance Changes:
+BALANCE CHANGES:
 
 Level 7:
-Start Money: $1000 -> $1100
-Waves 2, 3, 4 & 5 changed for make level more easier
+- Start Money: $1000 -> $1100
+- Waves 2, 3, 4 & 5 changed for make level more easier
 
-Self-Healing Enemy Health: 400 -> 350
+Self-Healing Enemy:
+- Health: 400 -> 350
 
-Spawner Enemy Health: 200 -> 250
+Spawner Enemy:
+- Health: 200 -> 250
 
 17/08/2023
 
-Bug Fixes:
+BUG FIXES:
 
 Standard Turret Lvl 3:
-The range was the one that should not
-Now shoot the bullet that corresponds to it
+- The range was the one that should not
+- Now shoot the bullet that corresponds to it
 
 Gatling Turret Lvl 3:
-Now shoot the bullet that corresponds to it
+- Now shoot the bullet that corresponds to it
 
 16/08/2023
 
-Balance Changes:
-Self-Healing Enemy Money Given: $50 -> $200
+BALANCE CHANGES:
+
+Self-Healing Enemy:
+- Money Given: $50 -> $200
 
 Level 7:
-Initial Countdown: 2s -> 5s
-Countdown Between Waves: 2s -> 2.5s
-Start Money: $800 -> $1000
+- Initial Countdown: 2s -> 5s
+- Countdown Between Waves: 2s -> 2.5s
+- Start Money: $800 -> $1000
 
 11/08/2023
 
-Balance Changes:
-Mini Enemy Money Given: 25 -> 50
+BALANCE CHANGES:
+
+Mini Enemy:
+- Money Given: $25 -> $50
+
 Money Given By Enemies in hard mode x1 -> x2
 
 10/08/2023
 
-Balance Changes:
-Armored Enemy Money Given: $50 -> $200
+BALANCE CHANGES:
+
+Armored Enemy:
+- Money Given: $50 -> $200
 
 05/08/2023
 
-Balance Changes:
-Enemy Spawn In Dead DMG: 1 -> 3
-Enemy Tough DMG: 1 -> 5
-Enemy Ultra Tough DMG: 20 -> 10
+BALANCE CHANGES:
+
+Enemy Spawn In Dead:
+- DMG: 1 -> 3
+Enemy Tough
+- DMG: 1 -> 5
+Enemy Ultra Tough:
+- DMG: 20 -> 10
 
 
 02/08/2023
 
-Balance Changes:
+BALANCE CHANGES:
 Laser Beamer:
-Level 1:
-DOT 30 -> 15 
-Speed Reduction: 0.25 -> 0.2
+- Level 1:
+  DOT: 30 -> 15 
+  Speed Reduction: 0.25 -> 0.2
 
-Level 2:
-DOT 30 -> 20
-Speed Reduction: 0.3 -> 0.25
-Range: 25 -> 20
+- Level 2:
+  DOT: 30 -> 20
+  Speed Reduction: 0.3 -> 0.25
+  Range: 25 -> 20
 
 Gatling Turret:
-Level 1:
-Fire Rate 2 -> 2.5
+- Level 1:
+  Fire Rate: 2 -> 2.5
 
-Level 2:
-Fire Rate 3 -> 3.5
-Rotation Speed 10 -> 15
+- Level 2:
+  Fire Rate: 3 -> 3.5
+  Rotation Speed: 10 -> 15

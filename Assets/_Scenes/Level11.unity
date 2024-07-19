@@ -7346,16 +7346,16 @@ MonoBehaviour:
     count: 8
     rate: 0.9
   - enemy: {fileID: 7201806381261781204, guid: 4f527242f18dd3146b54819f2f907324, type: 3}
-    count: 4
-    rate: 0.6
+    count: 3
+    rate: 0.5
   - enemy: {fileID: 7201806381261781204, guid: 8d1341c873a47c1429aa7f56de488c74, type: 3}
-    count: 5
+    count: 4
     rate: 0.7
   - enemy: {fileID: 9933625944124505, guid: a2a239d2202e9a1458d2d637b3f833e2, type: 3}
     count: 5
     rate: 1
   - enemy: {fileID: 7201806381261781204, guid: 69082e6093ca0cf47bad6216db90d50d, type: 3}
-    count: 3
+    count: 2
     rate: 0.5
   - enemy: {fileID: 7201806381261781204, guid: 2504ff9ea6f49d4439351af365b0b887, type: 3}
     count: 25
@@ -7368,9 +7368,9 @@ MonoBehaviour:
     rate: 1.4
   - enemy: {fileID: 7201806381261781204, guid: 69082e6093ca0cf47bad6216db90d50d, type: 3}
     count: 5
-    rate: 0.8
+    rate: 0.7
   - enemy: {fileID: 7201806381261781204, guid: 8d1341c873a47c1429aa7f56de488c74, type: 3}
-    count: 10
+    count: 8
     rate: 1
   - enemy: {fileID: 7870348291038556850, guid: 3075ec3f9fb0af447b45b4d258466afa, type: 3}
     count: 5
@@ -7385,26 +7385,26 @@ MonoBehaviour:
     count: 25
     rate: 1.5
   - enemy: {fileID: 7201806381261781204, guid: 8d1341c873a47c1429aa7f56de488c74, type: 3}
-    count: 15
-    rate: 1.45
+    count: 12
+    rate: 1.4
   - enemy: {fileID: 9933625944124505, guid: a2a239d2202e9a1458d2d637b3f833e2, type: 3}
     count: 12
     rate: 1.5
   - enemy: {fileID: 7201806381261781204, guid: 69082e6093ca0cf47bad6216db90d50d, type: 3}
-    count: 8
-    rate: 1
+    count: 6
+    rate: 0.9
   - enemy: {fileID: 7201806381261781204, guid: 4f527242f18dd3146b54819f2f907324, type: 3}
-    count: 15
-    rate: 1.2
+    count: 12
+    rate: 1.1
   - enemy: {fileID: 7201806381261781204, guid: 8d1341c873a47c1429aa7f56de488c74, type: 3}
     count: 15
-    rate: 1.4
+    rate: 1.2
   - enemy: {fileID: 7201806381261781204, guid: b18b8fe402f80054bb330e154df31597, type: 3}
     count: 30
     rate: 1.8
   - enemy: {fileID: 7870348291038556850, guid: 3075ec3f9fb0af447b45b4d258466afa, type: 3}
     count: 10
-    rate: 1.4
+    rate: 1.1
   - enemy: {fileID: 7201806381261781204, guid: 2504ff9ea6f49d4439351af365b0b887, type: 3}
     count: 40
     rate: 2
@@ -7415,11 +7415,11 @@ MonoBehaviour:
     count: 25
     rate: 2
   - enemy: {fileID: 7201806381261781204, guid: 69082e6093ca0cf47bad6216db90d50d, type: 3}
-    count: 20
-    rate: 1.5
+    count: 10
+    rate: 1
   - enemy: {fileID: 7870348291038556850, guid: 3075ec3f9fb0af447b45b4d258466afa, type: 3}
     count: 20
-    rate: 2
+    rate: 1.25
   spawnPoints:
   - {fileID: 244687632}
   - {fileID: 1393604681}
