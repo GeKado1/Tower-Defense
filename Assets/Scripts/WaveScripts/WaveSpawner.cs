@@ -79,5 +79,6 @@ public class WaveSpawner : MonoBehaviour {
         yield return new WaitForSeconds(initialTime);
         initialWave = false;
         StartCoroutine(SpawnWave());
+        countdown = timeBetweenWaves;
     }
 }
