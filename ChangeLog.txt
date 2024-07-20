@@ -1,5 +1,7 @@
 20/07/2024
 
+Camera Movement limitations to prevent the player move infinitely
+
 BALANCE CHANGES:
 
 Level 11:
