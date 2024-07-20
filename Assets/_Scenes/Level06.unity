@@ -7803,7 +7803,7 @@ MonoBehaviour:
   - {fileID: 1078357137}
   - {fileID: 2136944488}
   timeBetweenWaves: 2
-  initialTime: 0
+  initialTime: 2
   waveTimerText: {fileID: 688234697}
 --- !u!4 &815326655
 Transform:
