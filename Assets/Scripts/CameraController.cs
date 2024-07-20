@@ -1,19 +1,26 @@
 using UnityEngine;
 
 public class CameraController : MonoBehaviour {
-    [SerializeField] float panSpeed = 0;
-    [SerializeField] float panBorderThickness = 0;
+    [SerializeField] float panSpeed = 0f;
+    [SerializeField] float panBorderThickness = 0f;
 
-    [SerializeField] float scrollSpeed = 0;
-    [SerializeField] float minY = 0;
-    [SerializeField] float maxY = 0;
+    //Camera Speeds
+    [Header("Camera Speeds")]
+    [SerializeField] float scrollSpeed = 0f;
+    [SerializeField] float axisSpeed = 0f;
+
+    //Variables for to limit Camera movement
+    [Header("Max Camera Distances")]
+    [SerializeField] float minX = 0f;
+    [SerializeField] float maxX = 0f;
+
+    [SerializeField] float minY = 0f;
+    [SerializeField] float maxY = 0f;
+
+    [SerializeField] float minZ = 0f;
+    [SerializeField] float maxZ = 0f;
 
     private bool doMovement = true;
-
-    // Start is called before the first frame update
-    void Start() {
-        
-    }
 
     // Update is called once per frame
     void Update() {
@@ -23,8 +30,7 @@ public class CameraController : MonoBehaviour {
         }
 
         if (Input.GetKeyDown(KeyCode.E)) {
-            //If you clic e keyboard, the boolean doMovement will have its opposite value, in other words, if is true it will become false and if is false it will become true 
-            //El clicar la tecla e, el boolean de doMovement tindrà el seu valor contrari, és a dir, si es true passarà a ser false i a l'inversa
+            //If you clic e keyboard, the boolean doMovement will have its opposite value, in other words, if is true it will become false and if is false it will become true
             doMovement = !doMovement;
         }
         if (!doMovement) {
@@ -44,12 +50,23 @@ public class CameraController : MonoBehaviour {
             transform.Translate(Vector3.left * panSpeed * Time.deltaTime, Space.World);
         }
 
+        Vector3 position = transform.position;
+
+        float movementX = Input.GetAxis("Horizontal");
+
+        position.x = position.x - movementX * 1000 * axisSpeed * Time.deltaTime;
+        position.x = Mathf.Clamp(position.x, minX, maxX);
+
         float scroll = Input.GetAxis("Mouse ScrollWheel");
-        Vector3 positionY = transform.position;
 
-        positionY.y = positionY.y - scroll * 1000 * scrollSpeed * Time.deltaTime;
-        positionY.y = Mathf.Clamp(positionY.y, minY, maxY);
+        position.y = position.y - scroll * 1000 * scrollSpeed * Time.deltaTime;
+        position.y = Mathf.Clamp(position.y, minY, maxY);
 
-        transform.position = positionY;
+        float movementZ = Input.GetAxis("Vertical");
+
+        position.z = position.z - movementZ * 1000 * axisSpeed * Time.deltaTime;
+        position.z = Mathf.Clamp(position.z, minZ, maxZ);
+
+        transform.position = position;
     }
 }

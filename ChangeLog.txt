@@ -1,3 +1,18 @@
+20/07/2024
+
+BALANCE CHANGES:
+
+Level 11:
+- Wave 1:
+  Enemy Count: 6 -> 4
+
+- Wave 9:
+  Enemy Rate: 0.5 -> 0.25
+
+- Wave 12:
+  Enemy Count: 10 -> 8
+  Enemy Rate: 1.4 -> 1
+
 19/07/2024
 
 BALANCE CHANGES:

@@ -7331,7 +7331,7 @@ MonoBehaviour:
   gameManager: {fileID: 815326651}
   waves:
   - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
-    count: 6
+    count: 4
     rate: 0.8
   - enemy: {fileID: 195642627237573380, guid: 2a7c89b0df5652b43bb6aae21237f5d7, type: 3}
     count: 2
@@ -7356,7 +7356,7 @@ MonoBehaviour:
     rate: 1
   - enemy: {fileID: 7201806381261781204, guid: 69082e6093ca0cf47bad6216db90d50d, type: 3}
     count: 2
-    rate: 0.5
+    rate: 0.25
   - enemy: {fileID: 7201806381261781204, guid: 2504ff9ea6f49d4439351af365b0b887, type: 3}
     count: 25
     rate: 1.25
@@ -7364,8 +7364,8 @@ MonoBehaviour:
     count: 12
     rate: 1.2
   - enemy: {fileID: 9933625944124505, guid: 80e98972c647ef7469073eee3a4c731c, type: 3}
-    count: 10
-    rate: 1.4
+    count: 8
+    rate: 1
   - enemy: {fileID: 7201806381261781204, guid: 69082e6093ca0cf47bad6216db90d50d, type: 3}
     count: 5
     rate: 0.7
@@ -10867,8 +10867,13 @@ MonoBehaviour:
   panSpeed: 30
   panBorderThickness: 10
   scrollSpeed: 5
+  axisSpeed: -0.1
+  minX: -30
+  maxX: 120
   minY: 10
   maxY: 80
+  minZ: -80
+  maxZ: 50
 --- !u!81 &1297135226
 AudioListener:
   m_ObjectHideFlags: 0
