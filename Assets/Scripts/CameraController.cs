@@ -54,7 +54,7 @@ public class CameraController : MonoBehaviour {
 
         float movementX = Input.GetAxis("Horizontal");
 
-        position.x = position.x - movementX * 1000 * axisSpeed * Time.deltaTime;
+        position.x = position.x - movementX * 500 * axisSpeed * Time.deltaTime;
         position.x = Mathf.Clamp(position.x, minX, maxX);
 
         float scroll = Input.GetAxis("Mouse ScrollWheel");
@@ -64,7 +64,7 @@ public class CameraController : MonoBehaviour {
 
         float movementZ = Input.GetAxis("Vertical");
 
-        position.z = position.z - movementZ * 1000 * axisSpeed * Time.deltaTime;
+        position.z = position.z - movementZ * 500 * axisSpeed * Time.deltaTime;
         position.z = Mathf.Clamp(position.z, minZ, maxZ);
 
         transform.position = position;
