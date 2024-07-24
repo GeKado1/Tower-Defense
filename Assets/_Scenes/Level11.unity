@@ -7015,7 +7015,7 @@ GameObject:
   - component: {fileID: 779253211}
   - component: {fileID: 779253212}
   m_Layer: 0
-  m_Name: Way Point 1
+  m_Name: Way Points 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

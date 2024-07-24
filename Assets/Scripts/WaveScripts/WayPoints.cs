@@ -1,7 +1,7 @@
 using UnityEngine;
 
 public class WayPoints : MonoBehaviour {
-    public Transform[] wayPoints;
+    [HideInInspector] public Transform[] wayPoints;
 
     private void Awake() {
         wayPoints = new Transform[transform.childCount];
