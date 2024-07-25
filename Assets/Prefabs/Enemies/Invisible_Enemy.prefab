@@ -401,11 +401,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dieEffect: {fileID: 3459962042806317976, guid: c6da448bb07bdd74dbcb7fe7eb7a8907, type: 3}
   startSpeed: 10
-  startHealth: 100
+  startHealth: 140
   speed: 0
   health: 100
-  damage: 1
-  moneyGiven: 50
+  damage: 2
+  moneyGiven: 125
   healthBar: {fileID: 8361976204901906757}
   isDieEnemy: 0
   isSpawnedEnemy: 0
