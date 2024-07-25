@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\SceneFader.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\InvisibleEnemy.cs" />
     <Compile Include="Assets\Scripts\WaveScripts\StartPoints.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\WaveScripts\WaveSpawner.cs" />

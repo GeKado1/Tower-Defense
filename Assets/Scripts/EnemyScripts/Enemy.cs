@@ -5,16 +5,16 @@ public class Enemy : MonoBehaviour {
     [SerializeField] private GameObject dieEffect;
 
     [Header("Enemy Stats")]
-    public float startSpeed = 0;
-    public float startHealth = 0;
+    public float startSpeed;
+    public float startHealth;
 
     [HideInInspector]
     public float speed;
     [HideInInspector]
     public float health;
 
-    public int damage = 0;
-    [SerializeField] private int moneyGiven = 0;
+    public int damage;
+    [SerializeField] private int moneyGiven;
 
     [Header("Unity Stuff")]
     [SerializeField] private Image healthBar;

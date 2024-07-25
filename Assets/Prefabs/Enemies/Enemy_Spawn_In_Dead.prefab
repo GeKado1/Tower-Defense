@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 9933625944124506}
   - component: {fileID: 9933625944124507}
   - component: {fileID: 9933625944124504}
+  - component: {fileID: -1276887273555831955}
   - component: {fileID: 4303549089859085302}
   - component: {fileID: 1208997534994742964}
   - component: {fileID: 3383098493209174942}
-  - component: {fileID: -1276887273555831955}
   m_Layer: 0
   m_Name: Enemy_Spawn_In_Dead
   m_TagString: Enemy
@@ -110,6 +110,33 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &-1276887273555831955
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9933625944124505}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 4
+  m_CollisionDetection: 0
 --- !u!114 &4303549089859085302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,33 +187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   childEnemy: {fileID: 1797864041135946602, guid: c8503641a8394f947ae63ee39b429b4b, type: 3}
   numberOfChild: 2
---- !u!54 &-1276887273555831955
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9933625944124505}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 4
-  m_CollisionDetection: 0
+  childRoute: []
 --- !u!1 &4843783716182499363
 GameObject:
   m_ObjectHideFlags: 0

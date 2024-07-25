@@ -1,9 +1,9 @@
 using UnityEngine;
 
 public class HasteEnemy : MonoBehaviour {
-    [SerializeField] private float speedBoost = 0;
+    [SerializeField] private float speedBoost;
     private Enemy enemy;
-    private float dmgTaken = 0;
+    private float dmgTaken;
 
     // Start is called before the first frame update
     void Start() {
