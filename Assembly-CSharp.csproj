@@ -66,7 +66,6 @@
     <Compile Include="Assets\Scripts\EnemyScripts\HasteEnemy.cs" />
     <Compile Include="Assets\Scripts\Money.cs" />
     <Compile Include="Assets\Scripts\TurretScripts\Turret.cs" />
-    <Compile Include="Assets\Scripts\_Test\StartPointsV2.cs" />
     <Compile Include="Assets\Scripts\WaveScripts\WayPoints.cs" />
     <Compile Include="Assets\Scripts\TurretScripts\TurretBlueprint.cs" />
     <Compile Include="Assets\Scripts\TurretScripts\BuildManager.cs" />
@@ -80,7 +79,6 @@
     <Compile Include="Assets\Scripts\CompleteLevel.cs" />
     <Compile Include="Assets\Scripts\Lives.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\HealEnemy.cs" />
-    <Compile Include="Assets\Scripts\_Test\WaveSpawnerV2.cs" />
     <Compile Include="Assets\Scripts\NodeScripts\Node.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
@@ -90,7 +88,6 @@
     <Compile Include="Assets\Scripts\NodeScripts\BuffNode.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\EnemySpawnDie.cs" />
     <Compile Include="Assets\Scripts\PlayerStats.cs" />
-    <Compile Include="Assets\Scripts\_Test\EnemyV2.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\TurretScripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\WaveScripts\Wave.cs" />
