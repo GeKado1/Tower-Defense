@@ -17,6 +17,7 @@ public class Turret : MonoBehaviour {
     [SerializeField] private int dmgOverTime;
     [SerializeField] private float laserSpeedReduction;
 
+    //Laser propierties
     [SerializeField] private LineRenderer lineRenderer;
     [SerializeField] private ParticleSystem laserEffect;
     [SerializeField] private ParticleSystem impactEffect;
@@ -61,6 +62,7 @@ public class Turret : MonoBehaviour {
                 Shoot();
                 fireCountdown = 1f/fireRate;
             }
+
             fireCountdown = fireCountdown - Time.deltaTime;
         }
     }

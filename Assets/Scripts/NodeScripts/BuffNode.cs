@@ -15,6 +15,7 @@ public class BuffNode : MonoBehaviour {
         int DoTBuff = 0;
         int actualDoT = turretScript.GetDoT();
 
+        //Checking the Turret Level for apply different buffs
         if (!isLvl3) {
             rangeBuff = actualRange * 0.25f;
 

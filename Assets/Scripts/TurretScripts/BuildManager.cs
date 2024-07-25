@@ -3,15 +3,19 @@ using UnityEngine;
 public class BuildManager : MonoBehaviour {
     //Type of turret
     private TurretBlueprint turretToBuild;
+
+    //Node selected with their UI
     private Node selectNode;
+    public NodeUI nodeUI;
 
     public static BuildManager instance;
-    public static GameObject build_Effect;
-    public static GameObject sell_Effect;
 
-    public NodeUI nodeUI;
+    //Build and Sell Effects
     public GameObject buildEffect;
     public GameObject sellEffect;
+
+    public static GameObject build_Effect;
+    public static GameObject sell_Effect;
 
     public bool CanBuild { get { return turretToBuild != null; } }
     public bool HasMoney { get { return PlayerStats.money >= turretToBuild.cost; } }
@@ -23,6 +27,7 @@ public class BuildManager : MonoBehaviour {
         }
 
         instance = this;
+
         build_Effect = buildEffect;
         sell_Effect = sellEffect;
     }

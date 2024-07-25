@@ -18,7 +18,6 @@ public class HasteEnemy : MonoBehaviour {
         dmgTaken += _dmgTaken;
 
         if (dmgTaken >= 30) {
-            Debug.Log("speed boost");
             enemy.startSpeed += speedBoost;
             dmgTaken = 0;
         }

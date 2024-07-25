@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class Node : MonoBehaviour {
+    //Variables of colors to notify the Player where are going to place the turrets
     [SerializeField] private Color hoverColor;
     [SerializeField] private Color notEnoughtMoneyColor;
     [SerializeField] private Vector3 positionOffset;
@@ -11,6 +12,7 @@ public class Node : MonoBehaviour {
     private Renderer rend;
     private Color startColor;
 
+    //Variables for Build or Upgrade the Turret on the Node (if there is one)
     [HideInInspector]
     public GameObject turret;
     [HideInInspector]
@@ -22,7 +24,6 @@ public class Node : MonoBehaviour {
 
     BuildManager buildManager;
 
-    // Start is called before the first frame update
     void Start() {
         if (!isBlockedNode) {
             rend = GetComponent<Renderer>();
@@ -89,7 +90,7 @@ public class Node : MonoBehaviour {
 
         PlayerStats.money = PlayerStats.money - blueprint.cost;
 
-        GameObject _turret = (GameObject) Instantiate(blueprint.lvl_1_prefab, GetBuildPosition(), Quaternion.identity);
+        GameObject _turret = Instantiate(blueprint.lvl_1_prefab, GetBuildPosition(), Quaternion.identity);
         if (bn) {
             turret = bn.BuffTurret(_turret, isUpgradedToLvl2, isUpgradedToLvl3);
         }
@@ -99,7 +100,7 @@ public class Node : MonoBehaviour {
 
         turretBlueprint = blueprint;
 
-        GameObject effect = (GameObject) Instantiate(BuildManager.build_Effect, GetBuildPosition(), Quaternion.identity);
+        GameObject effect = Instantiate(BuildManager.build_Effect, GetBuildPosition(), Quaternion.identity);
         Destroy(effect, 5f);
 
         Debug.Log("Turret build!");
