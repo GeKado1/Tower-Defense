@@ -1,3 +1,12 @@
+25/07/2024
+
+New Enemy that becomes invisible from time to time
+
+BALANCE CHANGES:
+
+Spawner Enemy:
+- Spawn Countdown: 2.8s -> 2.5s
+
 24/07/2024
 
 Continuing With Creation of Level 12

@@ -155,7 +155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dieEffect: {fileID: 7468707438551946778, guid: 25c7c67c79dd2b6429d42d267205e1d5, type: 3}
   startSpeed: 7.5
-  startHealth: 250
+  startHealth: 300
   speed: 0
   health: 100
   damage: 5
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   childEnemy: {fileID: 1797864041135946602, guid: 063e1ae4e0aba70498129646e25b3ed3, type: 3}
-  timeToSpawn: 3
+  timeToSpawn: 2.5
 --- !u!1 &2121208947873799498
 GameObject:
   m_ObjectHideFlags: 0

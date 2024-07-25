@@ -28,15 +28,11 @@ public class InvisibleEnemy : MonoBehaviour {
         if (actualTime >= timeToGoInvisible && !isInvisible) {
             isInvisible = true;
             actualTime = 0f;
-
-            Debug.Log(isInvisible);
         }
 
         if (actualTime >= invisibleTime && isInvisible) {
             isInvisible = false;
             actualTime = 0f;
-
-            Debug.Log(isInvisible);
         }
 
         TurnInvisible();
