@@ -14,13 +14,23 @@ public class InvisibleEnemy : MonoBehaviour {
     private Color startColor;
     [SerializeField] private Color invisibleColor;
 
+    //Particle System
+    [SerializeField] private GameObject invisibleEffect;
+
     // Start is called before the first frame update
     void Start() {
+        if (GameManager.hardMode) {
+            timeToGoInvisible -= 2f;
+            invisibleTime += 1f;
+        }
+
         actualTime = 0f;
         isInvisible = false;
 
         rend = GetComponent<Renderer>();
         startColor = rend.material.color;
+
+        invisibleEffect.SetActive(false);
     }
 
     // Update is called once per frame
@@ -45,10 +55,12 @@ public class InvisibleEnemy : MonoBehaviour {
         if (isInvisible) {
             tag = "Invisible";
             rend.material.color = invisibleColor;
+            invisibleEffect.SetActive(true);
         }
         else {
             tag = "Enemy";
             rend.material.color = startColor;
+            invisibleEffect.SetActive(false);
         }
     }
 }
