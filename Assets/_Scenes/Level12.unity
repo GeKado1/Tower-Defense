@@ -7204,7 +7204,6 @@ MonoBehaviour:
   spawnPoints:
   - {fileID: 1979028224}
   - {fileID: 492481087}
-  - {fileID: 9933625944124501, guid: 80e98972c647ef7469073eee3a4c731c, type: 3}
   timeBetweenWaves: 7
   initialTime: 10
   waveTimerText: {fileID: 688234697}
