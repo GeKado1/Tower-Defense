@@ -7124,8 +7124,8 @@ MonoBehaviour:
     count: 4
     rate: 0.8
   - enemy: {fileID: 9933625944124505, guid: a2a239d2202e9a1458d2d637b3f833e2, type: 3}
-    count: 5
-    rate: 0.8
+    count: 4
+    rate: 0.6
   - enemy: {fileID: 7201806381261781204, guid: cc1d51fd301c341428bbc128213ad26e, type: 3}
     count: 10
     rate: 1.1

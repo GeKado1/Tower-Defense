@@ -5230,7 +5230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8320db6d132caa840bcf0c8055fd3016, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dieEffect: {fileID: 3459962042806317976, guid: c6da448bb07bdd74dbcb7fe7eb7a8907, type: 3}
+  dieEffect: {fileID: 3459962042806317976, guid: 9b77e7b4d6269e24aaad9832909eb55a, type: 3}
   startSpeed: 10
   startHealth: 140
   speed: 0
