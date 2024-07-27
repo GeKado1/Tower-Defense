@@ -2,6 +2,10 @@
 
 Waves in Level 12
 
+Bug Fixes:
+- Invisible Die effect now is the corresponding
+- Fixed Balista's Arrow pierce
+
 26/07/2024
 
 Die Effect and Invisible effects for Invisible Enemy

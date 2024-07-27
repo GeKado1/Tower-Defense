@@ -3,19 +3,22 @@ using UnityEngine;
 public class Bullet : MonoBehaviour {
     private Transform target;
 
-    [SerializeField] private float speed = 0;
-    [SerializeField] private float damage = 0;
-    [SerializeField] private float explosionRadius = 0;
+    [SerializeField] private float speed;
+    [SerializeField] private float damage;
+    [SerializeField] private float explosionRadius;
 
-    [SerializeField] public bool isPiercingBullet = false;
+    [SerializeField] public bool isPiercingBullet;
 
     [Header("If Bullet have pierce (Only required if the bool isPiercingBullet is true)")]
-    [SerializeField] private float bulletPierce = 0;
-    [SerializeField] private float lifeTime = 0;
+    [SerializeField] private float bulletPierce;
+    [SerializeField] private float lifeTime;
     private float tActual = 0;
 
     [Header("Impact effect")]
     [SerializeField] private GameObject impactEffect;
+
+    //For know if the Arrow than Balista shoot colliders twice with same Enemy (This is for fix that bug)
+    private int enemyColliderID;
 
     // Update is called once per frame
     void Update() {
@@ -55,7 +58,7 @@ public class Bullet : MonoBehaviour {
         float angle = transform.rotation.y * Mathf.Deg2Rad;
 
         Vector3 direction = new Vector3(Mathf.Cos(angle * Mathf.Deg2Rad), 0, Mathf.Sin(angle * Mathf.Deg2Rad));
-        transform.Translate(direction * speed * Time.deltaTime);
+        transform.Translate(speed * Time.deltaTime * direction);
     }
 
     void HitTarget() {
@@ -97,10 +100,16 @@ public class Bullet : MonoBehaviour {
             GameObject effect = Instantiate(impactEffect, transform.position, transform.rotation);
             Destroy(effect, 2f);
 
-            bulletPierce--;
+            //Checking if the Arrow isn't in the same enemy, for avoid the losing of more pierce
+            if (enemyColliderID != collider.GetInstanceID()) {
+                bulletPierce--;
+            }
+            
             if (bulletPierce <= 0) {
                 Destroy(gameObject);
             }
+
+            enemyColliderID = collider.GetInstanceID();
         }
     }
 
