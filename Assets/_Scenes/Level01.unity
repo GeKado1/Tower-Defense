@@ -18566,6 +18566,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -36.90393
       objectReference: {fileID: 0}
+    - target: {fileID: 5257840576273346309, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2695304058347653331}
+    - target: {fileID: 5257840576273346309, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectMissileLauncher
+      objectReference: {fileID: 0}
     - target: {fileID: 5257840576273346310, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -18687,6 +18695,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+--- !u!114 &2695304058347653331 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2695304059256657182, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
+  m_PrefabInstance: {fileID: 2695304058347653330}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 454c6591dade39f439bcaeb0b198e649, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3996220433223671979
 GameObject:
   m_ObjectHideFlags: 0

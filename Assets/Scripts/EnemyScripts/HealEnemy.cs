@@ -6,6 +6,11 @@ public class HealEnemy : MonoBehaviour {
     [SerializeField] private float healCountdown;
     private float countdown;
 
+    //Heal Particle System
+    [SerializeField] private ParticleSystem healParticleSystem;
+    private float particleControlTimer;
+    private bool isParticleSystemOn;
+
     private Enemy enemy;
 
     // Start is called before the first frame update
@@ -16,15 +21,29 @@ public class HealEnemy : MonoBehaviour {
 
         enemy = GetComponent<Enemy>();
         countdown = healCountdown;
+
+        particleControlTimer = 0f;
+        isParticleSystemOn = false;
     }
 
     // Update is called once per frame
+    [System.Obsolete]
     void Update() {
         if (enemy.health < enemy.startHealth) {
             if (countdown <= 0f) {
                 HealItself();
                 countdown = healCountdown;
+
+                isParticleSystemOn = true;
             }
+        }
+
+        if (isParticleSystemOn && particleControlTimer <= 1f) {
+            particleControlTimer += Time.deltaTime;
+        }
+        else {
+            isParticleSystemOn = false;
+            particleControlTimer = 0f;
         }
 
         countdown -= Time.deltaTime;
@@ -39,5 +58,7 @@ public class HealEnemy : MonoBehaviour {
         else {
             enemy.health += heal;
         }
+
+        healParticleSystem.Play();
     }
 }

@@ -1,3 +1,9 @@
+30/07/2024
+
+Heal Enemy now have Heal Particles when the heal actives
+
+Bug fix in Player canvas of Missile Turret
+
 27/07/2024
 
 Waves in Level 12
