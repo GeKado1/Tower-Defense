@@ -1,3 +1,7 @@
+1/08/2024
+
+Final Build of 1.2
+
 30/07/2024
 
 Heal Enemy now have Heal Particles when the heal actives

@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour {
     void Start() {
         gameOver.SetActive(false);
         gameEnd = false;
-        Debug.Log(hardMode);
+        //Debug.Log(hardMode);
     }
 
     // Update is called once per frame
@@ -21,10 +21,10 @@ public class GameManager : MonoBehaviour {
             EndGame();
         }
 
-        if (Input.GetKeyDown(KeyCode.H)) {
+        /*if (Input.GetKeyDown(KeyCode.H)) {
             ChangeDifficulty();
             Debug.Log(hardMode);
-        }
+        }*/
     }
 
     void EndGame() {
