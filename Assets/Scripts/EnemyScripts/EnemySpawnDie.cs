@@ -17,7 +17,12 @@ public class EnemySpawnDie : MonoBehaviour {
     public void SpawnChild(Transform _target, int currentWavePointIndex, Transform[] wayPoints) {
         for (int i = 0; i < numberOfChild; i++) {
             GameObject spawnedEnemy = Instantiate(childEnemy, transform.position, Quaternion.identity);
-            spawnedEnemy.GetComponent<Enemy>().startSpeed -= i + 1;
+
+            //Set Spawned Enemy speed between 2 values
+            Enemy enemyComponent = spawnedEnemy.GetComponent<Enemy>();
+
+            int setSpeed = (int) Random.Range(enemyComponent.startSpeed - 4 , enemyComponent.startSpeed + 1);
+            enemyComponent.startSpeed = setSpeed;
 
             EnemyMovement enemyMovement = spawnedEnemy.GetComponent<EnemyMovement>();
             enemyMovement.SetTarget(_target);
