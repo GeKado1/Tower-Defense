@@ -1,7 +1,7 @@
 24/12/2024
 Unty Version changed to 2022.3.30f1
 
-Revert Wave Spawner changes due a problem with some waves and winning condition
+Revert Wave Spawner changes due a problem with some waves and winning condition.
 
 10/08/2024
 
