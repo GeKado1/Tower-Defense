@@ -1,4 +1,12 @@
+24/12/2024
+Unty Version changed to 2022.3.30f1
+
+Revert Wave Spawner changes due a problem with some waves and winning condition
+
 10/08/2024
+
+Waves Spawner Changes:
+Now when the half of the Enemies of the Wave are destroyed (Spawned Enemies doesnt count for that rule), the countdown of next wave Will start.
 
 BALANCE CHANGES:
 
@@ -121,7 +129,7 @@ BALANCE CHANGES:
 Balista:
 - Rotation Speed At Lvl 1: 15 -> 20
 - Rotation Speed At Lvl 2: 20 -> 25
-- Rotation Speed At Lvl 1: 20 -> 30
+- Rotation Speed At Lvl 3: 20 -> 30
 
 Reinforce Enemy:
 - DMG Reduction: 90% -> 75%
