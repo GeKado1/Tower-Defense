@@ -36,6 +36,6 @@ public class SpawnerEnemy : MonoBehaviour {
         enemyMovement.SetWavePointIndex(currentWavePointIndex);
         enemyMovement.SetChildWaypoints(wayPoints);
 
-        //WaveSpawner.enemiesAlive++;
+        WaveSpawner.enemiesAlive++;
     }
 }

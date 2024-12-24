@@ -29,7 +29,7 @@ public class WaveSpawner : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (enemiesAlive >= waves[waveNum].count / 2) {
+        if (enemiesAlive > 0) {
             return;
         }
 
@@ -52,8 +52,6 @@ public class WaveSpawner : MonoBehaviour {
         countdown = Mathf.Clamp(countdown, 0f, Mathf.Infinity);
 
         waveTimerText.text = "Next wave: " + string.Format("{0:00.00}", countdown);
-
-        Debug.Log(waves[waveNum].count);
     }
 
     IEnumerator SpawnWave() {

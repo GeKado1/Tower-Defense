@@ -70,7 +70,7 @@ public class Enemy : MonoBehaviour {
             EnemySpawnDie enemySpawnDie = GetComponent<EnemySpawnDie>();
             enemySpawnDie.SpawnChild(enemyMovement.GetTarget(), enemyMovement.GetWavePointIndex(), enemyMovement.GetParentWayPoints());
 
-            //WaveSpawner.enemiesAlive += GetComponent<EnemySpawnDie>().GetChild();
+            WaveSpawner.enemiesAlive += GetComponent<EnemySpawnDie>().GetChild();
         }
 
         GameObject effect = Instantiate(dieEffect, transform.position, Quaternion.identity);

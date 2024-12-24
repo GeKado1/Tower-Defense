@@ -1,13 +1,3 @@
-10/08/2024
-
-Waves Spawner Changes:
-Now when the half of the Enemies of the Wave are destroyed (Spawned Enemies doesnt count for that rule), the countdown of next wave Will start.
-
-BALANCE CHANGES:
-
-Enemy Spawn in Die Mini Enemies:
-- Their start speed when spawn now varies between 8 and 12
-
 1/08/2024
 
 Final Build of 1.2
@@ -22,7 +12,7 @@ Bug fix in Player canvas of Missile Turret
 
 Waves in Level 12
 
-BUG FIXES:
+Bug Fixes:
 - Invisible Die effect now is the corresponding
 - Fixed Balista's Arrow pierce
 

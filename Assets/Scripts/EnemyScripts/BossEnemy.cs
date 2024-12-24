@@ -50,7 +50,7 @@ public class BossEnemy : MonoBehaviour {
             enemyMovement.SetWavePointIndex(currentWavePointIndex);
             enemyMovement.SetChildWaypoints(wayPoints);
 
-            //WaveSpawner.enemiesAlive++;
+            WaveSpawner.enemiesAlive++;
         }
     }
 }
