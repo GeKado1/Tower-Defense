@@ -1,3 +1,10 @@
+10/08/2024
+
+BALANCE CHANGES:
+
+Enemy Spawn in Die Mini Enemies:
+- Their start speed when spawn now varies between 8 and 12
+
 1/08/2024
 
 Final Build of 1.2
