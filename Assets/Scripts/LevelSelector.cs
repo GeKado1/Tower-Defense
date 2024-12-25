@@ -21,9 +21,11 @@ public class LevelSelector : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        /*if (Input.GetKeyDown(KeyCode.L)) {
-            unlockDevLevel();
-        }*/
+        #if UNITY_EDITOR
+            if (Input.GetKeyDown(KeyCode.L)) {
+                unlockDevLevel();
+            }
+        #endif
     }
 
     public void Select(string levelName) {

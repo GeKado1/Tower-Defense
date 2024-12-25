@@ -59,7 +59,7 @@ public class EnemyMovement : MonoBehaviour {
 
     void EndPath() {
         if (PlayerStats.lives > 0) {
-            PlayerStats.lives = PlayerStats.lives - enemy.damage;
+            PlayerStats.lives -= enemy.damage;
         }
 
         WaveSpawner.enemiesAlive--;

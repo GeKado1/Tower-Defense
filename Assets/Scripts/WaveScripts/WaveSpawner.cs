@@ -25,17 +25,30 @@ public class WaveSpawner : MonoBehaviour {
         countdown = initialTime;
 
         waveTimerText.text = "Next wave: " + string.Format("{0:00.00}", countdown);
+
+        if (GameManager.hardMode) {
+            timeBetweenWaves *= 2;
+        }
     }
 
     // Update is called once per frame
     void Update() {
-        if (enemiesAlive > 0) {
+        if (enemiesAlive > 0 && !GameManager.hardMode) {
             return;
         }
 
         if (waveNum == waves.Length && GameManager.gameEnd != true) {
-            gameManager.WinLevel();
-            enabled = false;
+            if (!GameManager.hardMode) {
+                gameManager.WinLevel();
+                enabled = false;
+            }
+            else {
+                if (enemiesAlive <= 0) {
+                    gameManager.WinLevel();
+                    enabled = false;
+                }
+            }
+            
         }
 
         if (GameManager.gameEnd == true) {

@@ -12,19 +12,21 @@ public class GameManager : MonoBehaviour {
     void Start() {
         gameOver.SetActive(false);
         gameEnd = false;
-        //Debug.Log(hardMode);
+        Debug.Log(hardMode);
     }
 
     // Update is called once per frame
     void Update() {
-        if (PlayerStats.lives <= 0 && gameEnd == false) {
+        if (PlayerStats.lives <= 0 && !gameEnd) {
             EndGame();
         }
 
-        /*if (Input.GetKeyDown(KeyCode.H)) {
-            ChangeDifficulty();
-            Debug.Log(hardMode);
-        }*/
+        #if UNITY_EDITOR
+            if (Input.GetKeyDown(KeyCode.H)) {
+                ChangeDifficulty();
+                Debug.Log(hardMode);
+            }
+        #endif
     }
 
     void EndGame() {
