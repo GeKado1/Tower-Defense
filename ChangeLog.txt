@@ -1,3 +1,7 @@
+27/12/2024
+Waves Spawner Changes in Hard Mode:
+Now the waves spawn regardless of whether the enemies of the previous one have been defeated. For don't make hard mode unbeatable, the wave countdown is increased.
+
 24/12/2024
 Unty Version changed to 2022.3.30f1
 
