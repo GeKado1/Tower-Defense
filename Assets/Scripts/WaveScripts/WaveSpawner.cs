@@ -43,24 +43,21 @@ public class WaveSpawner : MonoBehaviour {
             if (waveNum == waves.Length && GameManager.gameEnd != true) {
                 gameManager.WinLevel();
                 enabled = false;
-
-                //Debug.Log("no hauria de entra aqui");
             }
 
             if (countdown <= 0f && initialWave != true) {
                 StartCoroutine(SpawnWave());
 
-                Debug.Log("Starting wave " + waveNum);
+                #if UNITY_EDITOR
+                    Debug.Log("Starting wave " + (waveNum + 1));
+                #endif
 
                 countdown = timeBetweenWaves;
                 return;
             }
         }
         else {
-            Debug.Log("entra aqui");
-
-            if (enemiesAlive <= 0 && waveNum >= waves.Length) {
-                Debug.Log("win hard");
+            if (enemiesAlive < 0 && waveNum >= waves.Length) {
                 gameManager.WinLevel();
                 enabled = false;
             }
@@ -69,7 +66,9 @@ public class WaveSpawner : MonoBehaviour {
                 if (countdown <= 0f && initialWave != true) {
                     StartCoroutine(SpawnWave(waves[waveNum]));
 
-                    Debug.Log("Starting wave " + waveNum);
+                    #if UNITY_EDITOR
+                        Debug.Log("Starting wave " + (waveNum + 1));
+                    #endif
 
                     countdown = timeBetweenWaves;
                     return;
@@ -85,6 +84,10 @@ public class WaveSpawner : MonoBehaviour {
         countdown = Mathf.Clamp(countdown, 0f, Mathf.Infinity);
 
         waveTimerText.text = "Next wave: " + string.Format("{0:00.00}", countdown);
+
+        #if UNITY_EDITOR
+            Debug.Log("Enemies alive: " + enemiesAlive);
+        #endif
     }
 
     IEnumerator SpawnWave() {
@@ -98,13 +101,8 @@ public class WaveSpawner : MonoBehaviour {
             if (!GameManager.hardMode) {
                 enemiesAlive = wave.count * spawnPoints.Length;
             }
-            /*else {
-                enemiesAlive += wave.count * spawnPoints.Length;
-            }*/
-
 
             for (int i = 0; i < wave.count; i++) {
-                //Debug.Log("i: " + i + " wave: " + wave.count);
                 SpawnEnemy(wave.enemy);
                 yield return new WaitForSeconds(1f / wave.rate);
             }
@@ -114,6 +112,8 @@ public class WaveSpawner : MonoBehaviour {
     }
 
     IEnumerator SpawnWave(Wave wave) {
+        PlayerStats.rounds++;
+
         isSpawning = true;
 
         enemiesAlive += wave.count * spawnPoints.Length;
