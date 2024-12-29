@@ -9,7 +9,10 @@ public class MainMenu : MonoBehaviour {
     }
     
     public void Quit() {
-        Debug.Log("Exiting...");
+        #if UNITY_EDITOR
+            Debug.Log("Exiting...");
+        #endif
+
         Application.Quit();
     }
 }

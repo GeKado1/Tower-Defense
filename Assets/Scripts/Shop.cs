@@ -15,27 +15,42 @@ public class Shop : MonoBehaviour {
     }
 
     public void SelectStandardTurret() {
-        Debug.Log("Standard Turret Selected");
+        #if UNITY_EDITOR
+            Debug.Log("Standard Turret Selected");
+        #endif
+
         buildManager.SelectTurretToBuild(standardTurret);
     }
 
     public void SelectMissileLauncher() {
-        Debug.Log("Missile Launcher Selected");
+        #if UNITY_EDITOR
+            Debug.Log("Missile Launcher Selected");
+        #endif
+
         buildManager.SelectTurretToBuild(missileLauncher);
     }
 
     public void SelectLaserBeamer() {
-        Debug.Log("Laser Beamer Selected");
+        #if UNITY_EDITOR
+            Debug.Log("Laser Beamer Selected");
+        #endif
+        
         buildManager.SelectTurretToBuild(laserBeamer);
     }
 
     public void SelectGatlingTurret() {
-        Debug.Log("Gatling Turret Selected");
+        #if UNITY_EDITOR
+            Debug.Log("Gatling Turret Selected");
+        #endif
+
         buildManager.SelectTurretToBuild(gatlingTurret);
     }
 
     public void SelectBalistaTurret() {
-        Debug.Log("Balista Turret Selected");
+        #if UNITY_EDITOR
+            Debug.Log("Balista Turret Selected");
+        #endif
+
         buildManager.SelectTurretToBuild(balistaTurret);
     }
 }

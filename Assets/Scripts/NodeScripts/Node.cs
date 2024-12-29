@@ -84,7 +84,10 @@ public class Node : MonoBehaviour {
         BuffNode bn = GetComponent<BuffNode>();
 
         if (PlayerStats.money < blueprint.cost) {
-            Debug.Log("Not enought money to build that!");
+            #if UNITY_EDITOR
+                Debug.Log("Not enought money to build that!");
+            #endif
+
             return;
         }
 
@@ -103,13 +106,18 @@ public class Node : MonoBehaviour {
         GameObject effect = Instantiate(BuildManager.build_Effect, GetBuildPosition(), Quaternion.identity);
         Destroy(effect, 5f);
 
-        Debug.Log("Turret build!");
+        #if UNITY_EDITOR
+            Debug.Log("Turret build!");
+        #endif
     }
 
     public void UpgradeTurret() {
         if (!isUpgradedToLvl2) {
             if (PlayerStats.money < turretBlueprint.upgradeToLvl_2_Cost) {
-                Debug.Log("Not enought money to upgrade that!");
+                #if UNITY_EDITOR
+                    Debug.Log("Not enought money to upgrade that!");
+                #endif
+                
                 return;
             }
 
@@ -117,7 +125,10 @@ public class Node : MonoBehaviour {
         }
         else {
             if (PlayerStats.money < turretBlueprint.upgradeToLvl_3_Cost) {
-                Debug.Log("Not enought money to upgrade that!");
+                #if UNITY_EDITOR
+                    Debug.Log("Not enought money to upgrade that!");
+                #endif
+
                 return;
             }
 
@@ -166,7 +177,9 @@ public class Node : MonoBehaviour {
             isUpgradedToLvl3 = true;
         }
 
-        Debug.Log("Turret upgraded!");
+        #if UNITY_EDITOR
+            Debug.Log("Turret upgraded!");
+        #endif
     }
 
     public void SellTurret() {

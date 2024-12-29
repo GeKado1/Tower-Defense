@@ -96,7 +96,10 @@ public class WaveSpawner : MonoBehaviour {
         if (waveNum < waves.Length) {
             Wave wave = waves[waveNum];
 
-            Debug.Log("wave num: " + waveNum + " waves length: " + waves.Length);
+            #if UNITY_EDITOR
+                Debug.Log("wave num: " + waveNum + " waves length: " + waves.Length);
+            #endif
+
 
             if (!GameManager.hardMode) {
                 enemiesAlive = wave.count * spawnPoints.Length;

@@ -22,7 +22,10 @@ public class BuildManager : MonoBehaviour {
 
     void Awake() {
         if (instance != null) {
-            Debug.Log("More than one Build Manager in scene");
+            #if UNITY_EDITOR
+                Debug.Log("More than one Build Manager in scene");
+            #endif
+
             return;
         }
 
