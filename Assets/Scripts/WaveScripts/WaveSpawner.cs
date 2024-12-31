@@ -74,6 +74,10 @@ public class WaveSpawner : MonoBehaviour {
                     return;
                 }
             }
+
+            if (enemiesAlive < 0) {
+                enemiesAlive = 0;
+            }
         }
 
         if (GameManager.gameEnd == true) {
@@ -121,7 +125,7 @@ public class WaveSpawner : MonoBehaviour {
 
         enemiesAlive += wave.count * spawnPoints.Length;
 
-        for (int i = 0; i < wave.count; i++) {
+        for (int i = 0; i <= wave.count; i++) {
             SpawnEnemy(wave.enemy);
             yield return new WaitForSeconds(1f / wave.rate);
         }

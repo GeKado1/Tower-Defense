@@ -1,3 +1,6 @@
+31/12/2024
+Bug fixed with the Win Condition in Hard Mode
+
 29/12/2024
 Win Condition in Hard Mode Fixed
 
