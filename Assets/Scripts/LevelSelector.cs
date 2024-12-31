@@ -3,8 +3,11 @@ using UnityEngine.UI;
 
 public class LevelSelector : MonoBehaviour {
     [SerializeField] private SceneFader fader;
+
     [SerializeField] Button[] levelButtons;
     [SerializeField] private GameObject difficultyButtons;
+
+    [SerializeField] private GameObject testButton;
 
     private string levelName;
 
@@ -17,6 +20,10 @@ public class LevelSelector : MonoBehaviour {
                 levelButtons[i].interactable = false;
             }
         }
+
+        #if UNITY_EDITOR
+            activeTestLevel();
+        #endif
     }
 
     // Update is called once per frame
@@ -56,5 +63,9 @@ public class LevelSelector : MonoBehaviour {
         for (int i = 0; i < levelButtons.Length; i++) {
                 levelButtons[i].interactable = true;
         }
+    }
+
+    private void activeTestLevel() {
+        testButton.SetActive(true);
     }
 }
