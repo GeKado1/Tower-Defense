@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class OptionMenuManager : MonoBehaviour
-{
-   
+public class OptionMenuManager : MonoBehaviour {
     public GameObject panelGraficos;
-
     public GameObject panelControles;
     public GameObject panelSonido;
+
     public GameObject hud;
+
     private float savedSensibilidad;
     private bool savedInvertirY;
     private int savedCalidad;
@@ -21,25 +20,21 @@ public class OptionMenuManager : MonoBehaviour
     private float savedVolumenMusica;
     private float savedVolumenEfectos;
 
-
-   
-    public void SaveCurrentState()
-    {
+    public void SaveCurrentState() {
         savedSensibilidad = ControlSettings.Sensibilidad;
         savedInvertirY = ControlSettings.InvertirY;
 
         savedVSync = GetComponent<GraphicsSettings>().vsyncToggle.isOn;
         savedResolucion = GetComponent<GraphicsSettings>().resolucionDropdown.value;
         savedPantallaCompleta = GetComponent<GraphicsSettings>().pantallaCompletaToggle.isOn;
-/*
-        savedVolumenGeneral = SoundSettings.VolumenGeneral;
+        
+        /*savedVolumenGeneral = SoundSettings.VolumenGeneral;
         savedVolumenMusica = SoundSettings.VolumenMusica;
         savedVolumenEfectos = SoundSettings.VolumenEfectos;*/
     }
 
     // Llamar cuando se cierra el menú SIN guardar
-    public void RevertState()
-    {
+    public void RevertState() {
         GetComponent<ControlSettings>().sensibilidadSlider.value = savedSensibilidad;
         GetComponent<ControlSettings>().invertirEjeYToggle.isOn = savedInvertirY;
 
@@ -48,32 +43,30 @@ public class OptionMenuManager : MonoBehaviour
         GetComponent<GraphicsSettings>().resolucionDropdown.value = savedResolucion;
         GetComponent<GraphicsSettings>().pantallaCompletaToggle.isOn = savedPantallaCompleta;
 
-      /*
-
-        soundSettings.volumenGeneral.value = savedVolumenGeneral;
+      /*soundSettings.volumenGeneral.value = savedVolumenGeneral;
         soundSettings.volumenMusica.value = savedVolumenMusica;
         soundSettings.volumenEfectos.value = savedVolumenEfectos;*/
     }
-    private void OnDisable()
-    {
+
+    private void OnDisable() {
         //hud.GetComponent<HUD>().Back();
 
         RevertState();
     }
-    private void OnEnable()
-    {
+
+    private void OnEnable() {
         //hud.GetComponent<HUD>().Back();
 
         GetComponent<SettingsSaver>().LoadSettings();
     }
-    public void GuardarCambios()
-    {
+
+    public void GuardarCambios() {
         
         GetComponent<SettingsSaver>().SaveSettings();
         SaveCurrentState();
     }
-    public void MostrarPanel(GameObject panel)
-    {
+
+    public void MostrarPanel(GameObject panel) {
         panelGraficos.SetActive(false);
       
         panelControles.SetActive(false);
@@ -82,4 +75,3 @@ public class OptionMenuManager : MonoBehaviour
         panel.SetActive(true);
     }
 }
-
