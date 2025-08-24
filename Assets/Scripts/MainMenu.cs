@@ -17,6 +17,10 @@ public class MainMenu : MonoBehaviour {
         settings.SetActive(!settings.activeSelf);
     }
 
+    public void SetVolume(float volume) {
+        Debug.Log(volume);
+    }
+
     public void Quit() {
         #if UNITY_EDITOR
             Debug.Log("Exiting...");
