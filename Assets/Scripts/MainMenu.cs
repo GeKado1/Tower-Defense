@@ -21,6 +21,10 @@ public class MainMenu : MonoBehaviour {
         Debug.Log(volume);
     }
 
+    public void SetQuality(int qualityIndex) {
+        QualitySettings.SetQualityLevel(qualityIndex);
+    }
+
     public void Quit() {
         #if UNITY_EDITOR
             Debug.Log("Exiting...");
