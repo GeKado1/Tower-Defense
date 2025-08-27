@@ -25,6 +25,14 @@ public class MainMenu : MonoBehaviour {
         QualitySettings.SetQualityLevel(qualityIndex);
     }
 
+    public void SetFullscreen(bool isFullscreen) {
+        Screen.fullScreen = isFullscreen;
+
+        #if UNITY_EDITOR
+            Debug.Log(isFullscreen);
+        #endif
+    }
+
     public void Quit() {
         #if UNITY_EDITOR
             Debug.Log("Exiting...");
