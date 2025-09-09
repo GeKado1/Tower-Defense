@@ -69,6 +69,7 @@
     <Compile Include="Assets\Prefabs\Options\OptionMenuManager.cs" />
     <Compile Include="Assets\Scripts\TurretScripts\Turret.cs" />
     <Compile Include="Assets\Scripts\WaveScripts\WayPoints.cs" />
+    <Compile Include="Assets\Scripts\WaveScripts\WavesList.cs" />
     <Compile Include="Assets\Scripts\TurretScripts\TurretBlueprint.cs" />
     <Compile Include="Assets\Scripts\TurretScripts\BuildManager.cs" />
     <Compile Include="Assets\Scripts\SceneFader.cs" />

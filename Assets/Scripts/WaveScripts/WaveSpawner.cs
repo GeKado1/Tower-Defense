@@ -7,7 +7,8 @@ public class WaveSpawner : MonoBehaviour {
 
     [SerializeField] private GameManager gameManager;
 
-    [SerializeField] private Wave[] waves;
+    //[SerializeField] private Wave[] waves;
+    [SerializeField] private WavesList[] wavesLists;
 
     [SerializeField] private Transform[] spawnPoints;
     [SerializeField] private float timeBetweenWaves = 0;
@@ -40,7 +41,7 @@ public class WaveSpawner : MonoBehaviour {
         }
 
         if (!GameManager.hardMode) {
-            if (waveNum == waves.Length && GameManager.gameEnd != true) {
+            if (waveNum == wavesLists[0].waves.Length && GameManager.gameEnd != true) {
                 gameManager.WinLevel();
                 enabled = false;
             }
@@ -57,14 +58,18 @@ public class WaveSpawner : MonoBehaviour {
             }
         }
         else {
-            if (enemiesAlive < 0 && waveNum >= waves.Length) {
+            if (enemiesAlive < 0 && waveNum >= wavesLists[0].waves.Length) {
                 gameManager.WinLevel();
                 enabled = false;
             }
 
-            if (!isSpawning && waveNum < waves.Length) {
+            if (!isSpawning && waveNum < wavesLists[0].waves.Length) {
                 if (countdown <= 0f && initialWave != true) {
-                    StartCoroutine(SpawnWave(waves[waveNum]));
+                    for (int i = 0; i < wavesLists.Length; i++) {
+                        StartCoroutine(SpawnWave(wavesLists[i].waves[waveNum]));
+                    }
+
+                    //StartCoroutine(SpawnWave(waves[waveNum]));
 
                     #if UNITY_EDITOR
                         Debug.Log("Starting wave " + (waveNum + 1));
@@ -97,22 +102,57 @@ public class WaveSpawner : MonoBehaviour {
     IEnumerator SpawnWave() {
         PlayerStats.rounds++;
 
-        if (waveNum < waves.Length) {
-            Wave wave = waves[waveNum];
+        int wavesListNum = wavesLists.Length;
+
+        if (waveNum < wavesLists[0].waves.Length) {
+            Wave[] moreThanOneWave = new Wave[wavesListNum];
+
+            for (int i = 0; i < moreThanOneWave.Length; i++) {
+                moreThanOneWave[i] = wavesLists[i].waves[waveNum];
+
+                #if UNITY_EDITOR
+                    Debug.Log("multiple wave num: " + waveNum + " waves length: " + wavesLists[i].waves.Length + " wave list: " + i);
+                #endif
+            }
+
+            //SAME
+
+            /*Wave wave = waves[waveNum];
 
             #if UNITY_EDITOR
                 Debug.Log("wave num: " + waveNum + " waves length: " + waves.Length);
-            #endif
+            #endif*/
+
+
+            //---//
 
 
             if (!GameManager.hardMode) {
-                enemiesAlive = wave.count * spawnPoints.Length;
+                for (int i = 0; i < moreThanOneWave.Length; i++) {
+                    enemiesAlive += enemiesAlive + moreThanOneWave[i].count;
+                }
+
+                //enemiesAlive = wave.count * spawnPoints.Length;
             }
 
-            for (int i = 0; i < wave.count; i++) {
+            for (int i = 0; i < wavesLists.Length; i++) {
+                for (int j = 0; j < moreThanOneWave[i].count; j++) {
+                    SpawnEnemy(moreThanOneWave[i].enemy);
+
+                    yield return new WaitForSeconds(1f / moreThanOneWave[i].rate);
+                }
+            }
+
+           
+
+            /*for (int i = 0; i < wave.count; i++) {
                 SpawnEnemy(wave.enemy);
                 yield return new WaitForSeconds(1f / wave.rate);
-            }
+            }*/
+
+
+            //---//
+
 
             waveNum++;
         }
