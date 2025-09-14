@@ -1,3 +1,9 @@
+1/09/2025
+All Canvas UIs fixed.
+
+28/08/2025
+More Settings Options, like Resolutions, Graphics and Volume & Sound (not implemented that last yet).
+
 31/12/2024
 Bug fixed with the Win Condition in Hard Mode
 
