@@ -1,3 +1,8 @@
+21/09/2025
+Waves of Level 1, 2, 3 in the new Wave System.
+
+Bug fixed of new Wave System Script that doesn't count enemies alive properly
+
 1/09/2025
 All Canvas UIs fixed.
 

@@ -18155,7 +18155,7 @@ PrefabInstance:
       objectReference: {fileID: 7201806381261781204, guid: 69082e6093ca0cf47bad6216db90d50d, type: 3}
     - target: {fileID: 5429492050984530241, guid: 3fce79f1513b8e542a893f0ae7d227dd, type: 3}
       propertyPath: m_Name
-      value: Game Manager (1)
+      value: Game Manager
       objectReference: {fileID: 0}
     - target: {fileID: 5429492050984530241, guid: 3fce79f1513b8e542a893f0ae7d227dd, type: 3}
       propertyPath: m_IsActive

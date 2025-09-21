@@ -129,7 +129,7 @@ public class WaveSpawner : MonoBehaviour {
 
             if (!GameManager.hardMode) {
                 for (int i = 0; i < moreThanOneWave.Length; i++) {
-                    enemiesAlive += enemiesAlive + moreThanOneWave[i].count;
+                    enemiesAlive = moreThanOneWave[i].count * spawnPoints.Length;
                 }
 
                 //enemiesAlive = wave.count * spawnPoints.Length;
