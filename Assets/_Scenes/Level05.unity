@@ -2157,7 +2157,7 @@ PrefabInstance:
       objectReference: {fileID: 9933625944124505, guid: 80e98972c647ef7469073eee3a4c731c, type: 3}
     - target: {fileID: 5429492050984530241, guid: 3fce79f1513b8e542a893f0ae7d227dd, type: 3}
       propertyPath: m_Name
-      value: Game Manager (1)
+      value: Game Manager
       objectReference: {fileID: 0}
     - target: {fileID: 5826414945176172405, guid: 3fce79f1513b8e542a893f0ae7d227dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6985,7 +6985,7 @@ PrefabInstance:
     - target: {fileID: 2695304057371249894, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 815326650}
+      objectReference: {fileID: 0}
     - target: {fileID: 2695304057371249894, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Menu
@@ -7029,7 +7029,7 @@ PrefabInstance:
     - target: {fileID: 2695304058171254439, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 815326650}
+      objectReference: {fileID: 0}
     - target: {fileID: 2695304058171254439, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Retry
@@ -7041,7 +7041,7 @@ PrefabInstance:
     - target: {fileID: 2695304058709006771, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 815326650}
+      objectReference: {fileID: 0}
     - target: {fileID: 2695304058709006771, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Toggle
@@ -7266,17 +7266,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2695304058619437697, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
   m_PrefabInstance: {fileID: 688234693}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &688234697 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2695304059280012946, guid: 302dfa99f554e7d4ba9a19f15423af88, type: 3}
-  m_PrefabInstance: {fileID: 688234693}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &710513781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8397,118 +8386,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1426989893892138453, guid: 32866e0403e98434b92db0d9ea3a3e9a, type: 3}
   m_PrefabInstance: {fileID: 799315781}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &815326649
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 815326655}
-  - component: {fileID: 815326654}
-  - component: {fileID: 815326653}
-  - component: {fileID: 815326652}
-  - component: {fileID: 815326651}
-  - component: {fileID: 815326650}
-  m_Layer: 0
-  m_Name: Game Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &815326650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815326649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a1ddb1e5141c234b9a4ff0ccde2a647, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ui: {fileID: 688234695}
-  sceneFader: {fileID: 124861281}
---- !u!114 &815326651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815326649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd01eead5d404f84a922c1d06d6f6206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameOver: {fileID: 688234696}
-  completeLevel: {fileID: 688234694}
---- !u!114 &815326652
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815326649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75143ad8dbe00f54a8ca7dad234df67f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startMoney: 700
-  startLives: 20
---- !u!114 &815326653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815326649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7003d9aa53378b46a265397f1931ef5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeUI: {fileID: 1484731721}
-  buildEffect: {fileID: 2132853643237220623, guid: 565a495ee6dfc394cabfcedd0a1a092a, type: 3}
-  sellEffect: {fileID: 2132853643237220623, guid: 19cc14014d9a60e459a805e5cf94a3c8, type: 3}
---- !u!114 &815326654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815326649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16746fabc1a72d44b9989172834800b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameManager: {fileID: 815326651}
-  wavesLists: []
-  spawnPoints:
-  - {fileID: 151726920}
-  timeBetweenWaves: 2
-  initialTime: 2
-  waveTimerText: {fileID: 688234697}
---- !u!4 &815326655
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815326649}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.00000023841858, z: 0}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &820249331
 GameObject:
   m_ObjectHideFlags: 0
@@ -18706,7 +18583,6 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 815326655}
   - {fileID: 183524263}
   - {fileID: 151726919}
   - {fileID: 319851456}
