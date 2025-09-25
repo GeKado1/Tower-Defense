@@ -1,3 +1,14 @@
+Pel l'editor: pos y bottons dificultat a 22
+A l'hora de buildejar: a 30
+
+================================================
+
+- Implement the new Wave System in all levels
+- Check if it Works properly
+- DO SOMETHING FOR OPTIMIZE
+
+================================================
+
 To Do For Version 1.2:
 - Finish Balista:
 	- Put turret at level 1 stats (DONE)
@@ -18,10 +29,9 @@ To Do For Version 1.2:
 
 - Same in Haste Enemy (DONE)
 
-- Fix first Shoot of Balista
+- Fix first Shoot of Balista (DONE)
+
+================================================
 
 
 
-
-Pel l'editor: pos y bottons dificultat a 22
-A l'hora de buildejar: a 30
