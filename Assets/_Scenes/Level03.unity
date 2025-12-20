@@ -2089,6 +2089,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7019966626091416678, guid: 3fce79f1513b8e542a893f0ae7d227dd, type: 3}
+      propertyPath: initialTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7019966626091416678, guid: 3fce79f1513b8e542a893f0ae7d227dd, type: 3}
       propertyPath: waveTimerText
       value: 
       objectReference: {fileID: 1104179395}
