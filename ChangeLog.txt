@@ -1,3 +1,7 @@
+20/12/2025
+Wave of Level 8 in the new Wave System.
+Fixed Pause Menu Buttons of Level 2 to 7.
+
 25/09/2025
 Waves of Level 6 & 7 in the new Wave System.
 
