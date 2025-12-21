@@ -5,6 +5,7 @@ A l'hora de buildejar: a 30
 
 - Implement the new Wave System in all levels
 - Check if it Works properly
+- Retry dont work in the atleast in levels 7-9 and maybe the next ones on lvl 3
 - DO SOMETHING FOR OPTIMIZE
 
 ================================================

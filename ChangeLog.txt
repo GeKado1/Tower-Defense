@@ -1,7 +1,11 @@
+21/12/2025
+Waves of Level 9 in the new Wave System.
+Fixed Start Money and Start Lives in Levels 1 to 8.
+
 20/12/2025
-Wave of Level 8 in the new Wave System.
-Fixed Pause Menu Buttons of Level 2 to 7.
-Fixed Initial Time and Time Between Waves of Level 2 to 7.
+Waves of Level 8 in the new Wave System.
+Fixed Pause Menu Buttons of Levels 2 to 7.
+Fixed Initial Time and Time Between Waves of Levels 2 to 7.
 
 25/09/2025
 Waves of Level 6 & 7 in the new Wave System.
