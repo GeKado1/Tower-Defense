@@ -129,7 +129,7 @@ public class WaveSpawner : MonoBehaviour {
 
             if (!GameManager.hardMode) {
                 for (int i = 0; i < moreThanOneWave.Length; i++) {
-                    enemiesAlive = moreThanOneWave[i].count * spawnPoints.Length;
+                    //enemiesAlive = moreThanOneWave[i].count * spawnPoints.Length;
                 }
 
                 //enemiesAlive = wave.count * spawnPoints.Length;
@@ -163,8 +163,6 @@ public class WaveSpawner : MonoBehaviour {
 
         isSpawning = true;
 
-        enemiesAlive += wave.count * spawnPoints.Length;
-
         for (int i = 0; i <= wave.count; i++) {
             SpawnEnemy(wave.enemy);
             yield return new WaitForSeconds(1f / wave.rate);
@@ -178,6 +176,8 @@ public class WaveSpawner : MonoBehaviour {
         for (int i = 0; i < spawnPoints.Length; i++) {
             GameObject e = Instantiate(enemy, spawnPoints[i].position, spawnPoints[i].rotation);
             e.GetComponent<EnemyMovement>().Path(spawnPoints[i]);
+
+            enemiesAlive++;
         }
     }
 
