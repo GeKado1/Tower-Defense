@@ -1,3 +1,6 @@
+03/04/2026
+Unity Version changed to 2022.3.62f3
+
 21/12/2025
 Waves of Levels 9 to 12 in the new Wave System.
 Fixed Start Money and Start Lives in Levels 1 to 8.
@@ -35,7 +38,7 @@ Waves Spawner Changes in Hard Mode:
 Now the waves spawn regardless of whether the enemies of the previous one have been defeated. For don't make hard mode unbeatable, the wave countdown is increased.
 
 24/12/2024
-Unty Version changed to 2022.3.30f1
+Unity Version changed to 2022.3.30f1
 
 Revert Wave Spawner changes due a problem with some waves and winning condition.
 
